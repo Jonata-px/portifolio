@@ -41,10 +41,10 @@ export default function Home() {
                 drops[i]++;
             }
         
-        // chamada recursiva para animar quadro a quadro
-        setTimeout(()=>{
-            window.requestAnimationFrame(draw);
-        },50)
+            // chamada recursiva para animar quadro a quadro
+            setTimeout(()=>{
+                window.requestAnimationFrame(draw);
+            },50)
         
         }
         
