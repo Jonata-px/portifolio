@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Unbounded:wght@300&display=swap');
+
+
+#root{
+    --primary:rgb(250, 255, 252);
+    --red:rgb(116, 0, 0);
+    --black:rgb(32, 32, 32);
+    --secondary: rgb(0, 22, 5);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Aboreto', cursive;
+}
+
+html, body, #root{
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+button, input, select, textarea{
+    outline: none;
+}
+
+.container{
+    max-width: 1000px;
+    padding: 0 3%;
+    margin: 0 auto;
+}
+
+p, a, small{
+    font-family: 'Unbounded', cursive;
+}
+
+h2{
+    font-weight: 600;
+    color: var(--black);
+    text-align: center;
+    font-size: 1.6rem;
+    z-index: 1;
+    position: relative;
+}
+
+img{
+    max-width: 100%;
+}
+
+.circle_top{
+    position: relative;
+    width: 100%;
+    background-color: inherit;
+}
+
+.circle_top::before{
+    content: "";
+    width: 200%;
+    /* min-width: 1000px; */
+    height: 100%;
+    max-height: 400px;
+    min-height: 400px;
+    background-color: inherit;
+    border-radius: 50% 50% 0 0;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    top: -70px;
+    transform: translateX(-50%);
+}
+
+.paralax, .paralax-left, .paralax-right{
+    transition: 1s ease-in-out;
+    position: relative;
+    opacity: 0;
+    bottom: -50px;
+}
+
+.paralax-left{
+    left: -50px;
+    bottom: unset;
+}
+
+.paralax-right{
+    right: -50px;
+    bottom: unset;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}

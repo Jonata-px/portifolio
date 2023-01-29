@@ -1,0 +1,82 @@
+section.projects{
+    background-color: var(--primary) !important;
+    padding-bottom: 60px;
+}
+
+section.projects div h2{
+    color: var(--black) !important;
+}
+
+.projects_wrap{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.projects_wrap a:hover{
+    scale: 1.1;
+}
+
+.projects img{
+    width: 65px;
+    height: 65px;
+}
+.SolPlaceMonitore{
+    background-color:#0003be;
+    border-radius: 8px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+}
+
+.soom{
+    background-color: black;
+    border-radius: 8px;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.soom > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    gap: 3px;
+    animation-name: flickering;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flickering{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: .2;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+.soom svg{
+    width: 23px;
+    height: 23px;
+}
+
+.soom p{
+    font-size: .55rem;
+    text-align: center;
+    font-weight: 300;
+}
