@@ -14,6 +14,8 @@ export default function Home() {
         const ctx = c.getContext("2d");
         c.height = window.innerHeight;
         c.width = window.innerWidth;
+
+        console.log(c.width, c.height);
     
         function draw() {
             // preenchendo a tela toda de preto com opacidade
@@ -59,7 +61,7 @@ export default function Home() {
 
     return (
         <section className={styles.container}>
-            <canvas width={"100%"} height={"100%"} id="matrix"></canvas>
+            <canvas id="matrix"></canvas>
             <div className={styles.content}>
                 <div className={styles.content_name+" paralax"}>
                     <h4>Portifolio</h4>
