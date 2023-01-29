@@ -10,12 +10,11 @@ export default function Home() {
         const fontSize = 18
         // Definindo o seu contexto
         const ctx = c.getContext("2d");
-        const columns = c.width / fontSize;
-
-        console.log(c.width, c.height,columns); 
 
         c.height = window.innerHeight;
         c.width = window.innerWidth;
+
+        const columns = c.width / fontSize;
 
         const drops = new Array(Math.floor(columns)).fill(1);
 
@@ -57,9 +56,7 @@ export default function Home() {
     }
 
     useEffect(()=>{
-        setTimeout(()=>{
-            draw();
-        },500);
+        draw();
     },[])
 
 
