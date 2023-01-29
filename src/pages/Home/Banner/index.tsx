@@ -5,9 +5,8 @@ export default function Home() {
 
     const draw = ()=>{
         const c:any  = document.getElementById("matrix");
-        console.log(c)
         const letters = ["J","a","v","a","S","c","r","i","p","t","N","o","d","e","M","y","S","q","l","R","e","a","c","t","G","i","t","H","T","M","L","5","C","S","S",".","=","*","+","-","<",">","¦","｜",";"];
-        const fontSize = 18
+        const fontSize = 17
         // Definindo o seu contexto
         const ctx = c.getContext("2d");
 
