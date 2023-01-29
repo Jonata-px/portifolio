@@ -7,15 +7,16 @@ export default function Home() {
         const c:any  = document.getElementById("matrix");
         const letters = ["J","a","v","a","S","c","r","i","p","t","N","o","d","e","M","y","S","q","l","R","e","a","c","t","G","i","t","H","T","M","L","5","C","S","S",".","=","*","+","-","<",">","¦","｜",";"];
         const fontSize = 18
-        const columns = c.width / fontSize;
-        const drops = new Array(Math.floor(columns)).fill(1);
-
         // Definindo o seu contexto
         const ctx = c.getContext("2d");
+        const columns = c.width / fontSize;
+
         c.height = window.innerHeight;
         c.width = window.innerWidth;
 
-        console.log(c.width, c.height);
+        const drops = new Array(Math.floor(columns)).fill(1);
+
+        console.log(c.width, c.height,drops);
     
         function draw() {
             // preenchendo a tela toda de preto com opacidade
