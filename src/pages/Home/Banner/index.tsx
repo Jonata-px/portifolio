@@ -5,19 +5,20 @@ export default function Home() {
 
     const draw = ()=>{
         const c:any  = document.getElementById("matrix");
+        console.log(c)
         const letters = ["J","a","v","a","S","c","r","i","p","t","N","o","d","e","M","y","S","q","l","R","e","a","c","t","G","i","t","H","T","M","L","5","C","S","S",".","=","*","+","-","<",">","¦","｜",";"];
         const fontSize = 18
         // Definindo o seu contexto
         const ctx = c.getContext("2d");
         const columns = c.width / fontSize;
 
+        console.log(c.width, c.height,columns); 
+
         c.height = window.innerHeight;
         c.width = window.innerWidth;
 
         const drops = new Array(Math.floor(columns)).fill(1);
 
-        console.log(c.width, c.height,drops);
-    
         function draw() {
             // preenchendo a tela toda de preto com opacidade
             // esse truque da opacidade será útil para o efeito 
@@ -56,9 +57,9 @@ export default function Home() {
     }
 
     useEffect(()=>{
-        window.onload = ()=>{
+        setTimeout(()=>{
             draw();
-        }
+        },500);
     },[])
 
 

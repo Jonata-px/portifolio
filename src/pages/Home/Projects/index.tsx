@@ -61,7 +61,7 @@ export default function Technologies() {
                         }
 
                         return(
-                                <a href={Val.url}>
+                                <a href={Val.url} key={key} >
                                     {Val.logo ?
                                         <img src={Val.logo} alt={Val.name} title={Val.name}/>
                                         :<div title={Val.name}><Val.logoSvg className={styles[Val.name.replace(/ /g,"")]}/></div>
