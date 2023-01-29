@@ -56,7 +56,9 @@ export default function Home() {
     }
 
     useEffect(()=>{
-        draw();
+        window.onload = ()=>{
+            draw();
+        }
     },[])
 
 

@@ -51,7 +51,7 @@ export default function Technologies() {
 
                         if(!Val.url){
                             return(
-                                <div className={styles.soom}>
+                                <div key={key} className={styles.soom}>
                                     <div>
                                         <Val.logoSvg/>
                                         <p>Em breve, mais</p>
