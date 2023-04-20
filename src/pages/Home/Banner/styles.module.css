@@ -1,0 +1,99 @@
+.container{
+    height: 100vh;
+    min-height: 450px;
+    position: relative;
+}
+
+.container canvas{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.content{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+
+.content_name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25vh;
+    padding-bottom: 300px;
+}
+
+.content_name h1{
+    font-size: 3.4rem;
+}
+
+@media screen and (max-width:768px){
+    .content_name h1{
+        font-size: 3rem;
+    }
+    
+}
+
+.content_name h4{
+    font-size: 0.94rem;
+    text-transform: uppercase;
+}
+
+.content_name h5{
+    font-size: 0.94rem;
+    text-transform: uppercase;
+    border-right: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    padding: 0 10px;
+}
+
+.contact_btn{
+    position: relative;
+    margin-top: 20px;
+    font-size: .94rem;
+    padding: 12px 12px 12px 24px;
+    border: 1px solid var(--red);
+    /* border-radius: 5px; */
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.contact_btn::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -50px;
+    width: 150%;
+    height: 100%;
+    background-color: var(--red);
+    transform: scaleX(0) skewX(35deg);
+    transform-origin: left;
+    transition: transform .3s;
+}
+
+.contact_btn:hover svg{
+    scale: 1.2;
+}
+
+
+.contact_btn:hover::before{
+    transform: scaleX(1) skewX(35deg);
+}

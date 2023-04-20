@@ -1,0 +1,24 @@
+
+#technologies{
+    background-color: var(--secondary);
+    padding-bottom: 150px;
+}
+
+#technologies h2{
+    margin-bottom:35px;
+    color: #fff;
+}
+
+#technologies .swiper{
+    padding:40px 0px;
+}
+
+.slide{
+    align-self: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+#technologies .swiper .swiper-button-prev{
+    left: 0;
+}

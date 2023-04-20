@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    background-color: var(--primary);
+    padding-bottom: 150px;
+}
+
+.cicle_main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle_middle{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    padding: 50px 3%;
+    z-index: 1;
+}
+
+.circle_middle p{
+    color: var(--black);
+    margin-top: 50px;
+    text-align: center;
+    font-size: .94rem;
+    font-weight: 500;
+}
