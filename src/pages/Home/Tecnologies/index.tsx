@@ -6,6 +6,7 @@ import {FaDocker, FaJsSquare, FaAws, FaReact, FaNode, FaCloudflare, FaCss3Alt, F
 import {GrMysql} from "react-icons/gr";
 import {DiNginx, DiNetmagazine, DiGoogleCloudPlatform, DiFirebase} from "react-icons/di";
 import {RiFlutterFill} from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
@@ -28,6 +29,10 @@ export default function Technologies() {
         name:"JavaScript"
       },
       {
+        ico:SiTypescript,
+        name:"TypeScript"
+      },
+      {
         ico:FaReact,
         name:"React js / Recat Native"
       },
@@ -42,10 +47,6 @@ export default function Technologies() {
       {
         ico:GrMysql,
         name:"MySql"
-      },
-      {
-        ico:FaDocker,
-        name:"Docker"
       },
       {
         ico:FaCss3Alt,
@@ -76,6 +77,10 @@ export default function Technologies() {
         name:"Nginx"
       },
       {
+        ico:FaDocker,
+        name:"Docker"
+      },
+      {
         ico:DiGoogleCloudPlatform,
         name:"Google Clound"
       },
@@ -100,10 +105,10 @@ export default function Technologies() {
           <div className=" paralax">
             <Swiper slidesPerView={14}
             // loop={true} loopFillGroupWithBlank={true}
-            autoplay={{
-              "delay": 3500,
-              "disableOnInteraction": false
-            }} 
+            // autoplay={{
+            //   "delay": 5000,
+            //   "disableOnInteraction": false
+            // }} 
             spaceBetween={60} 
             freeMode={true} 
             pagination={{
