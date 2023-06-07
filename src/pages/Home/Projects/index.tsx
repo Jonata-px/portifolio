@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
 import logoEmpel from "../../../assets/images/logoEmpel.png";
-import menuWeb from "../../../assets/images/menuWeb.png";
+import reflexoterapia from "../../../assets/images/reflexoterapia.png";
 import promotionGameAlert from "../../../assets/images/promotionGameAlert.png";
 import styles from "./styles.module.css";
 import SolPlace from '../../../assets/images/solplace';
@@ -17,30 +17,30 @@ export default function Technologies() {
     const [technologies,setTechnologies] : any = useState([]);
     useEffect(()=>{
         setTechnologies([
-        {
-            logo:logoEmpel,
-            name:"EMPEL Engenharia",
-            url:"https://empel.com.br/"
-        },
-        {
-            logo:menuWeb,
-            name:"Menu Web",
-            url:"https://play.google.com/store/apps/details?id=net.menuweb&hl=pt_BR&gl=US"
-        },
-        {
-            logoSvg:SolPlace,
-            name:"Sol Place Monitore",
-            url:"https://play.google.com/store/apps/details?id=com.solplace.solplace_monitoramento&hl=pt_BR&gl=US",
-        },
-        {
-            logo:promotionGameAlert,
-            name:"Promotion Game Alert",
-            url:"https://play.google.com/store/apps/details?id=br.com.jfcoder.promotion_game_alert&hl=pt_BR&gl=US",
-        },
-        {
-            logoSvg:GiCoffeeCup,
-            name:"Soom, more",
-        },
+            {
+                logo:logoEmpel,
+                name:"EMPEL Engenharia",
+                url:"https://empel.com.br/"
+            },
+            {
+                logoSvg:SolPlace,
+                name:"Sol Place Monitore",
+                url:"https://play.google.com/store/apps/details?id=com.solplace.solplace_monitoramento&hl=pt_BR&gl=US",
+            },
+            {
+                logo:promotionGameAlert,
+                name:"Promotion Game Alert",
+                url:"https://play.google.com/store/apps/details?id=br.com.jfcoder.promotion_game_alert&hl=pt_BR&gl=US",
+            },
+            {
+                logo:reflexoterapia,
+                name:"Reflexoterapeuta",
+                url:"https://luciene.pages.dev/"
+            },
+            {
+                logoSvg:GiCoffeeCup,
+                name:"Soom, more",
+            },
         ]);
     },[]);
 
