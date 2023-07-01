@@ -20,7 +20,7 @@ export default function Technologies() {
             {
                 logo:logoEmpel,
                 name:"EMPEL Engenharia",
-                url:"https://empel.com.br/"
+                url:"https://jonata-px.github.io/empel_site/"
             },
             {
                 logoSvg:SolPlace,
