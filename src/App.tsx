@@ -8,6 +8,7 @@ import {
 import Home from "./pages/Home";
 import Privacity from "./pages/Privacity";
 import Terms from "./pages/Terms";
+import GamePromoAlert from "./pages/GamePromoAlert";
 
 function App() {
 
@@ -27,7 +28,9 @@ function App() {
           <Route path="/promotion_game_alert/privacity" element={<Privacity />} />
         </Routes>
 
-
+        <Routes>
+          <Route path="/game_promo_alert/" element={<GamePromoAlert />} />
+        </Routes>
         
       </BrowserRouter>
     </div>

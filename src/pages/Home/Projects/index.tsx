@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
 import logoEmpel from "../../../assets/images/logoEmpel.png";
 import reflexoterapia from "../../../assets/images/reflexoterapia.png";
-import promotionGameAlert from "../../../assets/images/promotionGameAlert.png";
+import promotionGameAlert from "../../../assets/images/game_promo_alert.png";
 import styles from "./styles.module.css";
 import SolPlace from '../../../assets/images/solplace';
 import {GiCoffeeCup} from "react-icons/gi";
