@@ -2,6 +2,8 @@ import {useEffect, useState} from 'react';
 import logoEmpel from "../../../assets/images/logoEmpel.png";
 import reflexoterapia from "../../../assets/images/reflexoterapia.png";
 import promotionGameAlert from "../../../assets/images/game_promo_alert.png";
+import vendas from "../../../assets/images/vendas.png";
+import w2 from "../../../assets/images/w2-estacionamento.png";
 import styles from "./styles.module.css";
 import SolPlace from '../../../assets/images/solplace';
 import {GiCoffeeCup} from "react-icons/gi";
@@ -11,12 +13,15 @@ import SwiperCore, {
     Navigation,
     Autoplay
 } from 'swiper';
+import Vendas from './vendas';
+import W2 from './w2';
 SwiperCore.use([Autoplay,Pagination,Navigation]);
 
-export default function Technologies() {
-    const [technologies,setTechnologies] : any = useState([]);
+export default function Projects() {
+    const [projects,setProjects] : any = useState([]);
+    const [selectedSlide, setSelectedSlide] = useState<JSX.Element>();
     useEffect(()=>{
-        setTechnologies([
+        setProjects([
             {
                 logo:logoEmpel,
                 name:"EMPEL Engenharia",
@@ -27,15 +32,26 @@ export default function Technologies() {
                 name:"Sol Place Monitore",
                 url:"https://play.google.com/store/apps/details?id=com.solplace.solplace_monitoramento&hl=pt_BR&gl=US",
             },
+
+            {
+                logo:reflexoterapia,
+                name:"Reflexoterapeuta",
+                url:"https://luciene.pages.dev/"
+            },
             {
                 logo:promotionGameAlert,
                 name:"Promotion Game Alert",
                 url:"https://play.google.com/store/apps/details?id=br.com.jfcoder.promotion_game_alert&hl=pt_BR&gl=US",
             },
             {
-                logo:reflexoterapia,
-                name:"Reflexoterapeuta",
-                url:"https://luciene.pages.dev/"
+                logo:vendas,
+                name:"Vendas",
+                Slider:Vendas,
+            },
+            {
+                logo:w2,
+                name:"W2 Estacionamento",
+                Slider:W2,
             },
             {
                 logoSvg:GiCoffeeCup,
@@ -44,18 +60,31 @@ export default function Technologies() {
         ]);
     },[]);
 
-        return (
+    const close = ()=>{
+        setSelectedSlide(undefined);
+    }
+
+    const ViewSlider:(props: any) => JSX.Element = ()=>{
+        if(selectedSlide == undefined) return <></>;
+
+
+        return selectedSlide;
+    }
+
+    return (
         <section className={styles.projects}>
+            <ViewSlider close={close}/>
             <div className={"circle_top"}/>
                 <div className="container">
                 <h2>Desenvolvimentos e participações</h2>
 
-                <div className={styles.projects_wrap+" paralax"}>
+                <div className="paralax">
+                <div className={styles.projects_wrap}>
 
                     {
-                        technologies.map((Val : any,key : number)=>{
+                        projects.map((Val : any,key : number)=>{
 
-                        if(!Val.url){
+                        if(!Val.url && !Val.Slider){
                             return(
                                 <div key={key} className={styles.soom}>
                                     <div>
@@ -66,8 +95,15 @@ export default function Technologies() {
                             )
                         }
 
+                        const handleClick = ()=>{
+                            if(Val.Slider){
+                                setSelectedSlide(Val.Slider({close:close}));
+                                return false;
+                            }
+                        }
+
                         return(
-                                <a href={Val.url} key={key} >
+                                <a href={Val.url} key={key} onClick={handleClick} >
                                     {Val.logo ?
                                         <img src={Val.logo} alt={Val.name} title={Val.name}/>
                                         :<div title={Val.name}><Val.logoSvg className={styles[Val.name.replace(/ /g,"")]}/></div>
@@ -77,8 +113,15 @@ export default function Technologies() {
                             )
                         })
                     }      
+                    </div>
+
+                    <div className={styles.link_wrap}>
+                        <a href='https://play.google.com/store/apps/dev?id=4780312375531103822' className={styles.link}>Página do desenvolvedor Google Play</a>
+                    </div>
                 </div>
+
             </div>
+           
         </section>
     );
 }

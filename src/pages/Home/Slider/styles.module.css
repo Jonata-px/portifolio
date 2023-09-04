@@ -1,0 +1,58 @@
+
+.slider{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+.slider > div{
+    position: relative;
+}
+
+.slider button{
+    position: absolute;
+    right: 15px;
+    top: 0;
+    font-size: 45px;
+    background-color: transparent;
+    border: 0;
+    color: rgb(255, 71, 71);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.slider img{
+    width: 100%;
+    height: 75vh;
+}
+
+.slider h3{
+    margin:20px 50px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.slider p{
+    margin:20px 50px;
+    color: #fff;
+    text-align: center;
+    font-weight:300;
+    font-size: .84rem;
+}
+
+.slider .slider_wrap > div{
+    padding:0px 30px 40px 30px;
+}
+
+.slide{
+    width: 500px;
+}
+
+.slider .swiper .swiper-button-prev{
+    left: 0;
+}

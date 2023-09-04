@@ -4,6 +4,7 @@
 #root{
     --primary:rgb(250, 255, 252);
     --red:rgb(116, 0, 0);
+    --blue:rgb(0, 71, 179);
     --black:rgb(32, 32, 32);
     --secondary: rgb(0, 22, 5);
 }

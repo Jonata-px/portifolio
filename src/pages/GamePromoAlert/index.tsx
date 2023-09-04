@@ -1,10 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import logo from "../../assets/images/game_promo_alert.png";
 import googlePlay from "../../assets/images/google-play.png";
 import styles from "./styles.module.css";
 
 export default function GamePromoAlert() {
-  console.log(googlePlay);
+  useEffect(()=>{
+    document.title = "Game Promo Alert";
+  },[])
+  
   return (
     <section className={styles.dowload_app}>
       <img src={logo} className={styles.dowload_app__logo} />
