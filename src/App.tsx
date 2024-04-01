@@ -8,6 +8,8 @@ import {
 import Home from "./pages/Home";
 import Privacity from "./pages/Privacity";
 import Terms from "./pages/Terms";
+import PrivacityGoalBuilder from "./pages/GoalBuilder/Privacity";
+import TermsGoalBuilder from "./pages/GoalBuilder/Terms";
 import GamePromoAlert from "./pages/GamePromoAlert";
 
 function App() {
@@ -29,11 +31,11 @@ function App() {
         </Routes>
 
         <Routes>
-          <Route path="/goalbuilder/terms" element={<Terms />} />
+          <Route path="/goalbuilder/terms" element={<TermsGoalBuilder />} />
         </Routes>
 
         <Routes>
-          <Route path="/goalbuilder/privacity" element={<Privacity />} />
+          <Route path="/goalbuilder/privacity" element={<PrivacityGoalBuilder />} />
         </Routes>
 
         <Routes>
