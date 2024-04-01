@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "br.com.jfcoder.goalbuilder",
+        "sha256_cert_fingerprints": [
+          "BE:5C:72:A6:52:8F:68:27:62:A7:50:D4:9F:EA:88:2F:C1:26:1E:B3:82:B0:61:D6:E1:60:F4:46:E6:94:54:2C"
+        ]
+      }
+    }
+  ]
