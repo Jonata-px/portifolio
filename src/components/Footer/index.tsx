@@ -18,7 +18,7 @@ export default function Header() {
                 <p>Ou</p>
 
                 <div className={styles.socials+" paralax"}>
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5511964845800&text=" title="WhatsApp" ><FaWhatsapp /></a>
+                    {/* <a target="_blank" href="https://api.whatsapp.com/send?phone=5511964845800&text=" title="WhatsApp" ><FaWhatsapp /></a> */}
                     <a target="_blank" title="Linkedin" href="https://www.linkedin.com/in/jonat%C3%A3-felix-609173209/" ><FaLinkedin/></a>
                     <a target="_blank" title="GitHub" href="https://github.com/Jonata-px" ><FaGithub/></a>
                     <a target="_blank" href="https://www.getninjas.com.br/anuncios/design-e-tecnologia/desenvolvimento-de-sites-e-sistemas/design-e-tecnologia-jonata-felix-da-conceicao?ref=internal" >
