@@ -29,6 +29,14 @@ function App() {
         </Routes>
 
         <Routes>
+          <Route path="/goalbuilder/terms" element={<Terms />} />
+        </Routes>
+
+        <Routes>
+          <Route path="/goalbuilder/privacity" element={<Privacity />} />
+        </Routes>
+
+        <Routes>
           <Route path="/game_promo_alert/" element={<GamePromoAlert />} />
         </Routes>
         
