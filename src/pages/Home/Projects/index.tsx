@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react';
 import logoEmpel from "../../../assets/images/logoEmpel.png";
 import reflexoterapia from "../../../assets/images/reflexoterapia.png";
 import promotionGameAlert from "../../../assets/images/game_promo_alert.png";
-import goalBuilder from "../../../assets/images/goalBuilder.png";
+import goalBuilder from "../../../assets/images/goalbuilder.png";
 import vendas from "../../../assets/images/vendas.png";
 import w2 from "../../../assets/images/w2-estacionamento.png";
 import styles from "./styles.module.css";

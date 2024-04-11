@@ -40,25 +40,25 @@ export default function PostPT() {
       </article>
 
       <div  className={styles.dowload_app}>
-          <img src={logo} className={styles.dowload_app__logo} />
+        <img src={logo} className={styles.dowload_app__logo} />
 
-          <h3>Goal Builder</h3>
-          <h1>Baixe agora e crie e gerencie seus objetivos de forma eficiente</h1>
+        <h3>Goal Builder</h3>
+        <h1>Baixe agora e crie e gerencie seus objetivos de forma eficiente</h1>
 
-          <a href={"https://play.google.com/store/apps/details?id=br.com.jfcoder.goalbuilder"} className={styles.dowload_app_dowload}>
-            <img className={styles.dowload_app_google_play_logo} src={googlePlay}/>
-            <div> 
-              <h4>BAIXE NO </h4>
-              <h2>Google Play</h2>
-            </div>
-          </a>
+        <a href={"https://play.google.com/store/apps/details?id=br.com.jfcoder.goalbuilder"} className={styles.dowload_app_dowload}>
+          <img className={styles.dowload_app_google_play_logo} src={googlePlay}/>
+          <div> 
+            <h4>BAIXE NO </h4>
+            <h2>Google Play</h2>
+          </div>
+        </a>
 
-          <p>O Goal Builder permite que você defina objetivos claros, acompanhe seu progresso e se comprometa com seu sucesso pessoal. Baixe agora e comece sua jornada rumo a uma vida mais realizada!</p>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-        </div>
+        <p>O Goal Builder permite que você defina objetivos claros, acompanhe seu progresso e se comprometa com seu sucesso pessoal. Baixe agora e comece sua jornada rumo a uma vida mais realizada!</p>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+      </div>
     </div>
   )
 }
