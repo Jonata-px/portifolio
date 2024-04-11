@@ -86,7 +86,6 @@ export default function Projects() {
 
                 <div className="paralax">
                 <div className={styles.projects_wrap}>
-
                     {
                         projects.map((Val : any,key : number)=>{
 
@@ -120,7 +119,6 @@ export default function Projects() {
                         })
                     }      
                     </div>
-
                     <div className={styles.link_wrap}>
                         <a href='https://play.google.com/store/apps/dev?id=4780312375531103822' className={styles.link}>Página do desenvolvedor Google Play</a>
                     </div>
