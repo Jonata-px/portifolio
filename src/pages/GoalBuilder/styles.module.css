@@ -1,0 +1,10 @@
+.main{
+    background-image: linear-gradient(#ffffff,#ffffff,#ffffff,#e6e6e6,#e6e6e6);
+    min-height: 100vh;
+}
+
+.container{
+
+    max-width: 1000px;
+    margin: 0 auto;
+}

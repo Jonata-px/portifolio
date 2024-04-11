@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Unbounded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 
 #root{
@@ -13,7 +13,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Aboreto', cursive;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 html, body, #root{
@@ -33,7 +35,7 @@ button, input, select, textarea{
 }
 
 p, a, small{
-    font-family: 'Unbounded', cursive;
+    font-size: 1rem;
 }
 
 h2{

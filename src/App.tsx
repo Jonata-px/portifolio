@@ -11,6 +11,7 @@ import Terms from "./pages/Terms";
 import PrivacityGoalBuilder from "./pages/GoalBuilder/Privacity";
 import TermsGoalBuilder from "./pages/GoalBuilder/Terms";
 import GamePromoAlert from "./pages/GamePromoAlert";
+import GoalBuilder from "./pages/GoalBuilder";
 
 function App() {
 
@@ -28,6 +29,10 @@ function App() {
 
         <Routes>
           <Route path="/promotion_game_alert/privacity" element={<Privacity />} />
+        </Routes>
+
+        <Routes>
+          <Route path="/goalbuilder" element={<GoalBuilder />} />
         </Routes>
 
         <Routes>
