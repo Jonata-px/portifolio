@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react';
+
 import { Swiper, SwiperSlide} from "swiper/react";
 import styles from "./styles.module.css";
 
@@ -14,6 +14,7 @@ import SwiperCore, {
   Autoplay,
   Zoom,
 } from 'swiper';
+import { FaTimes } from "react-icons/fa";
 SwiperCore.use([Autoplay,Pagination,Navigation]);
 
 interface IProps{
@@ -29,7 +30,7 @@ export default function Slider({title,text,images,close}:IProps) {
     return (
       <div className={styles.slider}>
         <div className="container">
-          <button onClick={()=>close()}>X</button>
+          <button onClick={()=>close()}><FaTimes /></button>
           <h3>{title}</h3>
 
           <p dangerouslySetInnerHTML={{__html:text}}></p>

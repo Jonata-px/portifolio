@@ -2,6 +2,7 @@ import {useEffect, useState} from 'react';
 import logoEmpel from "../../../assets/images/logoEmpel.png";
 import reflexoterapia from "../../../assets/images/reflexoterapia.png";
 import promotionGameAlert from "../../../assets/images/game_promo_alert.png";
+import goalBuilder from "../../../assets/images/goalBuilder.png";
 import vendas from "../../../assets/images/vendas.png";
 import w2 from "../../../assets/images/w2-estacionamento.png";
 import styles from "./styles.module.css";
@@ -54,6 +55,11 @@ export default function Projects() {
                 Slider:W2,
             },
             {
+                logo:goalBuilder,
+                name:"Goal Builder",
+                url:"https://play.google.com/store/apps/details?id=br.com.jfcoder.goalbuilder&hl=pt_BR&gl=US",
+            },
+            {
                 logoSvg:GiCoffeeCup,
                 name:"Soom, more",
             },
@@ -103,7 +109,7 @@ export default function Projects() {
                         }
 
                         return(
-                                <a href={Val.url} key={key} onClick={handleClick} >
+                                <a target='__blanck' href={Val.url} key={key} onClick={handleClick} >
                                     {Val.logo ?
                                         <img src={Val.logo} alt={Val.name} title={Val.name}/>
                                         :<div title={Val.name}><Val.logoSvg className={styles[Val.name.replace(/ /g,"")]}/></div>
