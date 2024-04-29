@@ -11,15 +11,15 @@ export default function GoalBuilder() {
     return userLanguage.split('-')[0]; // Retorna apenas o código de idioma (ex: 'en' ou 'pt')
   }
   useEffect(()=>{
-    console.log(getUserLanguage());
     let userLang = getUserLanguage();
     setLang(userLang);
+    document.title = "Goal Builder";
     if(userLang === 'pt'){
-      document.title = "O poder do estabelecimento de metas";
+      // document.title = "O poder do estabelecimento de metas";
       document.documentElement.lang = userLang;
       updateMetaTags(userLang);
     }else{
-      document.title = "The Power of Goal Setting";
+      // document.title = "The Power of Goal Setting";
       document.documentElement.lang = "en";
       updateMetaTags('en');
     }
