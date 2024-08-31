@@ -1,5 +1,5 @@
 section.projects{
-    background-color: var(--primary) !important;
+    background: var(--primary-gradient);
     padding-bottom: 60px;
 }
 

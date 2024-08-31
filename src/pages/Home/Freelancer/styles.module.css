@@ -1,6 +1,6 @@
 .container{
     width: 100%;
-    background-color: var(--primary);
+    background: var(--primary-gradient);
     padding-bottom: 150px;
 }
 
