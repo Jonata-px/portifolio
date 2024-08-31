@@ -11,14 +11,14 @@ export default function Header() {
             
             <div className="container">
                 <p>Envie um e-mail para</p>
-                <a className="paralax" href="mailto:jonatafelixc@gmail.com"><p>jonatafelixc@gmail.com</p></a>
+                <a className="paralax" href="mailto:contato@jfcoder.com.br"><p>contato@jfcoder.com.br</p></a>
             </div>
 
             <div className="container">
                 <p>Ou</p>
 
                 <div className={styles.socials+" paralax"}>
-                    {/* <a target="_blank" href="https://api.whatsapp.com/send?phone=5511964845800&text=" title="WhatsApp" ><FaWhatsapp /></a> */}
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5511917613909&text=" title="WhatsApp" ><FaWhatsapp /></a>
                     <a target="_blank" title="Linkedin" href="https://www.linkedin.com/in/jonat%C3%A3-felix-609173209/" ><FaLinkedin/></a>
                     <a target="_blank" title="GitHub" href="https://github.com/Jonata-px" ><FaGithub/></a>
                     <a target="_blank" href="https://www.getninjas.com.br/anuncios/design-e-tecnologia/desenvolvimento-de-sites-e-sistemas/design-e-tecnologia-jonata-felix-da-conceicao?ref=internal" >
@@ -27,7 +27,7 @@ export default function Header() {
                 </div>
             </div>
             <div className="container">
-                <small>@ site developed by Jonatã Felix da Conceição · 2023</small>
+                <small>@ Site Beveloped by Jonatã Felix · {new Date().getFullYear()}</small>
             </div>
         </footer>
     )

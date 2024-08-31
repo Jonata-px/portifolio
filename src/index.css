@@ -2,11 +2,15 @@
 
 
 #root{
-    --primary:rgb(250, 255, 252);
+    --primary:#C3E5FF;
+    --secondary: #230031;
+    --primary-gradient: linear-gradient(var(--primary), #E5E4EA);
     --red:rgb(116, 0, 0);
     --blue:rgb(0, 71, 179);
-    --black:rgb(32, 32, 32);
-    --secondary: rgb(0, 22, 5);
+    --black:#440D2E;
+    --secondary-gradient: linear-gradient(var(--secondary), var(--black));
+    --secondary-gradient-opacity: linear-gradient(#23003188, #440d2e82);
+
 }
 
 *{
@@ -64,13 +68,17 @@ img{
     height: 100%;
     max-height: 400px;
     min-height: 400px;
-    background-color: inherit;
+    background:linear-gradient( var(--primary) 30%, #ffffff00);
     border-radius: 50% 50% 0 0;
     position: absolute;
     left: 50%;
     top: 0;
     top: -70px;
     transform: translateX(-50%);
+}
+
+.circle_top_secondary::before{
+    background:linear-gradient( var(--secondary) 30%, #ffffff00);
 }
 
 .paralax, .paralax-left, .paralax-right{

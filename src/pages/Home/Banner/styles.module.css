@@ -17,7 +17,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.466);
+    background: var(--secondary-gradient-opacity);
     color: #fff;
     width: 100%;
     height: 100%;
@@ -63,7 +63,7 @@
     margin-top: 20px;
     font-size: .94rem;
     padding: 12px 12px 12px 24px;
-    border: 1px solid var(--red);
+    border: 1px solid var(--primary);
     /* border-radius: 5px; */
     background-color: transparent;
     color: #fff;
@@ -73,6 +73,7 @@
     gap: 10px;
     overflow: hidden;
     border-radius: 3px;
+    transition: .3s;
 }
 
 .contact_btn::before{
@@ -83,7 +84,7 @@
     left: -50px;
     width: 150%;
     height: 100%;
-    background-color: var(--red);
+    background-color: var(--primary);
     transform: scaleX(0) skewX(35deg);
     transform-origin: left;
     transition: transform .3s;
@@ -91,6 +92,10 @@
 
 .contact_btn:hover svg{
     scale: 1.2;
+}
+
+.contact_btn:hover{
+    color: var(--secondary);
 }
 
 

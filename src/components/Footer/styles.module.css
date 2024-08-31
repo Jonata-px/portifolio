@@ -1,6 +1,6 @@
 .footer{
-    background-color: var(--secondary);
-    min-height: 600px;
+    background: var(--secondary-gradient);
+    min-height: 500px;
     width: 100%;
     color: #fff;
     text-align: center;
@@ -32,7 +32,7 @@
 }
 
 .footer small{
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 .socials{
@@ -43,8 +43,8 @@
 
 .socials a svg{
     color: #fff;
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
 }
 
 .socials a:hover{
@@ -53,8 +53,8 @@
 
 .socials a img{
     margin-top: 2px;
-    width: 28px;
-    height: 28px;
+    width: 43px;
+    height: 43px;
     background-color: #fff;
     border-radius: 5px;
 }

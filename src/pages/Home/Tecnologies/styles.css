@@ -1,6 +1,6 @@
 
 #technologies{
-    background-color: var(--secondary);
+    background: var(--secondary-gradient);
     padding-bottom: 150px;
 }
 
@@ -10,15 +10,31 @@
 }
 
 #technologies .swiper{
-    padding:40px 0px;
+    padding:40px;
 }
 
 .slide{
-    align-self: center;
-    font-size: 3rem;
+    /* align-self: center; */
+    font-size: 4rem;
     color: #fff;
+    gap: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.slide small{
+    font-size: .8rem;
+    /* align-self: center;
+    font-size: 4rem;
+    color: #fff; */
 }
 
 #technologies .swiper .swiper-button-prev{
     left: 0;
+}
+
+.swiper-pagination-bullet{
+    background: rgb(225, 225, 225) !important;
 }

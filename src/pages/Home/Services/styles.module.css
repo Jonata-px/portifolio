@@ -1,6 +1,7 @@
 
 
 .services{
+    background: var(--secondary-gradient);
     background-color: var(--secondary);
     padding-bottom: 150px;
 }

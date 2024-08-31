@@ -4,9 +4,9 @@ import reflexoterapia from "../../../assets/images/reflexoterapia.png";
 import promotionGameAlert from "../../../assets/images/game_promo_alert.png";
 import goalBuilder from "../../../assets/images/goalbuilder.png";
 import vendas from "../../../assets/images/vendas.png";
-import w2 from "../../../assets/images/w2-estacionamento.png";
+import w2 from "../../../assets/images/w2-estacionamento-removebg.png";
 import styles from "./styles.module.css";
-import SolPlace from '../../../assets/images/solplace';
+// import SolPlace from '../../../assets/images/solplace';
 import {GiCoffeeCup} from "react-icons/gi";
 // import Swiper core and required modules
 import SwiperCore, {
@@ -28,12 +28,16 @@ export default function Projects() {
                 name:"EMPEL Engenharia",
                 url:"https://jonata-px.github.io/empel_site/"
             },
+            // {
+            //     logoSvg:SolPlace,
+            //     name:"Sol Place Monitore",
+            //     url:"https://play.google.com/store/apps/details?id=com.solplace.solplace_monitoramento&hl=pt_BR&gl=US",
+            // },
             {
-                logoSvg:SolPlace,
-                name:"Sol Place Monitore",
-                url:"https://play.google.com/store/apps/details?id=com.solplace.solplace_monitoramento&hl=pt_BR&gl=US",
+                logo:"https://doctorfriend.com.br/assets/logo-79s5aKcj.png",
+                name:"Doctor Friend Site",
+                url:"https://play.google.com/store/apps/details?id=br.com.jfcoder.goalbuilder&hl=pt_BR&gl=US",
             },
-
             {
                 logo:reflexoterapia,
                 name:"Reflexoterapeuta",
@@ -60,6 +64,11 @@ export default function Projects() {
                 url:"https://play.google.com/store/apps/details?id=br.com.jfcoder.goalbuilder&hl=pt_BR&gl=US",
             },
             {
+                logo:"https://play-lh.googleusercontent.com/CXH0tzfo4PjRNT-ekR8HWyvD79xS2dM6MOoqxZcbvG3AUADLqJCcSuP2nC85uLUsrQ=w480-h960-rw",
+                name:"Doctor Friend App",
+                url:"https://play.google.com/store/apps/details?id=br.com.doctorfriend.profissional",
+            },
+            {
                 logoSvg:GiCoffeeCup,
                 name:"Soom, more",
             },
@@ -82,7 +91,7 @@ export default function Projects() {
             <ViewSlider close={close}/>
             <div className={"circle_top"}/>
                 <div className="container">
-                <h2>Desenvolvimentos e participações</h2>
+                <h2>Alguns Projetos Finalizados</h2>
 
                 <div className="paralax">
                 <div className={styles.projects_wrap}>

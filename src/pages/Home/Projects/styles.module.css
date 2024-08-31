@@ -22,7 +22,7 @@ section.projects div h2{
 }
 .projects_wrap{
     display: flex;
-    gap: 50px;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -35,8 +35,8 @@ section.projects div h2{
 }
 
 .projects img{
-    width: 65px;
-    height: 65px;
+    width: 85px;
+    height: 85px;
 }
 .SolPlaceMonitore{
     background-color:#0003be;
@@ -51,8 +51,8 @@ section.projects div h2{
 .soom{
     background-color: black;
     border-radius: 8px;
-    height: 65px;
-    width: 65px;
+    width: 85px;
+    height: 85px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,7 +66,7 @@ section.projects div h2{
     color: #fff;
     gap: 3px;
     animation-name: flickering;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
@@ -76,7 +76,7 @@ section.projects div h2{
     }
 
     50%{
-        opacity: .2;
+        opacity: .3;
     }
     
     100%{
@@ -85,12 +85,12 @@ section.projects div h2{
 }
 
 .soom svg{
-    width: 23px;
-    height: 23px;
+    width: 33px;
+    height: 33px;
 }
 
 .soom p{
-    font-size: .55rem;
+    font-size: .65rem;
     text-align: center;
     font-weight: 300;
 }
