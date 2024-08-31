@@ -68,7 +68,7 @@ export default function Home() {
                     <h1>Jonatã Felix</h1>
                     <h5>FULL-STACK DEVELOPER</h5>
 
-                    <a href={"#sobre"} className={styles.contact_btn}>Saiba Mais <FaAngleDown/></a>
+                    <a href={"#services"} className={styles.contact_btn}>Saiba Mais <FaAngleDown/></a>
                 </div>
             </div>
         </section>

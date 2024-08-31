@@ -10,7 +10,7 @@ export default function About() {
 
     return (
 
-        <section className={styles.services}>
+        <section id="services" className={styles.services}>
             <div className={"circle_top circle_top_secondary"}/>
             <div className={"container "+styles.container}>
                 <h2>Serviços</h2>
