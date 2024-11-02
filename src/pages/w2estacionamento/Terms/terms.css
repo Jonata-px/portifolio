@@ -1,0 +1,63 @@
+.terms .container{
+    max-width:1000px;
+    margin:50px auto;
+}
+
+.terms :is(h1, h2, p, li, span, a){
+    font-family: 'Open Sans', sans-serif ;
+    font-style: normal;
+}
+
+.terms h1{
+    font-size: 30px;
+    text-align: center;
+    padding:26px;
+}
+
+.terms a{
+    color: #102f69; 
+}
+
+.terms h2{
+    box-sizing: border-box; 
+    margin: 0px; 
+    line-height: 1.2; 
+    font-size: 20px; 
+    letter-spacing: -0.05em; 
+    color: #182235; 
+    padding-bottom: 20px; 
+    font-family: Montserrat, sans-serif; 
+    background-color: #ffffff;
+}
+
+.terms p{
+    box-sizing: border-box; 
+    margin-top: 0px; 
+    margin-bottom: 1rem; 
+    font-size: 16px; 
+    font-weight: 400; 
+    letter-spacing: normal;
+}
+
+.terms span{
+    color: #1f2a3d;
+}
+
+.terms ul{
+    list-style-position: inside;
+}
+
+.terms ol{
+    box-sizing: border-box; 
+    margin-top: 0px; 
+    margin-bottom: 1rem; 
+    font-size: 16px; 
+    font-weight: 400; 
+    letter-spacing: normal;
+    list-style-position: inside;
+}
+
+.terms li{
+    box-sizing: border-box;
+}
+
