@@ -39,13 +39,16 @@ function App() {
         </Routes>
 
         <Routes>
+          <Route path="/targets" element={<GoalBuilder />} />
+        </Routes>
+
+        <Routes>
           <Route path="/goalbuilder/terms" element={<TermsGoalBuilder />} />
         </Routes>
 
         <Routes>
           <Route path="/goalbuilder/privacity" element={<PrivacityGoalBuilder />} />
         </Routes>
-
 
         <Routes>
           <Route path="/w2estacionamento/terms" element={<TermsW2estacionamento />} />

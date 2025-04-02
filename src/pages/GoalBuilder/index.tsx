@@ -13,7 +13,7 @@ export default function GoalBuilder() {
   useEffect(()=>{
     let userLang = getUserLanguage();
     setLang(userLang);
-    document.title = "Goal Builder";
+    document.title = "Targets";
     if(userLang === 'pt'){
       // document.title = "O poder do estabelecimento de metas";
       document.documentElement.lang = userLang;
@@ -32,11 +32,11 @@ export default function GoalBuilder() {
     
     // Defina as descrições e palavras-chave com base no idioma
     if (language === 'pt') { // Se for português
-      descriptionMetaTag?.setAttribute('content', 'Descubra a importância de estabelecer metas claras e se comprometer com elas. Explore como o estabelecimento de metas pode levar ao crescimento pessoal, motivação e realização.');
-      keywordsMetaTag?.setAttribute('content', 'estabelecimento de metas, comprometimento, crescimento pessoal, motivação, realização, sucesso');
+      descriptionMetaTag?.setAttribute('content', 'O Targets é o melhor aplicativo para criar, gerenciar e acompanhar metas de forma intuitiva e eficiente. Baixe agora e alcance seus objetivos!');
+      keywordsMetaTag?.setAttribute('content', 'app de metas, aplicativo de produtividade, gerenciamento de objetivos, organização de tarefas, foco, planejamento pessoal');
     } else { // Se for inglês (ou outro idioma)
-      descriptionMetaTag?.setAttribute('content', 'Discover the importance of setting clear goals and committing to them. Explore how goal setting can lead to personal growth, motivation, and achievement.');
-      keywordsMetaTag?.setAttribute('content', 'goal setting, commitment, personal growth, motivation, achievement, success');
+      descriptionMetaTag?.setAttribute('content', 'Targets is the best app for creating, managing, and tracking goals in an intuitive and efficient way. Download now and achieve your objectives!');
+      keywordsMetaTag?.setAttribute('content', 'goal app, productivity app, goal management, task organization, focus, personal planning');      
     }
   }
   

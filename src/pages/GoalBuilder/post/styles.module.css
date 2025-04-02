@@ -66,3 +66,20 @@
 .dowload_app_dowload h2{
     font-size: 1.6rem;
 }
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ul{
+        list-style-position: inside;
+        max-width: 800px;
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
