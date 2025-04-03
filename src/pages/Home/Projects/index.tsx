@@ -36,7 +36,7 @@ export default function Projects() {
             {
                 logo:"https://doctorfriend.com.br/assets/logo-79s5aKcj.png",
                 name:"Doctor Friend Site",
-                url:"https://play.google.com/store/apps/details?id=br.com.jfcoder.goalbuilder&hl=pt_BR&gl=US",
+                url:"https://doctorfriend.com.br",
             },
             {
                 logo:reflexoterapia,
