@@ -15,6 +15,7 @@ import TermsW2estacionamento from "./pages/w2estacionamento/Terms";
 import GamePromoAlert from "./pages/GamePromoAlert";
 import GoalBuilder from "./pages/GoalBuilder";
 import Solar from "./pages/AD/Solar";
+import KlokeVideo from "./pages/klokeVideo";
 
 function App() {
 
@@ -64,6 +65,10 @@ function App() {
 
         <Routes>
           <Route path="/ad" element={<Solar />} />
+        </Routes>
+
+        <Routes>
+          <Route path="/kloke-video" element={<KlokeVideo />} />
         </Routes>
         
       </BrowserRouter>
