@@ -15,7 +15,9 @@ import TermsW2estacionamento from "./pages/w2estacionamento/Terms";
 import GamePromoAlert from "./pages/GamePromoAlert";
 import GoalBuilder from "./pages/GoalBuilder";
 import Solar from "./pages/AD/Solar";
-import KlokeVideo from "./pages/klokeVideo";
+import KlokeVideoSincronizacao from "./pages/klokeVideo/Sincronizacao";
+import KlokeVideoAcessibilidade from "./pages/klokeVideo/Acessibilidade";
+import KlokeVideoUsoEspecial from "./pages/klokeVideo/UsoEspecial";
 
 function App() {
 
@@ -68,7 +70,19 @@ function App() {
         </Routes>
 
         <Routes>
-          <Route path="/kloke-video" element={<KlokeVideo />} />
+          <Route path="/kloke-video" element={<KlokeVideoAcessibilidade />} />
+        </Routes>
+
+        <Routes>
+          <Route path="/kloke-video-acessibilidade" element={<KlokeVideoAcessibilidade />} />
+        </Routes>
+
+        <Routes>
+          <Route path="/kloke-video-sincronizacao" element={<KlokeVideoSincronizacao />} />
+        </Routes>
+
+        <Routes>
+          <Route path="/kloke-video-uso-especial" element={<KlokeVideoUsoEspecial />} />
         </Routes>
         
       </BrowserRouter>
