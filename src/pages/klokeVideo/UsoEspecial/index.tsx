@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../../../assets/videos/kloke-uso-especial.mp4";
+import video from "../../../assets/videos/kloke-usos-especiais.mp4";
 const KlokeVideoUsoEspecial: React.FC = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "1rem" }}>

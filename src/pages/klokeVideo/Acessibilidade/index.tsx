@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../../../assets/videos/kloke-acessibilidade.mp4";
+import video from "../../../assets/videos/kloke-usos-especiais.mp4";
 const KlokeVideoAcessibilidade: React.FC = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "1rem" }}>
@@ -16,7 +16,7 @@ const KlokeVideoAcessibilidade: React.FC = () => {
       <p style={{whiteSpace:"pre-wrap"}}>O Kloke utiliza a API AccessibilityService exclusivamente para fins educacionais, permitindo o bloqueio de aplicativos durante os horários de aula.
     <br/>
     <br/>
-O serviço de acessibilidade monitora em tempo real quais aplicativos estão sendo abertos no dispositivo do aluno e, caso algum app não autorizado seja detectado durante o período letivo, o aluno é redirecionado automaticamente para a tela inicial ou para o app escolar.
+O serviço de acessibilidade monitora em tempo real quais aplicativos estão sendo abertos no dispositivo do aluno e, caso algum app não autorizado seja detectado durante o período letivo, o aluno é redirecionado automaticamente para a tela inicial, conforme demostrado no video.
 <br/>
 <br/>
 Essa funcionalidade é essencial para garantir que os alunos permaneçam focados nas atividades escolares e não utilizem o dispositivo para distrações enquanto estão em aula.
