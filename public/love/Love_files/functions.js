@@ -53,14 +53,14 @@ function timeElapse(date) {
 		seconds = '0' + seconds;
 	}
 	var result =
-		'Day <span class="digit">' +
-		days +
-		'</span>, <span class="digit">' +
-		hours +
-		'</span> hrs, <span class="digit">' +
-		minutes +
-		'</span> min, <span class="digit">' +
-		seconds +
-		'</span> sec';
+		'<span class="digit">' +
+		days + 
+		// '</span>, <span class="digit">' +
+		// hours +
+		// '</span> hrs, <span class="digit">' +
+		// minutes +
+		// '</span> min, <span class="digit">' +
+		// seconds +
+		'</span> Dias';
 	$('#clock').html(result);
 }
