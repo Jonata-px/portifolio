@@ -34,7 +34,7 @@ export default function Projects() {
             //     url:"https://play.google.com/store/apps/details?id=com.solplace.solplace_monitoramento&hl=pt_BR&gl=US",
             // },
             {
-                logo:"https://doctorfriend.com.br/assets/logo-79s5aKcj.png",
+                logo:"https://search.doctorfriend.com.br/assets/logo-79s5aKcj.png",
                 name:"Doctor Friend Site",
                 url:"https://doctorfriend.com.br",
             },
