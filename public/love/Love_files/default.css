@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+DE+SAS:wght@100..400&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	background: #d9e9fd;
+	font-family: "Playwrite DE SAS", cursive;
+	color: rgb(0, 1, 7);
+	overflow: hidden;
+}
+
+
+a {
+	color: #002747;
+}
+
+#main {
+	width: 100%;
+	overflow: hidden;
+}
+
+#wrap {
+	position: relative;
+	margin: 0 auto;
+	/* max-width: 1100px;
+	max-height: 680px; */
+	margin-top: 10px;
+}
+
+#text {
+	max-width: 400px;
+	max-height: 550px;
+	left: 0;
+	top: 0;
+	padding:2rem;
+	padding-top:1rem;
+	position: absolute;
+	font-size: 2rem;
+	overflow: auto;
+}
+
+
+#code {
+	display: none;
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+#clock-box {
+	position: absolute;
+	left: 2rem;
+	bottom: 1rem;
+	font-size: 1.3rem;
+	display: none;
+	color: #002747;
+	font-family: "Lato", sans-serif;
+}
+
+#clock-box a {
+	text-decoration: none;
+}
+
+#clock {
+	margin-left: 1.7ren;
+}
+
+#clock .digit {
+	font-size: 2rem;
+}
+
+#canvas {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1100px;
+	max-height: 700px;
+	width: 120vw;
+	height: 85vh;
+	z-index: 9;
+	/* left: -3rem; */
+}
+
+#error {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 3rem;
+	display: none;
+}
+
+.hand {
+	cursor: pointer;
+}
+
+.say {
+	margin-left: 5px;
+}
+
+.space {
+	margin-right: 5rem;
+}
