@@ -99,6 +99,7 @@
     <div id="password-overlay" aria-hidden="false">
         <div class="overlay-content" role="dialog" aria-labelledby="overlay-title">
             <h2 id="overlay-title">Esta página é protegida por senha</h2>
+             <div style="margin-top:10px;font-size:17px;color:#555;text-align:left">Dica: Na caixa que você receber</div>
             <input id="password-input" type="password" placeholder="Insira a senha" aria-label="Senha">
             <div class="overlay-actions">
                 <div style="display:flex;align-items:center;gap:8px;">
@@ -108,7 +109,7 @@
                 <button id="unlock-btn">Desbloquear</button>
             </div>
             <div id="password-message"></div>
-            <div style="margin-top:10px;font-size:15px;color:#555;text-align:left">Dica: Na caixa que você receber</div>
+           
         </div>
     </div>
 
@@ -159,6 +160,7 @@
                 const val = input.value || '';
                 if(val === PASSWORD){
                     msg.textContent = '';
+                    alert('Não esqueça de almentar o som! 😉');
                     if(remember.checked){
                         try{ sessionStorage.setItem('love_unlocked','1') }catch(e){}
                     }
