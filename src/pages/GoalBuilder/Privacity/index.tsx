@@ -10,11 +10,11 @@ export default function Privaity() {
         <p>
           <span>
             Your privacy is important to us. It is
-            jfcoder.com.br/goalBuilder/terms's policy to respect your
+            jfcoder.com/goalBuilder/terms's policy to respect your
             privacy regarding any information we may collect from you across our
             website,{" "}
-            <a href="jfcoder.com.br/goalBuilder/terms">
-              jfcoder.com.br/goalBuilder/terms
+            <a href="jfcoder.com/goalBuilder/terms">
+              jfcoder.com/goalBuilder/terms
             </a>
             , and other sites we own and operate.
           </span>
@@ -77,7 +77,7 @@ export default function Privaity() {
           <span>
             <h2>
               <span>
-                Cookie Policy for jfcoder.com.br/goalBuilder/terms
+                Cookie Policy for jfcoder.com/goalBuilder/terms
               </span>
             </h2>
             <p>
@@ -86,8 +86,8 @@ export default function Privaity() {
             <p>
               <span>
                 This is the Cookie Policy for
-                jfcoder.com.br/goalBuilder/terms, accessible from URL
-                jfcoder.com.br/goalBuilder/terms.
+                jfcoder.com/goalBuilder/terms, accessible from URL
+                jfcoder.com/goalBuilder/terms.
               </span>
             </p>
             <p>
@@ -264,7 +264,7 @@ export default function Privaity() {
             <span>
               C) Do not cause damage to physical systems (hardware) and
               unattainable (software) of
-              jfcoder.com.br/goalBuilder/terms, its suppliers or third
+              jfcoder.com/goalBuilder/terms, its suppliers or third
               parties, to introduce or disseminate computer viruses or any other
               hardware or software systems that are capable of causing damage
               previously mentioned.

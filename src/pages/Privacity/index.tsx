@@ -10,11 +10,11 @@ export default function Privaity() {
         <p>
           <span>
             Your privacy is important to us. It is
-            jfcoder.com.br/promotion_game_alert/terms's policy to respect your
+            jfcoder.com/promotion_game_alert/terms's policy to respect your
             privacy regarding any information we may collect from you across our
             website,{" "}
-            <a href="jfcoder.com.br/promotion_game_alert/terms">
-              jfcoder.com.br/promotion_game_alert/terms
+            <a href="jfcoder.com/promotion_game_alert/terms">
+              jfcoder.com/promotion_game_alert/terms
             </a>
             , and other sites we own and operate.
           </span>
@@ -77,7 +77,7 @@ export default function Privaity() {
           <span>
             <h2>
               <span>
-                Cookie Policy for jfcoder.com.br/promotion_game_alert/terms
+                Cookie Policy for jfcoder.com/promotion_game_alert/terms
               </span>
             </h2>
             <p>
@@ -86,8 +86,8 @@ export default function Privaity() {
             <p>
               <span>
                 This is the Cookie Policy for
-                jfcoder.com.br/promotion_game_alert/terms, accessible from URL
-                jfcoder.com.br/promotion_game_alert/terms.
+                jfcoder.com/promotion_game_alert/terms, accessible from URL
+                jfcoder.com/promotion_game_alert/terms.
               </span>
             </p>
             <p>
@@ -264,7 +264,7 @@ export default function Privaity() {
             <span>
               C) Do not cause damage to physical systems (hardware) and
               unattainable (software) of
-              jfcoder.com.br/promotion_game_alert/terms, its suppliers or third
+              jfcoder.com/promotion_game_alert/terms, its suppliers or third
               parties, to introduce or disseminate computer viruses or any other
               hardware or software systems that are capable of causing damage
               previously mentioned.

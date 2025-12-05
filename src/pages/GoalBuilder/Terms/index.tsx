@@ -13,8 +13,8 @@ export default function Terms() {
         <p>
           <span>
             By accessing the website at{" "}
-            <a href="jfcoder.com.br/goalBuilder/terms">
-              jfcoder.com.br/goalBuilder/terms
+            <a href="jfcoder.com/goalBuilder/terms">
+              jfcoder.com/goalBuilder/terms
             </a>{" "}
             you are agreeing to be bound by these terms of service, all
             applicable laws and regulations, and agree that you are responsible
@@ -32,7 +32,7 @@ export default function Terms() {
             <span>
               Permission is granted to temporarily download one copy of the
               materials (information or software) on
-              jfcoder.com.br/goalBuilder/terms's website for personal,
+              jfcoder.com/goalBuilder/terms's website for personal,
               non-commercial transitory viewing only. This is the grant of a
               licence, not a transfer of title, and under this licence you may
               not:
@@ -50,7 +50,7 @@ export default function Terms() {
           <li>
             <span>
               attempt to decompile or reverse engineer any software contained on
-              jfcoder.com.br/goalBuilder/terms website;
+              jfcoder.com/goalBuilder/terms website;
             </span>
           </li>
           <li>
@@ -69,7 +69,7 @@ export default function Terms() {
             <span>
               This licence shall automatically terminate if you violate any of
               these restrictions and may be terminated by
-              jfcoder.com.br/goalBuilder/terms at any time. Upon
+              jfcoder.com/goalBuilder/terms at any time. Upon
               terminating your viewing of these materials or upon the
               termination of this licence, you must destroy any downloaded
               materials in your possession whether in electronic or printed
@@ -83,9 +83,9 @@ export default function Terms() {
         <ol>
           <li>
             <span>
-              The materials on jfcoder.com.br/goalBuilder/terms's
+              The materials on jfcoder.com/goalBuilder/terms's
               website are provided on an 'as is' basis.
-              jfcoder.com.br/goalBuilder/terms makes no warranties,
+              jfcoder.com/goalBuilder/terms makes no warranties,
               expressed or implied, and hereby disclaims and negates all other
               warranties including, without limitation, implied warranties or
               conditions of merchantability, fitness for a particular purpose,
@@ -95,7 +95,7 @@ export default function Terms() {
           </li>
           <li>
             <span>
-              Further, jfcoder.com.br/goalBuilder/terms does not
+              Further, jfcoder.com/goalBuilder/terms does not
               warrant or make any representations concerning the accuracy,
               likely results, or reliability of the use of the materials on its
               website or otherwise relating to such materials or on any sites
@@ -108,13 +108,13 @@ export default function Terms() {
         </h3>
         <p>
           <span>
-            In no event shall jfcoder.com.br/goalBuilder/terms or its
+            In no event shall jfcoder.com/goalBuilder/terms or its
             suppliers be liable for any damages (including, without limitation,
             damages for loss of data or profit, or due to business interruption)
             arising out of the use or inability to use the materials on
-            jfcoder.com.br/goalBuilder/terms's website, even if
-            jfcoder.com.br/goalBuilder/terms or a
-            jfcoder.com.br/goalBuilder/terms authorised representative
+            jfcoder.com/goalBuilder/terms's website, even if
+            jfcoder.com/goalBuilder/terms or a
+            jfcoder.com/goalBuilder/terms authorised representative
             has been notified orally or in writing of the possibility of such
             damage. Because some jurisdictions do not allow limitations on
             implied warranties, or limitations of liability for consequential or
@@ -127,13 +127,13 @@ export default function Terms() {
         <p>
           <span>
             The materials appearing on
-            jfcoder.com.br/goalBuilder/terms's website could include
+            jfcoder.com/goalBuilder/terms's website could include
             technical, typographical, or photographic errors.
-            jfcoder.com.br/goalBuilder/terms does not warrant that any
+            jfcoder.com/goalBuilder/terms does not warrant that any
             of the materials on its website are accurate, complete or current.
-            jfcoder.com.br/goalBuilder/terms may make changes to the
+            jfcoder.com/goalBuilder/terms may make changes to the
             materials contained on its website at any time without notice.
-            However jfcoder.com.br/goalBuilder/terms does not make any
+            However jfcoder.com/goalBuilder/terms does not make any
             commitment to update the materials.
           </span>
         </p>
@@ -142,10 +142,10 @@ export default function Terms() {
         </h3>
         <p>
           <span>
-            jfcoder.com.br/goalBuilder/terms has not reviewed all of
+            jfcoder.com/goalBuilder/terms has not reviewed all of
             the sites linked to its website and is not responsible for the
             contents of any such linked site. The inclusion of any link does not
-            imply endorsement by jfcoder.com.br/goalBuilder/terms of
+            imply endorsement by jfcoder.com/goalBuilder/terms of
             the site. Use of any such linked website is at the user's own risk.
           </span>
         </p>
@@ -154,7 +154,7 @@ export default function Terms() {
         </h3>
         <p>
           <span>
-            jfcoder.com.br/goalBuilder/terms may revise these terms of
+            jfcoder.com/goalBuilder/terms may revise these terms of
             service for its website at any time without notice. By using this
             website you are agreeing to be bound by the then current version of
             these terms of service.
@@ -167,7 +167,7 @@ export default function Terms() {
           <span>
             These terms and conditions are governed by and construed in
             accordance with the laws of
-            jfcoder.com.br/goalBuilder/terms and you irrevocably submit
+            jfcoder.com/goalBuilder/terms and you irrevocably submit
             to the exclusive jurisdiction of the courts in that State or
             location.
           </span>

@@ -11,7 +11,7 @@ export default function Header() {
             
             <div className="container">
                 <p>Envie um e-mail para</p>
-                <a className="paralax" href="mailto:contato@jfcoder.com.br"><p>contato@jfcoder.com.br</p></a>
+                <a className="paralax" href="mailto:contato@jfcoder.com"><p>contato@jfcoder.com</p></a>
             </div>
 
             <div className="container">

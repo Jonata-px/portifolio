@@ -18,6 +18,9 @@ import Solar from "./pages/AD/Solar";
 import KlokeVideoSincronizacao from "./pages/klokeVideo/Sincronizacao";
 import KlokeVideoAcessibilidade from "./pages/klokeVideo/Acessibilidade";
 import KlokeVideoUsoEspecial from "./pages/klokeVideo/UsoEspecial";
+import PrivacityPDV from "./pages/PDV/Privacity";
+import PDVPrivacity from "./pages/PDV/Privacity";
+import PDVOffline from "./pages/PDV";
 
 function App() {
 
@@ -83,6 +86,14 @@ function App() {
 
         <Routes>
           <Route path="/kloke-video-uso-especial" element={<KlokeVideoUsoEspecial />} />
+        </Routes>
+
+        <Routes>
+          <Route path="/pdv" element={<PDVOffline />} />
+        </Routes>
+
+        <Routes>
+          <Route path="/pdv/privacity" element={<PDVPrivacity />} />
         </Routes>
         
       </BrowserRouter>

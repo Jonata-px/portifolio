@@ -1,5 +1,7 @@
 import {useEffect, useState} from 'react';
 import logoEmpel from "../../../assets/images/logoEmpel.png";
+import logoDoctorFriendApp from "../../../assets/images/doctorFriendApp.png";
+import logoPdv from "../../../assets/images/pdv.png";
 import reflexoterapia from "../../../assets/images/reflexoterapia.png";
 import promotionGameAlert from "../../../assets/images/game_promo_alert.png";
 import goalBuilder from "../../../assets/images/goalbuilder.png";
@@ -36,7 +38,7 @@ export default function Projects() {
             {
                 logo:"https://search.doctorfriend.com.br/assets/logo-79s5aKcj.png",
                 name:"Doctor Friend Site",
-                url:"https://doctorfriend.com.br",
+                url:"https://search.doctorfriend.com.br",
             },
             {
                 logo:reflexoterapia,
@@ -64,9 +66,14 @@ export default function Projects() {
                 url:"https://play.google.com/store/apps/details?id=br.com.jfcoder.goalbuilder&hl=pt_BR&gl=US",
             },
             {
-                logo:"https://play-lh.googleusercontent.com/CXH0tzfo4PjRNT-ekR8HWyvD79xS2dM6MOoqxZcbvG3AUADLqJCcSuP2nC85uLUsrQ=w480-h960-rw",
+                logo:logoDoctorFriendApp,
                 name:"Doctor Friend App",
                 url:"https://play.google.com/store/apps/details?id=br.com.doctorfriend.profissional",
+            },
+                        {
+                logo:logoPdv,
+                name:"PDV Offline",
+                url:"https://play.google.com/store/apps/details?id=com.jfcoder.pdv",
             },
             {
                 logoSvg:GiCoffeeCup,

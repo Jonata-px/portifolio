@@ -10,11 +10,11 @@ export default function Privacidade() {
         <p>
           <span>
             Sua privacidade é importante para nós. Esta é a política do
-            jfcoder.com.br/w2estacionamento/terms, que respeita sua privacidade
+            jfcoder.com/w2estacionamento/terms, que respeita sua privacidade
             em relação a qualquer informação que possamos coletar de você
             em nosso site,{" "}
-            <a href="jfcoder.com.br/w2estacionamento/terms">
-              jfcoder.com.br/w2estacionamento/terms
+            <a href="jfcoder.com/w2estacionamento/terms">
+              jfcoder.com/w2estacionamento/terms
             </a>
             , e outros sites que possuímos e operamos.
           </span>
@@ -77,7 +77,7 @@ export default function Privacidade() {
           <span>
             <h2>
               <span>
-                Política de Cookies para jfcoder.com.br/w2estacionamento/terms
+                Política de Cookies para jfcoder.com/w2estacionamento/terms
               </span>
             </h2>
             <p>
@@ -86,8 +86,8 @@ export default function Privacidade() {
             <p>
               <span>
                 Esta é a Política de Cookies para
-                jfcoder.com.br/w2estacionamento/terms, acessível através do URL
-                jfcoder.com.br/w2estacionamento/terms.
+                jfcoder.com/w2estacionamento/terms, acessível através do URL
+                jfcoder.com/w2estacionamento/terms.
               </span>
             </p>
             <p>
@@ -264,7 +264,7 @@ export default function Privacidade() {
           <li>
             <span>
               C) Não causar danos a sistemas físicos (hardware) e lógicos (software) de
-              jfcoder.com.br/w2estacionamento/terms, seus fornecedores ou terceiros, nem
+              jfcoder.com/w2estacionamento/terms, seus fornecedores ou terceiros, nem
               introduzir ou disseminar vírus de computador ou outros sistemas de hardware ou
               software capazes de causar os danos mencionados anteriormente.
             </span>
