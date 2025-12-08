@@ -94,7 +94,7 @@ export default function PDVOffline() {
 
 					<article className={styles.section}>
 						<h2>🛍️ Produtos e serviços</h2>
-						<p>Gerencie estoque, preços, margens e fotos com facilidade.</p>
+						<p>Gerencie estoque, preços e margens com facilidade.</p>
 					</article>
 
 					<article className={styles.section}>
