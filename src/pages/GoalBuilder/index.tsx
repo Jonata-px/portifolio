@@ -1,7 +1,10 @@
-import {useEffect, useState} from 'react'
+import {useEffect, useMemo, useState} from 'react'
 import styles from "./styles.module.css";
 import Post from './post';
 import PostPT from './post/postPT';
+import { Helmet } from 'react-helmet-async';
+import { useLocation } from 'react-router-dom';
+import { SITE_BASE_URL } from '../../config/constants';
 
 export default function GoalBuilder() {
   const [lang, setLang] = useState<string>("en");
@@ -13,35 +16,33 @@ export default function GoalBuilder() {
   useEffect(()=>{
     let userLang = getUserLanguage();
     setLang(userLang);
-    document.title = "Targets";
-    if(userLang === 'pt'){
-      // document.title = "O poder do estabelecimento de metas";
-      document.documentElement.lang = userLang;
-      updateMetaTags(userLang);
-    }else{
-      // document.title = "The Power of Goal Setting";
-      document.documentElement.lang = "en";
-      updateMetaTags('en');
-    }
-    
   },[])
 
-  function updateMetaTags(language:string) {
-    var descriptionMetaTag = document.querySelector('meta[name="description"]');
-    var keywordsMetaTag = document.querySelector('meta[name="keywords"]');
-    
-    // Defina as descrições e palavras-chave com base no idioma
-    if (language === 'pt') { // Se for português
-      descriptionMetaTag?.setAttribute('content', 'O Targets é o melhor aplicativo para criar, gerenciar e acompanhar metas de forma intuitiva e eficiente. Baixe agora e alcance seus objetivos!');
-      keywordsMetaTag?.setAttribute('content', 'app de metas, aplicativo de produtividade, gerenciamento de objetivos, organização de tarefas, foco, planejamento pessoal');
-    } else { // Se for inglês (ou outro idioma)
-      descriptionMetaTag?.setAttribute('content', 'Targets is the best app for creating, managing, and tracking goals in an intuitive and efficient way. Download now and achieve your objectives!');
-      keywordsMetaTag?.setAttribute('content', 'goal app, productivity app, goal management, task organization, focus, personal planning');      
-    }
-  }
+
+  const location = useLocation();
+
+  const canonicalUrl = useMemo(() => {
+    return `${SITE_BASE_URL}${location.pathname}${location.search}`;
+  }, [location.pathname, location.search]);
   
   return (
     <section className={styles.main}>
+      <Helmet>
+        <title>Targets</title>
+          {lang === 'pt' ? ( // Se for português
+              <>
+                <meta name="description" content="O Targets é o melhor aplicativo para criar, gerenciar e acompanhar metas de forma intuitiva e eficiente. Baixe agora e alcance seus objetivos!" />
+                <meta name="keywords" content="app de metas, aplicativo de produtividade, gerenciamento de objetivos, organização de tarefas, foco, planejamento pessoal" />
+              </>
+            ) : ( // Se for inglês (ou outro idioma)
+              <>
+                <meta name="description" content="Targets is the best app for creating, managing, and tracking goals in an intuitive and efficient way. Download now and achieve your objectives!" />
+                <meta name="keywords" content="goal app, productivity app, goal management, task organization, focus, personal planning" />
+              </>
+            )
+          }  
+        <link rel="canonical" href={canonicalUrl} />
+      </Helmet>
       <div className={styles.container}>
         {
           lang === "pt" ?  <PostPT/>: <Post/>

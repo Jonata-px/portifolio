@@ -1,15 +1,25 @@
-import React, {useEffect} from 'react'
+import  { useMemo} from 'react'
 import logo from "../../assets/images/game_promo_alert.png";
 import googlePlay from "../../assets/images/google-play.png";
 import styles from "./styles.module.css";
+import { Helmet } from 'react-helmet-async';
+import { useLocation } from 'react-router-dom';
+import { SITE_BASE_URL } from '../../config/constants';
 
 export default function GamePromoAlert() {
-  useEffect(()=>{
-    document.title = "Game Promo Alert";
-  },[])
+    const location = useLocation();
+  
+    const canonicalUrl = useMemo(() => {
+      return `${SITE_BASE_URL}${location.pathname}${location.search}`;
+    }, [location.pathname, location.search]);
   
   return (
     <section className={styles.dowload_app}>
+      <Helmet>
+        <title>Game Promo Alert</title>
+        <meta name="description" content="O Game Promo Alert é um aplicativo essencial para gamers que desejam economizar nas compras de jogos. Receba notificações sobre jogos gratuitos por tempo limitado, marque jogos favoritos e receba alertas de promoções nas principais lojas online. Compare preços facilmente e encontre as melhores ofertas." />
+        <link rel="canonical" href={canonicalUrl} />
+      </Helmet>
       <img src={logo} className={styles.dowload_app__logo} />
 
       <h1>Download now and get notified about game deals or find the store that offers the lowest price.</h1>

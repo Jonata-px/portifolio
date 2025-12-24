@@ -18,14 +18,18 @@ import Solar from "./pages/AD/Solar";
 import KlokeVideoSincronizacao from "./pages/klokeVideo/Sincronizacao";
 import KlokeVideoAcessibilidade from "./pages/klokeVideo/Acessibilidade";
 import KlokeVideoUsoEspecial from "./pages/klokeVideo/UsoEspecial";
-import PrivacityPDV from "./pages/PDV/Privacity";
 import PDVPrivacity from "./pages/PDV/Privacity";
 import PDVOffline from "./pages/PDV";
+import { Helmet } from "react-helmet-async";
+import { SITE_BASE_URL } from "./config/constants";
 
 function App() {
 
   return (
     <div className="App">
+      <Helmet>
+        <link rel="canonical" href={SITE_BASE_URL} />
+      </Helmet>
       <BrowserRouter>
 
         <Routes>

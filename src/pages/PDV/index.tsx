@@ -1,17 +1,29 @@
-import { useEffect } from "react";
+import { useMemo } from "react";
+import { useLocation } from "react-router-dom";
 import styles from "./styles.module.css";
 import googlePlay from "../../assets/images/google-play.png";
 import image from "../../assets/images/pdv.png";
+import { Helmet } from "react-helmet-async";
+import { SITE_BASE_URL } from "../../config/constants";
 
 const PLAY_STORE_LINK = "https://play.google.com/store/apps/details?id=com.jfcoder.pdv"; // TODO: atualizar com a URL oficial da loja
-
 export default function PDVOffline() {
-	useEffect(() => {
-		document.title = "PDV Offline";
-	}, []);
+	const location = useLocation();
+
+	const canonicalUrl = useMemo(() => {
+		return `${SITE_BASE_URL}${location.pathname}${location.search}`;
+	}, [location.pathname, location.search]);
 
 	return (
 		<section className={styles.page}>
+			<Helmet>
+				<title>PDV Offline</title>
+				<meta name="description" content="O PDV Offline é um sistema de vendas completo, rápido e totalmente
+						independente da internet. Tudo o que você cadastra — clientes,
+						produtos, vendas e configurações — fica somente no seu dispositivo,
+						garantindo privacidade total." />
+				<link rel="canonical" href={canonicalUrl} />
+			</Helmet>
 			<div className={styles.pageInner}>
 				<header className={styles.hero}>
 					<div>
