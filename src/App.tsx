@@ -22,6 +22,8 @@ import PDVPrivacity from "./pages/PDV/Privacity";
 import PDVOffline from "./pages/PDV";
 import { Helmet } from "react-helmet-async";
 import { SITE_BASE_URL } from "./config/constants";
+import IlstPrivacity from "./pages/Ilst/Privacity";
+import IlstApp from "./pages/Ilst";
 
 function App() {
 
@@ -99,7 +101,15 @@ function App() {
         <Routes>
           <Route path="/pdv/privacity" element={<PDVPrivacity />} />
         </Routes>
-        
+
+        <Routes>
+          <Route path="/ilst" element={<IlstApp />} />
+        </Routes>
+
+        <Routes>
+          <Route path="/ilst/privacity" element={<IlstPrivacity />} />
+        </Routes>
+
       </BrowserRouter>
     </div>
   )
