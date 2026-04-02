@@ -63,7 +63,7 @@ export default function Projects() {
             },
             {
                 logo: goalBuilder,
-                name: "Targets",
+                name: "Goal Builder",
                 url: "https://play.google.com/store/apps/details?id=br.com.jfcoder.goalbuilder&hl=pt_BR&gl=US",
             },
             {
