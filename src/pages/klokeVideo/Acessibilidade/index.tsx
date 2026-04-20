@@ -10,7 +10,7 @@ const KlokeVideoAcessibilidade: React.FC = () => {
         style={{ maxWidth: "720px", borderRadius: "12px", maxHeight:"85vh" , boxShadow: "0 4px 12px rgba(0,0,0,0.2)" }}
       >
         <source src={video} type="video/mp4" />
-        Seu navegador não suporta vídeo HTML5.
+        Seu navegador não suporta vídeo HTML5. 
       </video>
       <br/>
       <p style={{whiteSpace:"pre-wrap"}}>O Kloke utiliza a API AccessibilityService exclusivamente para fins educacionais, permitindo o bloqueio de aplicativos durante os horários de aula.
