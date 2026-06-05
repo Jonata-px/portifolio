@@ -16,6 +16,44 @@
     gap: 3rem;
 }
 
+.langSelector {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    align-self: flex-end;
+    margin-bottom: -1.5rem;
+}
+
+.langButton {
+    background: rgba(15, 23, 42, 0.4);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    color: #94a3b8;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.langButton:hover {
+    background: rgba(15, 23, 42, 0.8);
+    color: #f8fafc;
+    border-color: rgba(56, 189, 248, 0.5);
+}
+
+.langActive {
+    background: #38bdf8;
+    border-color: #38bdf8;
+    color: #0f172a;
+}
+
+.langActive:hover {
+    background: #0ea5e9;
+    color: #0f172a;
+    border-color: #0ea5e9;
+}
+
 .hero {
     display: flex;
     flex-direction: column;

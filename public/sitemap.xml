@@ -30,8 +30,29 @@
   </url>
 
   <url>
-    <loc>https://jfcoder.com/pdv</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <loc>https://jfcoder.com/pdv?lang=pt</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/pdv?lang=en</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/pdv?lang=es</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/pdv?lang=fr</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -44,8 +65,141 @@
   </url>
 
   <url>
-    <loc>https://jfcoder.com/ilst</loc>
-    <lastmod>2025-12-24T00:00:00+00:00</lastmod>
+    <loc>https://jfcoder.com/ilst?lang=pt</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=en</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=es</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=fr</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=de</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=ru</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=ja</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=zh</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=ko</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=hi</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=ar</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=bn</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=id</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=mr</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=pa</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=pl</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=th</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=tr</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=uk</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/ilst?lang=vi</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
