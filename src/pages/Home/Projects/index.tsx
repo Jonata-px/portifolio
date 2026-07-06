@@ -18,8 +18,7 @@ import SwiperCore, {
     Navigation,
     Autoplay
 } from 'swiper';
-import Vendas from './vendas';
-import W2 from './w2';
+
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 export default function Projects() {
