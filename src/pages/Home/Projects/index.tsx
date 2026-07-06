@@ -8,6 +8,7 @@ import promotionGameAlert from "../../../assets/images/game_promo_alert.png";
 import goalBuilder from "../../../assets/images/goalbuilder.png";
 import vendas from "../../../assets/images/vendas.png";
 import w2 from "../../../assets/images/w2-estacionamento-removebg.png";
+import logoEstacaoGinastica from "../../../assets/images/eg.png";
 import styles from "./styles.module.css";
 // import SolPlace from '../../../assets/images/solplace';
 import { GiCoffeeCup } from "react-icons/gi";
@@ -48,22 +49,17 @@ export default function Projects() {
             },
             {
                 logo: promotionGameAlert,
-                name: "Promotion Game Alert",
+                name: "Game Promo Alert",
                 url: "https://play.google.com/store/apps/details?id=br.com.jfcoder.promotion_game_alert&hl=pt_BR&gl=US",
             },
             {
-                logo: vendas,
-                name: "Vendas",
-                Slider: Vendas,
-            },
-            {
                 logo: w2,
-                name: "W2 Estacionamento",
-                Slider: W2,
+                name: "W2 Estacionamentos",
+                url: "https://play.google.com/store/apps/details?id=br.com.jfcoder.w2estacionamento",
             },
             {
                 logo: goalBuilder,
-                name: "Goal Builder",
+                name: "GoalFlow - Metas e Hábitos",
                 url: "https://play.google.com/store/apps/details?id=br.com.jfcoder.goalbuilder&hl=pt_BR&gl=US",
             },
             {
@@ -78,8 +74,13 @@ export default function Projects() {
             },
             {
                 logo: logoIlst,
-                name: "Ilst",
+                name: "Ilst - Listas Compartilhadas",
                 url: "https://play.google.com/store/apps/details?id=com.jfcoder.ilst",
+            },
+            {
+                logo: logoEstacaoGinastica,
+                name: "Estação Ginástica",
+                url: "https://play.google.com/store/apps/details?id=br.com.ba.sudesb.estacaoginastica",
             },
             {
                 logoSvg: GiCoffeeCup,
