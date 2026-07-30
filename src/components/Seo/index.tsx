@@ -4,7 +4,7 @@ import { SITE_BASE_URL } from '../../config/constants';
 
 const Seo = () => {
   const location = useLocation();
-  const canonicalUrl = `${SITE_BASE_URL}${location.pathname === '/' ? '' : location.pathname}`;
+  const canonicalUrl = `${SITE_BASE_URL}${location.pathname === '/' ? '' : location.pathname}${location.search}`;
 
   return (
     <Helmet>
