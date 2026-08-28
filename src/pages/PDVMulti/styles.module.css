@@ -1,0 +1,225 @@
+.page {
+    width: 100%;
+    min-height: 100vh;
+    padding: 4rem 1.5rem;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 35%, #020617 100%);
+    display: flex;
+    justify-content: center;
+    color: #f8fafc;
+}
+
+.pageInner {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.langSelector {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    align-self: flex-end;
+    margin-bottom: -1.5rem;
+}
+
+.langButton {
+    background: rgba(15, 23, 42, 0.4);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    color: #94a3b8;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.langButton:hover {
+    background: rgba(15, 23, 42, 0.8);
+    color: #f8fafc;
+    border-color: rgba(56, 189, 248, 0.5);
+}
+
+.langActive {
+    background: #38bdf8;
+    border-color: #38bdf8;
+    color: #0f172a;
+}
+
+.langActive:hover {
+    background: #0ea5e9;
+    color: #0f172a;
+    border-color: #0ea5e9;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: left;
+}
+
+.heroTitle {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 700;
+    color: #38bdf8;
+}
+
+.titleWrap {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.titleWrap img {
+    width: 96px;
+    height: 96px;
+    border-radius: 1.25rem;
+    box-shadow: 0 10px 25px -5px rgba(56, 189, 248, 0.3);
+}
+
+.heroSubtitle {
+    font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+    font-weight: 500;
+    color: #f8fafc;
+}
+
+.heroDescription {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #e2e8f0;
+    max-width: 800px;
+}
+
+.sections {
+    display: grid;
+    gap: 2rem;
+}
+
+.section {
+    background: rgba(15, 23, 42, 0.65);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    border-radius: 1.25rem;
+    padding: 1.75rem;
+    box-shadow: 0 25px 50px -12px rgba(15, 118, 110, 0.1);
+}
+
+.section h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.45rem;
+    font-weight: 600;
+    color: #38bdf8;
+    margin-bottom: 0.75rem;
+}
+
+.section p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #e2e8f0;
+}
+
+.section ul {
+    margin: 0.75rem 0 0 1.25rem;
+    display: grid;
+    gap: 0.5rem;
+    color: #e2e8f0;
+}
+
+.section ul li {
+    line-height: 1.6;
+    font-size: 0.98rem;
+}
+
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.ctaButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.9rem 1.6rem;
+    background: #38bdf8;
+    border-radius: 0.8rem;
+    color: #0f172a;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    box-shadow: 0 10px 20px -10px rgba(56, 189, 248, 0.5);
+}
+
+.ctaButton:hover {
+    transform: translateY(-2px);
+    background: #0ea5e9;
+    box-shadow: 0 15px 30px -10px rgba(56, 189, 248, 0.7);
+}
+
+.ctaNote {
+    font-size: 0.9rem;
+    color: #94a3b8;
+    max-width: 320px;
+    line-height: 1.4;
+}
+
+.footerSection {
+    text-align: center;
+    background: rgba(15, 23, 42, 0.45);
+    border: 1px dashed rgba(148, 163, 184, 0.2);
+    border-radius: 1.25rem;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.5);
+}
+
+.footerSection h2 {
+    font-size: clamp(1.4rem, 3vw, 1.8rem);
+    font-weight: 700;
+    color: #38bdf8;
+}
+
+.footerSection p {
+    font-size: 1.05rem;
+    color: #e2e8f0;
+    max-width: 640px;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .page {
+        padding: 3rem 1.25rem;
+    }
+
+    .section {
+        padding: 1.5rem;
+    }
+
+    .cta {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .titleWrap {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .hero {
+        align-items: center;
+        text-align: center;
+    }
+}
