@@ -1,0 +1,190 @@
+.frame {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 1.1rem;
+    background: linear-gradient(160deg, #111c33 0%, #0b1424 100%);
+    border: 1px solid rgba(148, 163, 184, 0.25);
+    box-shadow: 0 40px 80px -30px rgba(2, 6, 23, 0.8), 0 0 0 1px rgba(56, 189, 248, 0.05);
+    overflow: hidden;
+}
+
+.titleBar {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.65rem 0.9rem;
+    background: rgba(15, 23, 42, 0.85);
+    border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.titleText {
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #94a3b8;
+    letter-spacing: 0.03em;
+}
+
+.screen {
+    position: relative;
+    padding: 1.1rem;
+    min-height: 300px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+}
+
+.panelHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
+.pill {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #38bdf8;
+    background: rgba(56, 189, 248, 0.12);
+    padding: 0.3rem 0.6rem;
+    border-radius: 999px;
+}
+
+.pillMuted {
+    font-size: 0.7rem;
+    color: #64748b;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.pillMuted::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #34d399;
+    box-shadow: 0 0 0 3px rgba(52, 211, 153, 0.2);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.rowBar {
+    height: 10px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, rgba(148, 163, 184, 0.35), rgba(148, 163, 184, 0.12));
+}
+
+.rowPrice {
+    height: 10px;
+    width: 15%;
+    min-width: 34px;
+    border-radius: 999px;
+    background: rgba(56, 189, 248, 0.35);
+}
+
+.totalRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed rgba(148, 163, 184, 0.25);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #f8fafc;
+}
+
+.totalValue {
+    height: 12px;
+    width: 70px;
+    border-radius: 999px;
+    background: #38bdf8;
+    opacity: 0.85;
+}
+
+.chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+    height: 140px;
+    padding: 0.5rem 0.25rem 0;
+}
+
+.bar {
+    flex: 1;
+    border-radius: 6px 6px 0 0;
+    background: linear-gradient(180deg, #38bdf8, #0ea5e9);
+    opacity: 0.85;
+}
+
+.statsRow {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.statCard {
+    flex: 1;
+    background: rgba(148, 163, 184, 0.08);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    border-radius: 0.7rem;
+    padding: 0.6rem 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.statLabel {
+    font-size: 0.7rem;
+    color: #94a3b8;
+    font-weight: 600;
+}
+
+.statValue {
+    height: 14px;
+    width: 60%;
+    border-radius: 999px;
+    background: rgba(56, 189, 248, 0.45);
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0 0 1rem;
+}
+
+.navDot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(148, 163, 184, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.navDotActive {
+    background: #38bdf8;
+    transform: scale(1.3);
+}
+
+@media (max-width: 768px) {
+    .frame {
+        max-width: 100%;
+    }
+}

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import logoEmpel from "../../../assets/images/logoEmpel.png";
 import logoDoctorFriendApp from "../../../assets/images/doctorFriendApp.png";
 import logoPdv from "../../../assets/images/pdv.png";
+import logoPdvMulti from "../../../assets/images/pdvMulti.png";
 import logoIlst from "../../../assets/images/ilst.png";
 import reflexoterapia from "../../../assets/images/reflexoterapia.png";
 import promotionGameAlert from "../../../assets/images/game_promo_alert.png";
@@ -65,6 +66,11 @@ export default function Projects() {
                 logo: logoDoctorFriendApp,
                 name: "Doctor Friend App",
                 url: "https://play.google.com/store/apps/details?id=br.com.doctorfriend.profissional",
+            },
+            {
+                logo: logoPdvMulti,
+                name: "PDV Multi",
+                url: "/pdv-multi",
             },
             {
                 logo: logoPdv,

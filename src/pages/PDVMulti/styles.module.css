@@ -1,7 +1,7 @@
 .page {
     width: 100%;
     min-height: 100vh;
-    padding: 4rem 1.5rem;
+    padding: 4rem 1.5rem 6rem;
     background: linear-gradient(135deg, #0f172a 0%, #1e293b 35%, #020617 100%);
     display: flex;
     justify-content: center;
@@ -10,10 +10,10 @@
 
 .pageInner {
     width: 100%;
-    max-width: 960px;
+    max-width: 1080px;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 3.5rem;
 }
 
 .langSelector {
@@ -21,7 +21,6 @@
     justify-content: flex-end;
     gap: 0.5rem;
     align-self: flex-end;
-    margin-bottom: -1.5rem;
 }
 
 .langButton {
@@ -54,24 +53,32 @@
     border-color: #0ea5e9;
 }
 
+/* Hero */
 .hero {
     display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    text-align: left;
+    align-items: center;
+    gap: 3rem;
 }
 
-.heroTitle {
-    font-size: clamp(2.5rem, 5vw, 3.5rem);
-    font-weight: 700;
-    color: #38bdf8;
+.heroCopy {
+    flex: 1 1 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    text-align: left;
+    min-width: 0;
+}
+
+.heroVisual {
+    flex: 1 1 380px;
+    display: flex;
+    justify-content: center;
 }
 
 .titleWrap {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    padding-bottom: 1rem;
 }
 
 .titleWrap img {
@@ -81,22 +88,148 @@
     box-shadow: 0 10px 25px -5px rgba(56, 189, 248, 0.3);
 }
 
+.heroTitle {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 700;
+    color: #38bdf8;
+}
+
 .heroSubtitle {
-    font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
     font-weight: 500;
     color: #f8fafc;
+    line-height: 1.4;
 }
 
 .heroDescription {
     font-size: 1.05rem;
     line-height: 1.7;
     color: #e2e8f0;
-    max-width: 800px;
+    max-width: 640px;
 }
 
+.badgeRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #7dd3fc;
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+}
+
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.ctaButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.9rem 1.6rem;
+    background: #38bdf8;
+    border-radius: 0.8rem;
+    color: #0f172a;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    box-shadow: 0 10px 20px -10px rgba(56, 189, 248, 0.5);
+}
+
+.ctaButton:hover {
+    transform: translateY(-2px);
+    background: #0ea5e9;
+    box-shadow: 0 15px 30px -10px rgba(56, 189, 248, 0.7);
+}
+
+.ctaSecondary {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.9rem 1.4rem;
+    border-radius: 0.8rem;
+    color: #f8fafc;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.ctaSecondary:hover {
+    border-color: #38bdf8;
+    transform: translateY(-2px);
+}
+
+.ctaNote {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    max-width: 420px;
+    line-height: 1.5;
+}
+
+.ctaAndroid {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.9rem 1.4rem;
+    border-radius: 0.8rem;
+    color: #f8fafc;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    background: rgba(148, 163, 184, 0.08);
+    transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+}
+
+.ctaAndroid:hover {
+    border-color: #34d399;
+    background: rgba(52, 211, 153, 0.1);
+    transform: translateY(-2px);
+}
+
+.androidIcon {
+    width: 22px;
+    height: 22px;
+}
+
+/* Sections */
 .sections {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
+}
+
+.groupTitle {
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    font-weight: 700;
+    color: #f8fafc;
+    text-align: center;
+}
+
+.groupSubtitle {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 0.98rem;
+    max-width: 560px;
+    margin: 0.5rem auto 0;
+}
+
+.pillarGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
 }
 
 .section {
@@ -135,41 +268,6 @@
     font-size: 0.98rem;
 }
 
-.cta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.25rem;
-    align-items: center;
-    margin-top: 1rem;
-}
-
-.ctaButton {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 0.9rem 1.6rem;
-    background: #38bdf8;
-    border-radius: 0.8rem;
-    color: #0f172a;
-    font-weight: 700;
-    text-decoration: none;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
-    box-shadow: 0 10px 20px -10px rgba(56, 189, 248, 0.5);
-}
-
-.ctaButton:hover {
-    transform: translateY(-2px);
-    background: #0ea5e9;
-    box-shadow: 0 15px 30px -10px rgba(56, 189, 248, 0.7);
-}
-
-.ctaNote {
-    font-size: 0.9rem;
-    color: #94a3b8;
-    max-width: 320px;
-    line-height: 1.4;
-}
-
 .footerSection {
     text-align: center;
     background: rgba(15, 23, 42, 0.45);
@@ -180,7 +278,6 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-top: 1rem;
     box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.5);
 }
 
@@ -197,29 +294,47 @@
     line-height: 1.6;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.001ms !important;
+        transition-duration: 0.001ms !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .heroCopy {
+        align-items: center;
+        text-align: center;
+    }
+
+    .heroDescription {
+        max-width: 100%;
+    }
+
+    .badgeRow,
+    .cta,
+    .platformRow {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 768px) {
     .page {
-        padding: 3rem 1.25rem;
+        padding: 3rem 1.25rem 6rem;
     }
 
     .section {
         padding: 1.5rem;
     }
 
-    .cta {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
     .titleWrap {
         flex-direction: column;
         text-align: center;
         gap: 1rem;
-    }
-    
-    .hero {
-        align-items: center;
-        text-align: center;
     }
 }
