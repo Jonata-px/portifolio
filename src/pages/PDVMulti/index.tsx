@@ -10,6 +10,8 @@ import {
   FaDownload,
   FaWhatsapp,
   FaSyncAlt,
+  FaWindows,
+  FaAndroid,
 } from "react-icons/fa";
 import styles from "./styles.module.css";
 import pdvIcon from "../../assets/images/pdvMulti.png";
@@ -36,11 +38,14 @@ type TranslationKeys = {
   downloadNote: string;
   androidButton: string;
   viewPlansButton: string;
+  badgePlatforms: string;
   badgeNfce: string;
   badgeOffline: string;
   badgeSync: string;
   badgeUpdate: string;
   pillarsTitle: string;
+  platformsTitle: string;
+  platformsDesc: string;
   syncTitle: string;
   syncDesc: string;
   offlineTitle: string;
@@ -79,21 +84,25 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
       "PDV Multi é o software de frente de caixa perfeito para o seu negócio: controle de estoque, vendas em equipe em tempo real, emissão de NFC-e/NF-e, fiado e muito mais. Baixe grátis para Windows e Android.",
     metaKeywords:
       "pdv multi, pdv windows, pdv android, frente de caixa, emitir nfce, nf-e, controle de vendas, sistema de estoque, sistema comercial, caixa de loja",
-    heroSubtitle: "O frente de caixa que sua equipe usa sem treinamento — e a fiscalização não reclama.",
+    heroSubtitle: "O frente de caixa que sua equipe usa sem treinamento — no computador do balcão e no celular da rua.",
     heroDescription:
-      "O PDV Multi sincroniza em tempo real todos os caixas, vendas, produtos e clientes na nuvem, continua funcionando mesmo se a internet cair, e emite NFC-e/NF-e direto do sistema. Tudo em um único lugar, feito pra quem vende de verdade no balcão.",
+      "O PDV Multi sincroniza em tempo real todos os caixas, vendas, produtos e clientes na nuvem, continua funcionando mesmo se a internet cair, e emite NFC-e/NF-e direto do sistema. Tudo em um único lugar — no computador do balcão e no celular da equipe — feito pra quem vende de verdade.",
     downloadButton: "Baixar para Windows (.exe)",
     downloadNote: "Instalador oficial standalone · Windows 10/11 (64 bits) · Teste grátis por 14 dias, sem cartão.",
     androidButton: "Disponível no Google Play",
     viewPlansButton: "Ver planos",
+    badgePlatforms: "Windows + Android",
     badgeNfce: "NFC-e / NF-e",
     badgeOffline: "Offline-first",
     badgeSync: "Multi-caixa em tempo real",
     badgeUpdate: "Atualização automática",
     pillarsTitle: "Feito pra loja que não pode parar",
+    platformsTitle: "💻📱 Multiplataforma de verdade — foi daí que veio o nome",
+    platformsDesc:
+      "\"Multi\" não é força de expressão: o mesmo sistema roda no computador Windows do balcão e no celular Android de quem vende na rua, sincronizando tudo em tempo real na mesma conta. Abra o caixa no PC, feche uma venda pelo celular — e os dois lados sabem disso na hora.",
     syncTitle: "🔄 Sincronização em tempo real",
     syncDesc:
-      "Sua equipe trabalha em harmonia. Vendas, aberturas de caixa, sangrias e cadastros de produtos realizados em um computador aparecem instantaneamente para os outros caixas em tempo real na nuvem.",
+      "Sua equipe trabalha em harmonia. Vendas, aberturas de caixa, sangrias e cadastros de produtos realizados em um caixa aparecem instantaneamente para os outros em tempo real na nuvem.",
     offlineTitle: "📶 Banco de dados com suporte offline",
     offlineDesc:
       "Sua loja não pode parar. O PDV Multi grava todas as operações localmente. Se a internet cair, você continua vendendo e emitindo comprovantes normalmente; assim que a conexão voltar, tudo sincroniza sozinho.",
@@ -134,21 +143,25 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
       "PDV Multi is the perfect point of sale (POS) software for your business: real-time team sales, inventory control, automated receipts, client credit tracking, and more. Download free for Windows and Android.",
     metaKeywords:
       "pdv multi, windows pos, android pos, point of sale, register control, inventory system, shop manager, cash register software",
-    heroSubtitle: "The point of sale your team uses without training — and tax authorities have nothing to complain about.",
+    heroSubtitle: "The point of sale your team uses without training — on the counter's computer and the team's phone.",
     heroDescription:
-      "PDV Multi syncs every register, sale, product, and customer to the cloud in real time, keeps working even when the internet doesn't, and issues fiscal invoices straight from the system. Everything in one place, built for people who actually sell at the counter all day.",
+      "PDV Multi syncs every register, sale, product, and customer to the cloud in real time, keeps working even when the internet doesn't, and issues fiscal invoices straight from the system. Everything in one place — on the counter's computer and the team's phone — built for people who actually sell.",
     downloadButton: "Download for Windows (.exe)",
     downloadNote: "Official standalone installer · Windows 10/11 (64-bit) · Free 14-day trial, no card required.",
     androidButton: "Get it on Google Play",
     viewPlansButton: "View plans",
+    badgePlatforms: "Windows + Android",
     badgeNfce: "Fiscal invoices",
     badgeOffline: "Offline-first",
     badgeSync: "Real-time multi-register",
     badgeUpdate: "Automatic updates",
     pillarsTitle: "Built for stores that can't afford to stop",
+    platformsTitle: "💻📱 Truly cross-platform — that's where the name comes from",
+    platformsDesc:
+      "\"Multi\" isn't just a name: the same system runs on the Windows computer at the counter and on the Android phone of whoever's selling out on the street, syncing everything in real time on the same account. Open the register on the PC, close a sale from the phone — and both sides know it instantly.",
     syncTitle: "🔄 Real-time synchronization",
     syncDesc:
-      "Keep your staff in sync. Purchases, cash register sessions, cash drops, and inventory changes made on any computer instantly propagate to all other terminals in real time via the cloud.",
+      "Keep your staff in sync. Purchases, cash register sessions, cash drops, and inventory changes made on one register instantly propagate to all other terminals in real time via the cloud.",
     offlineTitle: "📶 Offline-capable database",
     offlineDesc:
       "Your business shouldn't stop when the internet does. PDV Multi stores operations locally so you can keep checking out clients and printing receipts. Once you go back online, everything syncs automatically.",
@@ -249,6 +262,10 @@ export default function PDVMultiPage() {
 
             <div className={styles.badgeRow}>
               <span className={styles.badge}>
+                <FaWindows />
+                <FaAndroid /> {t.badgePlatforms}
+              </span>
+              <span className={styles.badge}>
                 <FaFileInvoiceDollar /> {t.badgeNfce}
               </span>
               <span className={styles.badge}>
@@ -294,17 +311,22 @@ export default function PDVMultiPage() {
             {t.pillarsTitle}
           </motion.h2>
           <div className={styles.pillarGrid}>
-            <motion.section className={styles.section} {...fadeUp}>
+            <motion.section className={`${styles.section} ${styles.sectionHighlight}`} {...fadeUp}>
+              <h2>{t.platformsTitle}</h2>
+              <p>{t.platformsDesc}</p>
+            </motion.section>
+
+            <motion.section className={styles.section} {...fadeUp} transition={{ ...fadeUp.transition, delay: 0.1 }}>
               <h2>{t.syncTitle}</h2>
               <p>{t.syncDesc}</p>
             </motion.section>
 
-            <motion.section className={styles.section} {...fadeUp} transition={{ ...fadeUp.transition, delay: 0.1 }}>
+            <motion.section className={styles.section} {...fadeUp} transition={{ ...fadeUp.transition, delay: 0.2 }}>
               <h2>{t.offlineTitle}</h2>
               <p>{t.offlineDesc}</p>
             </motion.section>
 
-            <motion.section className={styles.section} {...fadeUp} transition={{ ...fadeUp.transition, delay: 0.2 }}>
+            <motion.section className={styles.section} {...fadeUp} transition={{ ...fadeUp.transition, delay: 0.3 }}>
               <h2>
                 <FaWhatsapp style={{ display: "inline", marginRight: 4 }} />
                 {t.whatsappTitle}

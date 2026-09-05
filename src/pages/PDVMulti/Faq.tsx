@@ -10,8 +10,8 @@ const content: Record<"pt" | "en", { q: string; a: string }[]> = {
       a: "Não. O sistema grava tudo localmente primeiro, então mesmo com a internet caindo você continua vendendo e imprimindo comprovantes normalmente. Assim que a conexão volta, tudo sincroniza sozinho com o restante da equipe.",
     },
     {
-      q: "Dá pra usar em mais de um computador/caixa ao mesmo tempo?",
-      a: "Sim, esse é o ponto forte do PDV Multi: vendas, aberturas de caixa e cadastros feitos em um computador aparecem em tempo real nos outros caixas da mesma empresa.",
+      q: "Dá pra usar em mais de um computador/caixa ao mesmo tempo? E no celular junto com o Windows?",
+      a: "Sim, esse é o ponto forte do PDV Multi (e de onde vem o nome): você pode ter o caixa fixo rodando no Windows do balcão e um vendedor com o app no Android da rua, tudo na mesma empresa. Vendas, aberturas de caixa e cadastros feitos em um aparecem em tempo real no outro.",
     },
     {
       q: "Preciso de certificado digital pra emitir NFC-e/NF-e?",
@@ -36,8 +36,8 @@ const content: Record<"pt" | "en", { q: string; a: string }[]> = {
       a: "No. The system writes everything locally first, so even if the internet drops you keep selling and printing receipts normally. Once the connection is back, everything syncs automatically with the rest of the team.",
     },
     {
-      q: "Can I use it on more than one computer/register at the same time?",
-      a: "Yes — that's the core strength of PDV Multi: sales, register openings, and product changes made on one computer show up in real time on every other register in the same company.",
+      q: "Can I use it on more than one computer/register at the same time? What about a phone alongside Windows?",
+      a: "Yes — that's the core strength of PDV Multi (and where the name comes from): a fixed register can run on the counter's Windows PC while a salesperson uses the Android app out on the street, both on the same company account. Sales, register openings, and product changes made on one show up in real time on the other.",
     },
     {
       q: "Do I need a digital certificate to issue NFC-e/NF-e?",
