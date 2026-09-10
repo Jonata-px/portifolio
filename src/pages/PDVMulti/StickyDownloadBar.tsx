@@ -44,7 +44,7 @@ export default function StickyDownloadBar({
     };
   }, []);
 
-  // Quem visita o site pelo celular Android não quer um instalador .exe —
+  // Quem visita o site pelo celular Android não quer a página da Microsoft Store —
   // troca o CTA principal da barra pra Play Store nesse caso.
   const isAndroid = /Android/i.test(navigator.userAgent);
   const link = isAndroid ? androidLink : windowsLink;
@@ -68,7 +68,7 @@ export default function StickyDownloadBar({
               <span className={styles.title}>PDV Multi</span>
               <span className={styles.subtitle}>{subtitle}</span>
             </div>
-            <a href={link} className={styles.cta}>
+            <a href={link} target="_blank" rel="noopener noreferrer" className={styles.cta}>
               {isAndroid ? <FaGooglePlay /> : <FaDownload />}
               {label}
             </a>

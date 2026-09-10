@@ -25,7 +25,9 @@ import Faq from "./Faq";
 import StickyDownloadBar from "./StickyDownloadBar";
 
 // Endpoint do Express na Firebase Cloud Function que redireciona para o instalador .exe
-const DOWNLOAD_LINK = "https://api-uhnqx5lyvq-uc.a.run.app/pdv/app/download";
+//const DOWNLOAD_LINK = "https://api-uhnqx5lyvq-uc.a.run.app/pdv/app/download";
+// App disponível na Microsoft Store para Windows
+const WINDOWS_LINK = "https://apps.microsoft.com/detail/9p9pt0lmdvwc?hl=pt-BR&gl=BR&ocid=pdpshare";
 const ANDROID_LINK = "https://play.google.com/store/apps/details?id=com.jfcoder.pdvmulti";
 
 type TranslationKeys = {
@@ -87,8 +89,8 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     heroSubtitle: "O frente de caixa que sua equipe usa sem treinamento — no computador do balcão e no celular da rua.",
     heroDescription:
       "O PDV Multi sincroniza em tempo real todos os caixas, vendas, produtos e clientes na nuvem, continua funcionando mesmo se a internet cair, e emite NFC-e/NF-e direto do sistema. Tudo em um único lugar — no computador do balcão e no celular da equipe — feito pra quem vende de verdade.",
-    downloadButton: "Baixar para Windows (.exe)",
-    downloadNote: "Instalador oficial standalone · Windows 10/11 (64 bits) · Teste grátis por 14 dias, sem cartão.",
+    downloadButton: "Baixar para Windows",
+    downloadNote: "Disponível na Microsoft Store · Windows 10/11 (64 bits) · Teste grátis por 14 dias, sem cartão.",
     androidButton: "Disponível no Google Play",
     viewPlansButton: "Ver planos",
     badgePlatforms: "Windows + Android",
@@ -146,8 +148,8 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     heroSubtitle: "The point of sale your team uses without training — on the counter's computer and the team's phone.",
     heroDescription:
       "PDV Multi syncs every register, sale, product, and customer to the cloud in real time, keeps working even when the internet doesn't, and issues fiscal invoices straight from the system. Everything in one place — on the counter's computer and the team's phone — built for people who actually sell.",
-    downloadButton: "Download for Windows (.exe)",
-    downloadNote: "Official standalone installer · Windows 10/11 (64-bit) · Free 14-day trial, no card required.",
+    downloadButton: "Download for Windows",
+    downloadNote: "Available on the Microsoft Store · Windows 10/11 (64-bit) · Free 14-day trial, no card required.",
     androidButton: "Get it on Google Play",
     viewPlansButton: "View plans",
     badgePlatforms: "Windows + Android",
@@ -228,7 +230,7 @@ export default function PDVMultiPage() {
             operatingSystem: "Windows 10, Windows 11, Android",
             description: t.metaDescription,
             url: `${SITE_BASE_URL}/pdv-multi`,
-            downloadUrl: DOWNLOAD_LINK,
+            downloadUrl: WINDOWS_LINK,
           })}
         </script>
       </Helmet>
@@ -280,7 +282,13 @@ export default function PDVMultiPage() {
             </div>
 
             <div className={styles.cta}>
-              <a id="download" href={DOWNLOAD_LINK} className={styles.ctaButton}>
+              <a
+                id="download"
+                href={WINDOWS_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.ctaButton}
+              >
                 <FaDownload />
                 {t.downloadButton}
               </a>
@@ -401,7 +409,7 @@ export default function PDVMultiPage() {
           <h2>{t.footerTitle}</h2>
           <p>{t.footerDesc}</p>
           <div className={styles.cta} style={{ marginTop: "1.5rem" }}>
-            <a href={DOWNLOAD_LINK} className={styles.ctaButton}>
+            <a href={WINDOWS_LINK} target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>
               <FaDownload />
               {t.downloadButton}
             </a>
@@ -415,7 +423,7 @@ export default function PDVMultiPage() {
 
       <StickyDownloadBar
         lang={lang}
-        windowsLink={DOWNLOAD_LINK}
+        windowsLink={WINDOWS_LINK}
         androidLink={ANDROID_LINK}
         windowsLabel={t.downloadButton}
         androidLabel={t.androidButton}
