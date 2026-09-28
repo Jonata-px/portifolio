@@ -256,6 +256,25 @@
     color: #e2e8f0;
 }
 
+/* Selo "Beta" ao lado do título da seção de NFS-e. */
+.betaTag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #fbbf24;
+    background: rgba(251, 191, 36, 0.12);
+    border: 1px solid rgba(251, 191, 36, 0.45);
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+}
+
+.section p.betaNote {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #fcd34d;
+}
+
 .sectionHighlight {
     border-color: rgba(56, 189, 248, 0.5);
     background: linear-gradient(160deg, rgba(56, 189, 248, 0.1), rgba(15, 23, 42, 0.65));

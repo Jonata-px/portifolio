@@ -24,7 +24,7 @@ const content: Record<"pt" | "en", { tiers: Tier[]; note: string }> = {
           "Multi-caixa em tempo real",
           "Clientes, fiado e orçamentos",
           "Estoque e compras",
-          "Emissão de NFC-e/NF-e incluída no teste",
+          "Emissão de NFC-e/NF-e e NFS-e incluída no teste",
         ],
         cta: "Começar teste grátis",
       },
@@ -41,10 +41,11 @@ const content: Record<"pt" | "en", { tiers: Tier[]; note: string }> = {
       },
       {
         name: "Premium",
-        tagline: "Tudo do Básico + emissão de NFC-e/NF-e direto do sistema.",
+        tagline: "Tudo do Básico + emissão de NFC-e/NF-e e NFS-e direto do sistema.",
         items: [
           "Tudo do plano Básico",
           "Emissão ilimitada de NFC-e/NF-e",
+          "NFS-e para prestadores de serviço (beta)",
           "DANFE em PDF pra impressão térmica ou A4",
           "Plano anual disponível com melhor custo-benefício",
         ],
@@ -64,7 +65,7 @@ const content: Record<"pt" | "en", { tiers: Tier[]; note: string }> = {
           "Real-time multi-register sync",
           "Customers, credit tabs and quotes",
           "Inventory and purchases",
-          "Fiscal invoice emission included in the trial",
+          "Fiscal invoice emission (goods and services) included in the trial",
         ],
         cta: "Start free trial",
       },
@@ -81,10 +82,11 @@ const content: Record<"pt" | "en", { tiers: Tier[]; note: string }> = {
       },
       {
         name: "Premium",
-        tagline: "Everything in Basic + fiscal invoice emission (NFC-e/NF-e) built in.",
+        tagline: "Everything in Basic + fiscal invoice emission (NFC-e/NF-e and NFS-e) built in.",
         items: [
           "Everything in the Basic plan",
           "Unlimited NFC-e/NF-e emission",
+          "NFS-e service invoices (beta)",
           "PDF invoices for thermal or A4 printing",
           "Annual plan available for better value",
         ],

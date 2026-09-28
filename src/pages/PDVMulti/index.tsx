@@ -12,6 +12,7 @@ import {
   FaSyncAlt,
   FaWindows,
   FaAndroid,
+  FaTools,
 } from "react-icons/fa";
 import styles from "./styles.module.css";
 import pdvIcon from "../../assets/images/pdvMulti.png";
@@ -62,6 +63,11 @@ type TranslationKeys = {
   nfceLi2: string;
   nfceLi3: string;
   nfceLi4: string;
+  nfseTitle: string;
+  nfseBeta: string;
+  nfseDesc: string;
+  nfseItems: string[];
+  nfseNote: string;
   pricingTitle: string;
   pricingSubtitle: string;
   requirementsTitle: string;
@@ -83,18 +89,18 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
   pt: {
     title: "PDV Multi - Sistema de Vendas e Frente de Caixa para Equipes",
     metaDescription:
-      "PDV Multi é o software de frente de caixa perfeito para o seu negócio: controle de estoque, vendas em equipe em tempo real, emissão de NFC-e/NF-e, fiado e muito mais. Baixe grátis para Windows e Android.",
+      "PDV Multi é o software de frente de caixa perfeito para o seu negócio: controle de estoque, vendas em equipe em tempo real, emissão de NFC-e/NF-e e NFS-e para prestadores de serviço, fiado e muito mais. Baixe grátis para Windows e Android.",
     metaKeywords:
-      "pdv multi, pdv windows, pdv android, frente de caixa, emitir nfce, nf-e, controle de vendas, sistema de estoque, sistema comercial, caixa de loja",
+      "pdv multi, pdv windows, pdv android, frente de caixa, emitir nfce, nf-e, emitir nfs-e, nota fiscal de serviço, nfs-e nacional, prestador de serviço, mei, controle de vendas, sistema de estoque, sistema comercial, caixa de loja",
     heroSubtitle: "O frente de caixa que sua equipe usa sem treinamento — no computador do balcão e no celular da rua.",
     heroDescription:
-      "O PDV Multi sincroniza em tempo real todos os caixas, vendas, produtos e clientes na nuvem, continua funcionando mesmo se a internet cair, e emite NFC-e/NF-e direto do sistema. Tudo em um único lugar — no computador do balcão e no celular da equipe — feito pra quem vende de verdade.",
+      "O PDV Multi sincroniza em tempo real todos os caixas, vendas, produtos e clientes na nuvem, continua funcionando mesmo se a internet cair, e emite NFC-e/NF-e — e NFS-e pra quem presta serviço — direto do sistema. Tudo em um único lugar — no computador do balcão e no celular da equipe — feito pra quem vende de verdade.",
     downloadButton: "Baixar para Windows",
     downloadNote: "Disponível na Microsoft Store · Windows 10/11 (64 bits) · Teste grátis por 14 dias, sem cartão.",
     androidButton: "Disponível no Google Play",
     viewPlansButton: "Ver planos",
     badgePlatforms: "Windows + Android",
-    badgeNfce: "NFC-e / NF-e",
+    badgeNfce: "NFC-e / NF-e / NFS-e",
     badgeOffline: "Offline-first",
     badgeSync: "Multi-caixa em tempo real",
     badgeUpdate: "Atualização automática",
@@ -121,6 +127,21 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     nfceLi2: "Importação automática trimestral de alíquotas tributárias IBPT;",
     nfceLi3: "Geração de PDF do DANFE simplificado pronto para impressão térmica ou A4;",
     nfceLi4: "Envio automático de notas fiscais autorizadas.",
+    nfseTitle: "🛠️ NFS-e para prestadores de serviço",
+    nfseBeta: "Beta",
+    nfseDesc:
+      "Presta serviço? O PDV Multi agora emite a NFS-e (nota fiscal de serviço) pelo Sistema Nacional NFS-e — o padrão nacional adotado pelas prefeituras — sem você precisar entrar no portal a cada atendimento:",
+    nfseItems: [
+      "Emissão direto da venda, para MEI, Simples Nacional e demais regimes;",
+      "Busca do código de serviço na lista nacional oficial (LC 116), sem decorar códigos;",
+      "Serviço em outra cidade, obra ou evento? O sistema pede o local e o ISS vai para o município certo;",
+      "PDF oficial da nota (DANFSe) e XML para compartilhar no WhatsApp ou imprimir;",
+      "Cancelamento da nota pelo próprio app;",
+      "Venda com produtos e serviços juntos: NFC-e para os produtos e NFS-e para os serviços;",
+      "MEI sem certificado digital? O PDV organiza os dados da venda e abre o Emissor Nacional para você emitir com o seu login gov.br.",
+    ],
+    nfseNote:
+      "Função em fase de testes (beta): em alguns casos a emissão pode falhar. Se acontecer, o app mostra o motivo na hora e você pode emitir pelo Emissor Nacional (gov.br/nfse).",
     pricingTitle: "Planos pra cada fase do seu negócio",
     pricingSubtitle: "Comece grátis. Evolua quando precisar emitir nota fiscal.",
     requirementsTitle: "💻 Requisitos do sistema",
@@ -142,7 +163,7 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
   en: {
     title: "PDV Multi - Complete Real-Time Sales & POS System",
     metaDescription:
-      "PDV Multi is the perfect point of sale (POS) software for your business: real-time team sales, inventory control, automated receipts, client credit tracking, and more. Download free for Windows and Android.",
+      "PDV Multi is the perfect point of sale (POS) software for your business: real-time team sales, inventory control, fiscal invoices for products and services, client credit tracking, and more. Download free for Windows and Android.",
     metaKeywords:
       "pdv multi, windows pos, android pos, point of sale, register control, inventory system, shop manager, cash register software",
     heroSubtitle: "The point of sale your team uses without training — on the counter's computer and the team's phone.",
@@ -153,7 +174,7 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     androidButton: "Get it on Google Play",
     viewPlansButton: "View plans",
     badgePlatforms: "Windows + Android",
-    badgeNfce: "Fiscal invoices",
+    badgeNfce: "Fiscal invoices (goods + services)",
     badgeOffline: "Offline-first",
     badgeSync: "Real-time multi-register",
     badgeUpdate: "Automatic updates",
@@ -179,6 +200,21 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     nfceLi2: "Automatic quarterly updates of IBPT tax rates;",
     nfceLi3: "Immediate generation of simplified DANFE PDFs for thermal or A4 printing;",
     nfceLi4: "Automated tracking and transmission of approved receipts.",
+    nfseTitle: "🛠️ Service invoices (NFS-e) for service providers",
+    nfseBeta: "Beta",
+    nfseDesc:
+      "Do you provide services? PDV Multi now issues the NFS-e (Brazilian service invoice) through the National NFS-e System — the nationwide standard adopted by municipalities — without logging into a government portal for every job:",
+    nfseItems: [
+      "Issue it straight from the sale, for MEI, Simples Nacional and other tax regimes;",
+      "Search the official national service code list (LC 116) — no memorizing codes;",
+      "Service in another city, construction work or an event? The system asks for the location so the ISS tax goes to the right municipality;",
+      "Official invoice PDF (DANFSe) and XML, ready to share on WhatsApp or print;",
+      "Cancel the invoice right from the app;",
+      "Selling products and services together: NFC-e for the products, NFS-e for the services;",
+      "MEI without a digital certificate? PDV organizes the sale data and opens the National Issuer so you can issue it with your gov.br login.",
+    ],
+    nfseNote:
+      "This feature is in testing (beta): in some cases issuing may fail. If it does, the app shows the reason right away and you can issue it on the National Issuer (gov.br/nfse).",
     pricingTitle: "Plans for every stage of your business",
     pricingSubtitle: "Start free. Upgrade when you need to issue fiscal invoices.",
     requirementsTitle: "💻 System requirements",
@@ -360,6 +396,22 @@ export default function PDVMultiPage() {
               <li>{t.nfceLi3}</li>
               <li>{t.nfceLi4}</li>
             </ul>
+          </motion.section>
+
+          {/* NFS-e (prestadores de serviço) */}
+          <motion.section className={`${styles.section} ${styles.sectionHighlight}`} {...fadeUp}>
+            <h2>
+              <FaTools style={{ display: "inline" }} />
+              {t.nfseTitle}
+              <span className={styles.betaTag}>{t.nfseBeta}</span>
+            </h2>
+            <p>{t.nfseDesc}</p>
+            <ul>
+              {t.nfseItems.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            <p className={styles.betaNote}>{t.nfseNote}</p>
           </motion.section>
 
           {/* Planos */}

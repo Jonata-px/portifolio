@@ -15,7 +15,11 @@ const content: Record<"pt" | "en", { q: string; a: string }[]> = {
     },
     {
       q: "Preciso de certificado digital pra emitir NFC-e/NF-e?",
-      a: "Sim, é exigência da Receita/Sefaz, não do sistema. O PDV Multi só facilita: a configuração do seu certificado A1 é feita direto na tela de ajustes fiscais, sem precisar de suporte técnico externo.",
+      a: "Sim, é exigência da Receita/Sefaz, não do sistema. O PDV Multi só facilita: a configuração do seu certificado A1 é feita direto na tela de ajustes fiscais, sem precisar de suporte técnico externo. O mesmo certificado serve para a NFS-e; e o MEI sem certificado pode emitir a NFS-e pelo Emissor Nacional com o login gov.br, com os dados já organizados pelo PDV.",
+    },
+    {
+      q: "Presto serviço. O PDV Multi emite NFS-e (nota fiscal de serviço)?",
+      a: "Sim, em fase de testes (beta). A NFS-e é emitida pelo Sistema Nacional NFS-e, o padrão nacional das prefeituras, direto da venda — com PDF oficial, XML e cancelamento pelo app. Funciona para MEI, Simples Nacional e demais regimes, inclusive serviços prestados em outra cidade, obras e eventos. Se a emissão falhar, o app mostra o motivo e você pode emitir pelo Emissor Nacional (gov.br/nfse).",
     },
     {
       q: "O teste grátis pede cartão de crédito?",
@@ -42,6 +46,10 @@ const content: Record<"pt" | "en", { q: string; a: string }[]> = {
     {
       q: "Do I need a digital certificate to issue NFC-e/NF-e?",
       a: "Yes, that's a tax authority requirement, not a system one. PDV Multi just makes it easy: configuring your A1 certificate is done right in the fiscal settings screen, no external technical support needed.",
+    },
+    {
+      q: "I provide services. Does PDV Multi issue NFS-e (service invoices)?",
+      a: "Yes, in testing (beta). The NFS-e is issued through the National NFS-e System, the nationwide standard used by municipalities, straight from the sale — with the official PDF, XML and cancellation in the app. It works for MEI, Simples Nacional and other tax regimes, including services performed in another city, construction work and events. If issuing fails, the app shows the reason and you can issue it on the National Issuer (gov.br/nfse).",
     },
     {
       q: "Does the free trial require a credit card?",
