@@ -75,16 +75,45 @@ export default function RodouPrivacity() {
           </a>
         </p>
 
-        <h2>4. Notificações</h2>
+        <h2>4. Assinatura Premium (Google Play)</h2>
+        <p>
+          O app oferece uma assinatura opcional, o Rodou Premium, que remove
+          todos os anúncios. A compra, a cobrança, a renovação e o
+          cancelamento são feitos inteiramente pelo <strong>Google Play</strong>.
+          O Rodou não recebe nem armazena seus dados de pagamento (como cartão
+          ou boleto).
+        </p>
+        <p>
+          Para saber se a assinatura está ativa, o app consulta o Google Play
+          e guarda apenas essa informação (ativa ou não) no seu aparelho. Nada
+          disso é enviado a servidores do desenvolvedor. Você pode cancelar a
+          qualquer momento em Google Play › Pagamentos e assinaturas. Saiba
+          mais na{" "}
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Política de Privacidade do Google
+          </a>
+          .
+        </p>
+        <p>
+          Enquanto a assinatura estiver ativa, o SDK de anúncios não é
+          iniciado e os dados descritos na seção 3 não são coletados para
+          exibir anúncios.
+        </p>
+
+        <h2>5. Notificações</h2>
         <p>
           As notificações de lembretes são agendadas no próprio aparelho. Você
           pode desativá-las nas configurações do Android.
         </p>
 
-        <h2>5. Crianças</h2>
+        <h2>6. Crianças</h2>
         <p>O app não é direcionado a menores de 13 anos.</p>
 
-        <h2>6. Seus direitos (LGPD)</h2>
+        <h2>7. Seus direitos (LGPD)</h2>
         <p>
           Como os dados do app ficam no seu aparelho, você tem controle total
           sobre eles: pode editar, excluir ou fazer backup a qualquer momento.
@@ -92,13 +121,13 @@ export default function RodouPrivacity() {
           Google AdMob, entre em contato pelo e-mail abaixo.
         </p>
 
-        <h2>7. Alterações nesta política</h2>
+        <h2>8. Alterações nesta política</h2>
         <p>
           Esta política pode ser atualizada. A data no topo indica a versão mais
           recente.
         </p>
 
-        <h2>8. Contato</h2>
+        <h2>9. Contato</h2>
         <p>
           Para dúvidas relacionadas à privacidade, envie um e-mail para
           <strong> contato@jfcoder.com</strong>.
