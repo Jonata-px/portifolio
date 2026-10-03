@@ -26,8 +26,7 @@ import Faq from "./Faq";
 import StickyDownloadBar from "./StickyDownloadBar";
 
 // Endpoint do Express na Firebase Cloud Function que redireciona para o instalador .exe
-// mais recente salvo no Firebase Storage (pdv/app/settings/latestVersion)
-const EXE_DOWNLOAD_LINK = "https://api-uhnqx5lyvq-uc.a.run.app/pdv/app/download";
+//const DOWNLOAD_LINK = "https://api-uhnqx5lyvq-uc.a.run.app/pdv/app/download";
 // App disponível na Microsoft Store para Windows
 const WINDOWS_LINK = "https://apps.microsoft.com/detail/9p9pt0lmdvwc?hl=pt-BR&gl=BR&ocid=pdpshare";
 const ANDROID_LINK = "https://play.google.com/store/apps/details?id=com.jfcoder.pdvmulti";
@@ -41,7 +40,6 @@ type TranslationKeys = {
   downloadButton: string;
   downloadNote: string;
   androidButton: string;
-  exeButton: string;
   viewPlansButton: string;
   badgePlatforms: string;
   badgeNfce: string;
@@ -100,7 +98,6 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     downloadButton: "Baixar para Windows",
     downloadNote: "Disponível na Microsoft Store · Windows 10/11 (64 bits) · Teste grátis por 14 dias, sem cartão.",
     androidButton: "Disponível no Google Play",
-    exeButton: "Baixar instalador (.exe)",
     viewPlansButton: "Ver planos",
     badgePlatforms: "Windows + Android",
     badgeNfce: "NFC-e / NF-e / NFS-e",
@@ -175,7 +172,6 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     downloadButton: "Download for Windows",
     downloadNote: "Available on the Microsoft Store · Windows 10/11 (64-bit) · Free 14-day trial, no card required.",
     androidButton: "Get it on Google Play",
-    exeButton: "Download installer (.exe)",
     viewPlansButton: "View plans",
     badgePlatforms: "Windows + Android",
     badgeNfce: "Fiscal invoices (goods + services)",
@@ -336,10 +332,6 @@ export default function PDVMultiPage() {
                 <img src={googlePlayBadge} alt="" className={styles.androidIcon} />
                 {t.androidButton}
               </a>
-              <a href={EXE_DOWNLOAD_LINK} rel="nofollow" className={styles.ctaExe}>
-                <FaWindows />
-                {t.exeButton}
-              </a>
               <a href="#pricing" className={styles.ctaSecondary}>
                 {t.viewPlansButton}
               </a>
@@ -476,10 +468,6 @@ export default function PDVMultiPage() {
             <a href={ANDROID_LINK} target="_blank" rel="noopener noreferrer" className={styles.ctaAndroid}>
               <img src={googlePlayBadge} alt="" className={styles.androidIcon} />
               {t.androidButton}
-            </a>
-            <a href={EXE_DOWNLOAD_LINK} rel="nofollow" className={styles.ctaExe}>
-              <FaWindows />
-              {t.exeButton}
             </a>
           </div>
         </footer>

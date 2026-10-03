@@ -362,23 +362,3 @@
         gap: 1rem;
     }
 }
-
-.ctaExe {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.6rem;
-    padding: 0.9rem 1.4rem;
-    border-radius: 0.8rem;
-    color: #f8fafc;
-    font-weight: 700;
-    text-decoration: none;
-    border: 1px solid rgba(148, 163, 184, 0.35);
-    background: rgba(148, 163, 184, 0.08);
-    transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
-}
-
-.ctaExe:hover {
-    border-color: #38bdf8;
-    background: rgba(56, 189, 248, 0.1);
-    transform: translateY(-2px);
-}
