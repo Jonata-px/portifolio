@@ -24,7 +24,7 @@ import PDVMultiPage from "./pages/PDVMulti";
 import PDVMultiPrivacity from "./pages/PDVMulti/Privacity";
 import IlstPrivacity from "./pages/Ilst/Privacity";
 import IlstApp from "./pages/Ilst";
-import RendeMaisPrivacity from "./pages/RendeMais/Privacity";
+import RodouPrivacity from "./pages/Rodou/Privacity";
 import Seo from "./components/Seo";
 
 function App() {
@@ -55,7 +55,7 @@ function App() {
           <Route path="/pdv-multi/privacity" element={<PDVMultiPrivacity />} />
           <Route path="/ilst" element={<IlstApp />} />
           <Route path="/ilst/privacity" element={<IlstPrivacity />} />
-          <Route path="/rende-mais/privacity" element={<RendeMaisPrivacity />} />
+          <Route path="/rodou/privacity" element={<RodouPrivacity />} />
         </Routes>
       </BrowserRouter>
     </div>

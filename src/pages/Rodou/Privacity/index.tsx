@@ -1,17 +1,17 @@
 import "./privacity.css";
 
-export default function RendeMaisPrivacity() {
+export default function RodouPrivacity() {
   return (
     <section className="privacity">
       <div className="container">
-        <h1>POLÍTICA DE PRIVACIDADE — Rende+</h1>
+        <h1>POLÍTICA DE PRIVACIDADE — Rodou</h1>
 
         <p>
           <strong>Última atualização:</strong> 03 de outubro de 2026
         </p>
 
         <p>
-          O Rende+ ("app") é desenvolvido pela JF Coder. Esta política explica
+          O Rodou ("app") é desenvolvido pela JF Coder. Esta política explica
           quais dados o app usa e como.
         </p>
 
@@ -53,7 +53,7 @@ export default function RendeMaisPrivacity() {
         <p>
           Essas informações são usadas para exibir, medir e personalizar
           anúncios e para prevenir fraudes. Essa coleta é feita pelo Google, não
-          pelo Rende+.
+          pelo Rodou.
         </p>
 
         <h3>3.1 Consentimento</h3>
