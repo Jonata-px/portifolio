@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
   FaFileInvoiceDollar,
@@ -14,6 +15,7 @@ import {
   FaAndroid,
   FaTools,
   FaUtensils,
+  FaPlayCircle,
 } from "react-icons/fa";
 import styles from "./styles.module.css";
 import pdvIcon from "../../assets/images/pdvMulti.png";
@@ -72,6 +74,18 @@ type TranslationKeys = {
   nfseDesc: string;
   nfseItems: string[];
   nfseNote: string;
+  navFeatures: string;
+  navRestaurant: string;
+  navPlans: string;
+  navVideos: string;
+  navFaq: string;
+  videosButton: string;
+  audienceTitle: string;
+  audience: string[];
+  videosTitle: string;
+  videosDesc: string;
+  videosTopics: string[];
+  videosCta: string;
   restaurantTitle: string;
   restaurantBadge: string;
   restaurantDesc: string;
@@ -101,7 +115,7 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
       "PDV Multi é o software de frente de caixa perfeito para o seu negócio: controle de estoque, vendas em equipe em tempo real, emissão de NFC-e/NF-e e NFS-e, modo restaurante com mesas, cozinha, delivery e cardápio online, fiado e muito mais. Baixe grátis para Windows e Android.",
     metaKeywords:
       "pdv multi, pdv windows, pdv android, frente de caixa, emitir nfce, nf-e, emitir nfs-e, nota fiscal de serviço, nfs-e nacional, prestador de serviço, mei, controle de vendas, sistema de estoque, sistema comercial, caixa de loja, sistema para restaurante, sistema para pizzaria, delivery, comanda, cardápio online, controle de mesas",
-    heroSubtitle: "O frente de caixa que sua equipe usa sem treinamento — no computador do balcão e no celular da rua.",
+    heroSubtitle: "Venda rápido, controle o caixa e emita nota fiscal — no computador do balcão e no celular da equipe.",
     heroDescription:
       "O PDV Multi sincroniza em tempo real todos os caixas, vendas, produtos e clientes na nuvem, continua funcionando mesmo se a internet cair, e emite NFC-e/NF-e — e NFS-e pra quem presta serviço — direto do sistema. Com o modo restaurante, atende mesas, cozinha, delivery e cardápio online. Tudo em um único lugar — no computador do balcão e no celular da equipe — feito pra quem vende de verdade.",
     downloadButton: "Baixar para Windows",
@@ -153,6 +167,19 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     ],
     nfseNote:
       "Função em fase de testes (beta): em alguns casos a emissão pode falhar. Se acontecer, o app mostra o motivo na hora e você pode emitir pelo Emissor Nacional (gov.br/nfse).",
+    navFeatures: "Recursos",
+    navRestaurant: "Restaurante",
+    navPlans: "Planos",
+    navVideos: "Vídeos",
+    navFaq: "Dúvidas",
+    videosButton: "Assistir vídeos",
+    audienceTitle: "Para quem é o PDV Multi",
+    audience: ["Mercados e mercearias", "Lojas e boutiques", "Padarias e confeitarias", "Restaurantes e lanchonetes", "Pizzarias e delivery", "Prestadores de serviço"],
+    videosTitle: "▶️ Veja o PDV Multi funcionando",
+    videosDesc:
+      "Não precisa de treinamento: são vídeos curtos, passo a passo, mostrando a tela do app de verdade. Assista antes de instalar ou use como guia para a sua equipe.",
+    videosTopics: ["Primeira venda e leitor de código de barras", "Abrir e fechar o caixa", "Pix com QR Code e fiado", "Emitir nota fiscal", "Atender mesa, cozinha e delivery"],
+    videosCta: "Ver todos os vídeos",
     restaurantTitle: "🍕 Modo Restaurante, Lanchonete e Delivery",
     restaurantBadge: "Novo",
     restaurantDesc:
@@ -184,9 +211,9 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     securityBadge2: "Backup contínuo na nuvem",
     securityBadge3: "Acesso só pra sua equipe",
     faqTitle: "Perguntas frequentes",
-    footerTitle: "🚀 Leve o PDV Multi para o seu balcão hoje mesmo",
+    footerTitle: "🚀 Comece hoje: teste grátis por 14 dias",
     footerDesc:
-      "Acelere suas vendas, controle suas contas e gerencie seu estoque com o sistema de caixa mais completo do mercado. Teste grátis por 14 dias, sem cartão de crédito.",
+      "Instale em minutos, cadastre seus produtos e faça a primeira venda ainda hoje. Sem cartão de crédito, sem compromisso — e com vídeos para te guiar em cada passo.",
   },
   en: {
     title: "PDV Multi - Complete Real-Time Sales & POS System",
@@ -194,7 +221,7 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
       "PDV Multi is the perfect point of sale (POS) software for your business: real-time team sales, inventory control, fiscal invoices for products and services, restaurant mode with tables, kitchen, delivery and online menu, client credit tracking, and more. Download free for Windows and Android.",
     metaKeywords:
       "pdv multi, windows pos, android pos, point of sale, register control, inventory system, shop manager, cash register software, restaurant pos, pizzeria software, delivery management, online menu, table management",
-    heroSubtitle: "The point of sale your team uses without training — on the counter's computer and the team's phone.",
+    heroSubtitle: "Sell fast, control your register and issue invoices — on the counter's computer and the team's phone.",
     heroDescription:
       "PDV Multi syncs every register, sale, product, and customer to the cloud in real time, keeps working even when the internet doesn't, and issues fiscal invoices straight from the system. With restaurant mode it also handles tables, kitchen, delivery and an online menu. Everything in one place — on the counter's computer and the team's phone — built for people who actually sell.",
     downloadButton: "Download for Windows",
@@ -245,6 +272,19 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     ],
     nfseNote:
       "This feature is in testing (beta): in some cases issuing may fail. If it does, the app shows the reason right away and you can issue it on the National Issuer (gov.br/nfse).",
+    navFeatures: "Features",
+    navRestaurant: "Restaurant",
+    navPlans: "Plans",
+    navVideos: "Videos",
+    navFaq: "FAQ",
+    videosButton: "Watch videos",
+    audienceTitle: "Who PDV Multi is for",
+    audience: ["Grocery stores", "Shops and boutiques", "Bakeries", "Restaurants and snack bars", "Pizzerias and delivery", "Service providers"],
+    videosTitle: "▶️ See PDV Multi in action",
+    videosDesc:
+      "No training needed: short step-by-step videos showing the real app screen. Watch before installing or use them as a guide for your team (videos are in Portuguese).",
+    videosTopics: ["First sale with a barcode reader", "Opening and closing the register", "Pix QR Code and customer credit", "Issuing invoices", "Tables, kitchen and delivery"],
+    videosCta: "See all videos",
     restaurantTitle: "🍕 Restaurant, Snack Bar & Delivery mode",
     restaurantBadge: "New",
     restaurantDesc:
@@ -276,9 +316,9 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     securityBadge2: "Continuous cloud backup",
     securityBadge3: "Access limited to your team",
     faqTitle: "Frequently asked questions",
-    footerTitle: "🚀 Take your store's checkout to the next level today",
+    footerTitle: "🚀 Start today: free 14-day trial",
     footerDesc:
-      "Boost your checkout speed, secure your cash registers, and master your stock levels with the most complete POS on the market. Free 14-day trial, no credit card required.",
+      "Install in minutes, add your products and make your first sale today. No credit card, no commitment — and with videos to guide you every step of the way.",
   },
 };
 
@@ -342,20 +382,29 @@ export default function PDVMultiPage() {
       </Helmet>
 
       <div className={styles.pageInner}>
-        {/* Language Selector */}
-        <div className={styles.langSelector}>
-          <button
-            onClick={() => setLang("pt")}
-            className={`${styles.langButton} ${lang === "pt" ? styles.langActive : ""}`}
-          >
-            Português (BR)
-          </button>
-          <button
-            onClick={() => setLang("en")}
-            className={`${styles.langButton} ${lang === "en" ? styles.langActive : ""}`}
-          >
-            English
-          </button>
+        {/* Barra superior: navegação + idioma */}
+        <div className={styles.topBar}>
+          <nav className={styles.nav} aria-label="Seções">
+            <a href="#features">{t.navFeatures}</a>
+            <a href="#restaurant">{t.navRestaurant}</a>
+            <a href="#pricing">{t.navPlans}</a>
+            <Link to="/pdv-multi/videos">{t.navVideos}</Link>
+            <a href="#faq">{t.navFaq}</a>
+          </nav>
+          <div className={styles.langSelector}>
+            <button
+              onClick={() => setLang("pt")}
+              className={`${styles.langButton} ${lang === "pt" ? styles.langActive : ""}`}
+            >
+              Português (BR)
+            </button>
+            <button
+              onClick={() => setLang("en")}
+              className={`${styles.langButton} ${lang === "en" ? styles.langActive : ""}`}
+            >
+              English
+            </button>
+          </div>
         </div>
 
         {/* Hero */}
@@ -405,12 +454,16 @@ export default function PDVMultiPage() {
                 <img src={googlePlayBadge} alt="" className={styles.androidIcon} />
                 {t.androidButton}
               </a>
-              <a href={EXE_DOWNLOAD_LINK} rel="nofollow" className={styles.ctaExe}>
-                <FaWindows />
+              <Link to="/pdv-multi/videos" className={styles.ctaSecondary}>
+                <FaPlayCircle style={{ marginRight: 8 }} />
+                {t.videosButton}
+              </Link>
+            </div>
+            <div className={styles.ctaLinks}>
+              <a href="#pricing">{t.viewPlansButton}</a>
+              <span aria-hidden="true">·</span>
+              <a href={EXE_DOWNLOAD_LINK} rel="nofollow">
                 {t.exeButton}
-              </a>
-              <a href="#pricing" className={styles.ctaSecondary}>
-                {t.viewPlansButton}
               </a>
             </div>
             <span className={styles.ctaNote}>{t.downloadNote}</span>
@@ -425,6 +478,18 @@ export default function PDVMultiPage() {
             <HeroMockup />
           </motion.div>
         </section>
+
+        {/* Para quem é */}
+        <div className={styles.audience}>
+          <span className={styles.audienceLabel}>{t.audienceTitle}</span>
+          <div className={styles.badgeRow}>
+            {t.audience.map((a) => (
+              <span key={a} className={styles.badge}>
+                {a}
+              </span>
+            ))}
+          </div>
+        </div>
 
         {/* 3 pilares */}
         <div className={styles.sections}>
@@ -457,7 +522,7 @@ export default function PDVMultiPage() {
           </div>
 
           {/* Grid de funcionalidades */}
-          <motion.div {...fadeUp}>
+          <motion.div id="features" {...fadeUp}>
             <h2 className={styles.groupTitle}>{t.featuresTitle}</h2>
             <p className={styles.groupSubtitle}>{t.featuresSubtitle}</p>
           </motion.div>
@@ -476,7 +541,7 @@ export default function PDVMultiPage() {
           </motion.section>
 
           {/* Modo restaurante / delivery */}
-          <motion.section className={`${styles.section} ${styles.sectionHighlight}`} {...fadeUp}>
+          <motion.section id="restaurant" className={`${styles.section} ${styles.sectionHighlight}`} {...fadeUp}>
             <h2>
               <FaUtensils style={{ display: "inline" }} />
               {t.restaurantTitle}
@@ -505,6 +570,23 @@ export default function PDVMultiPage() {
               ))}
             </ul>
             <p className={styles.betaNote}>{t.nfseNote}</p>
+          </motion.section>
+
+          {/* Vídeos */}
+          <motion.section className={styles.section} {...fadeUp}>
+            <h2>{t.videosTitle}</h2>
+            <p>{t.videosDesc}</p>
+            <ul>
+              {t.videosTopics.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            <div className={styles.cta} style={{ marginTop: "1.25rem" }}>
+              <Link to="/pdv-multi/videos" className={styles.ctaButton}>
+                <FaPlayCircle />
+                {t.videosCta}
+              </Link>
+            </div>
           </motion.section>
 
           {/* Planos */}
@@ -543,7 +625,7 @@ export default function PDVMultiPage() {
           </motion.section>
 
           {/* FAQ */}
-          <motion.div {...fadeUp}>
+          <motion.div id="faq" {...fadeUp}>
             <h2 className={styles.groupTitle}>{t.faqTitle}</h2>
           </motion.div>
           <Faq lang={lang} />
@@ -562,10 +644,10 @@ export default function PDVMultiPage() {
               <img src={googlePlayBadge} alt="" className={styles.androidIcon} />
               {t.androidButton}
             </a>
-            <a href={EXE_DOWNLOAD_LINK} rel="nofollow" className={styles.ctaExe}>
-              <FaWindows />
-              {t.exeButton}
-            </a>
+            <Link to="/pdv-multi/videos" className={styles.ctaSecondary}>
+              <FaPlayCircle style={{ marginRight: 8 }} />
+              {t.videosButton}
+            </Link>
           </div>
         </footer>
       </div>

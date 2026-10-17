@@ -22,6 +22,7 @@ import PDVPrivacity from "./pages/PDV/Privacity";
 import PDVOffline from "./pages/PDV";
 import PDVMultiPage from "./pages/PDVMulti";
 import PDVMultiPrivacity from "./pages/PDVMulti/Privacity";
+import PDVMultiVideos from "./pages/PDVMulti/Videos";
 import IlstPrivacity from "./pages/Ilst/Privacity";
 import IlstApp from "./pages/Ilst";
 import RodouPrivacity from "./pages/Rodou/Privacity";
@@ -52,6 +53,7 @@ function App() {
           <Route path="/pdv" element={<PDVOffline />} />
           <Route path="/pdv/privacity" element={<PDVPrivacity />} />
           <Route path="/pdv-multi" element={<PDVMultiPage />} />
+          <Route path="/pdv-multi/videos" element={<PDVMultiVideos />} />
           <Route path="/pdv-multi/privacity" element={<PDVMultiPrivacity />} />
           <Route path="/ilst" element={<IlstApp />} />
           <Route path="/ilst/privacity" element={<IlstPrivacity />} />
