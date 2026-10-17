@@ -10,6 +10,9 @@ import {
   FaHeadset,
   FaKeyboard,
   FaCloudDownloadAlt,
+  FaCalculator,
+  FaPlayCircle,
+  FaSearch,
 } from "react-icons/fa";
 import styles from "./FeatureGrid.module.css";
 
@@ -66,6 +69,21 @@ const content: Record<"pt" | "en", Feature[]> = {
       title: "Atualizações automáticas",
       desc: "O sistema se atualiza sozinho com as novidades mais recentes, sem complicação nenhuma pra sua equipe.",
     },
+    {
+      icon: <FaCalculator />,
+      title: "Acesso para o contador",
+      desc: "Perfil só de leitura com tela de Contabilidade: notas, formas de pagamento, itens com NCM/CFOP, compras e estoque, com exportação em CSV.",
+    },
+    {
+      icon: <FaSearch />,
+      title: "Cadastro rápido de produto e empresa",
+      desc: "Busca o produto pelo código de barras (GTIN) e a empresa pelo CNPJ — inclusive o novo CNPJ alfanumérico — e já preenche os dados por você.",
+    },
+    {
+      icon: <FaPlayCircle />,
+      title: "Vídeos de ajuda dentro do app",
+      desc: "Tutoriais curtos em vídeo, com busca e categorias, na própria tela de Ajuda e Suporte: do primeiro caixa à nota fiscal.",
+    },
   ],
   en: [
     {
@@ -112,6 +130,21 @@ const content: Record<"pt" | "en", Feature[]> = {
       icon: <FaCloudDownloadAlt />,
       title: "Automatic updates",
       desc: "The system updates itself with the latest improvements — zero hassle for your team.",
+    },
+    {
+      icon: <FaCalculator />,
+      title: "Accountant access",
+      desc: "A read-only profile with an Accounting screen: invoices, payment methods, items with NCM/CFOP, purchases and stock, with CSV export.",
+    },
+    {
+      icon: <FaSearch />,
+      title: "Fast product and company setup",
+      desc: "Look up a product by barcode (GTIN) and a company by CNPJ — including the new alphanumeric CNPJ — with the data filled in for you.",
+    },
+    {
+      icon: <FaPlayCircle />,
+      title: "Help videos inside the app",
+      desc: "Short tutorial videos with search and categories right in the Help & Support screen: from your first register to the invoice.",
     },
   ],
 };

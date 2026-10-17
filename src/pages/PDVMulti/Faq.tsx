@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";
 import styles from "./Faq.module.css";
 
-const content: Record<"pt" | "en", { q: string; a: string }[]> = {
+export const faqContent: Record<"pt" | "en", { q: string; a: string }[]> = {
   pt: [
     {
       q: "Preciso de internet o tempo todo pra usar o PDV Multi?",
@@ -20,6 +20,14 @@ const content: Record<"pt" | "en", { q: string; a: string }[]> = {
     {
       q: "Presto serviço. O PDV Multi emite NFS-e (nota fiscal de serviço)?",
       a: "Sim, em fase de testes (beta). A NFS-e é emitida pelo Sistema Nacional NFS-e, o padrão nacional das prefeituras, direto da venda — com PDF oficial, XML e cancelamento pelo app. Funciona para MEI, Simples Nacional e demais regimes, inclusive serviços prestados em outra cidade, obras e eventos. Se a emissão falhar, o app mostra o motivo e você pode emitir pelo Emissor Nacional (gov.br/nfse).",
+    },
+    {
+      q: "O PDV Multi serve para restaurante, pizzaria e delivery?",
+      a: "Sim. Ao ligar o modo restaurante, o app ganha mapa de mesas e comandas, perfis de garçom e cozinha, tela de cozinha com cronômetro, cardápio com complementos e pizza meio a meio, painel de delivery, app do entregador e cardápio online para o cliente pedir direto. É opcional: quem usa só como caixa de loja não vê nada disso.",
+    },
+    {
+      q: "Meu contador consegue acessar o sistema?",
+      a: "Sim. O dono convida o contador com um perfil somente leitura: ele não altera nada, mas vê a tela de Contabilidade com notas, formas de pagamento, itens com NCM/CFOP, compras e estoque, e exporta tudo em CSV.",
     },
     {
       q: "O teste grátis pede cartão de crédito?",
@@ -52,6 +60,14 @@ const content: Record<"pt" | "en", { q: string; a: string }[]> = {
       a: "Yes, in testing (beta). The NFS-e is issued through the National NFS-e System, the nationwide standard used by municipalities, straight from the sale — with the official PDF, XML and cancellation in the app. It works for MEI, Simples Nacional and other tax regimes, including services performed in another city, construction work and events. If issuing fails, the app shows the reason and you can issue it on the National Issuer (gov.br/nfse).",
     },
     {
+      q: "Is PDV Multi suitable for restaurants, pizzerias and delivery?",
+      a: "Yes. With restaurant mode on, the app adds a table map and tabs, waiter and kitchen profiles, a kitchen screen with timers, a menu with modifiers and half-and-half pizza, a delivery board, a courier app and an online menu so customers can order directly. It's optional: stores that only use it as a register don't see any of it.",
+    },
+    {
+      q: "Can my accountant access the system?",
+      a: "Yes. The owner invites the accountant with a read-only profile: they can't change anything, but they see the Accounting screen with invoices, payment methods, items with NCM/CFOP, purchases and stock, and can export everything to CSV.",
+    },
+    {
       q: "Does the free trial require a credit card?",
       a: "No. You install and use PDV Multi for 14 days with everything unlocked before deciding on a paid plan.",
     },
@@ -68,7 +84,7 @@ const content: Record<"pt" | "en", { q: string; a: string }[]> = {
 
 export default function Faq({ lang }: { lang: "pt" | "en" }) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
-  const items = content[lang];
+  const items = faqContent[lang];
 
   return (
     <div className={styles.list}>

@@ -13,6 +13,7 @@ import {
   FaWindows,
   FaAndroid,
   FaTools,
+  FaUtensils,
 } from "react-icons/fa";
 import styles from "./styles.module.css";
 import pdvIcon from "../../assets/images/pdvMulti.png";
@@ -22,7 +23,7 @@ import { SITE_BASE_URL } from "../../config/constants";
 import HeroMockup from "./HeroMockup";
 import FeatureGrid from "./FeatureGrid";
 import PricingTiers from "./PricingTiers";
-import Faq from "./Faq";
+import Faq, { faqContent } from "./Faq";
 import StickyDownloadBar from "./StickyDownloadBar";
 
 // Endpoint do Express na Firebase Cloud Function que redireciona para o instalador .exe
@@ -45,6 +46,7 @@ type TranslationKeys = {
   viewPlansButton: string;
   badgePlatforms: string;
   badgeNfce: string;
+  badgeRestaurant: string;
   badgeOffline: string;
   badgeSync: string;
   badgeUpdate: string;
@@ -70,6 +72,11 @@ type TranslationKeys = {
   nfseDesc: string;
   nfseItems: string[];
   nfseNote: string;
+  restaurantTitle: string;
+  restaurantBadge: string;
+  restaurantDesc: string;
+  restaurantItems: string[];
+  restaurantNote: string;
   pricingTitle: string;
   pricingSubtitle: string;
   requirementsTitle: string;
@@ -91,12 +98,12 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
   pt: {
     title: "PDV Multi - Sistema de Vendas e Frente de Caixa para Equipes",
     metaDescription:
-      "PDV Multi é o software de frente de caixa perfeito para o seu negócio: controle de estoque, vendas em equipe em tempo real, emissão de NFC-e/NF-e e NFS-e para prestadores de serviço, fiado e muito mais. Baixe grátis para Windows e Android.",
+      "PDV Multi é o software de frente de caixa perfeito para o seu negócio: controle de estoque, vendas em equipe em tempo real, emissão de NFC-e/NF-e e NFS-e, modo restaurante com mesas, cozinha, delivery e cardápio online, fiado e muito mais. Baixe grátis para Windows e Android.",
     metaKeywords:
-      "pdv multi, pdv windows, pdv android, frente de caixa, emitir nfce, nf-e, emitir nfs-e, nota fiscal de serviço, nfs-e nacional, prestador de serviço, mei, controle de vendas, sistema de estoque, sistema comercial, caixa de loja",
+      "pdv multi, pdv windows, pdv android, frente de caixa, emitir nfce, nf-e, emitir nfs-e, nota fiscal de serviço, nfs-e nacional, prestador de serviço, mei, controle de vendas, sistema de estoque, sistema comercial, caixa de loja, sistema para restaurante, sistema para pizzaria, delivery, comanda, cardápio online, controle de mesas",
     heroSubtitle: "O frente de caixa que sua equipe usa sem treinamento — no computador do balcão e no celular da rua.",
     heroDescription:
-      "O PDV Multi sincroniza em tempo real todos os caixas, vendas, produtos e clientes na nuvem, continua funcionando mesmo se a internet cair, e emite NFC-e/NF-e — e NFS-e pra quem presta serviço — direto do sistema. Tudo em um único lugar — no computador do balcão e no celular da equipe — feito pra quem vende de verdade.",
+      "O PDV Multi sincroniza em tempo real todos os caixas, vendas, produtos e clientes na nuvem, continua funcionando mesmo se a internet cair, e emite NFC-e/NF-e — e NFS-e pra quem presta serviço — direto do sistema. Com o modo restaurante, atende mesas, cozinha, delivery e cardápio online. Tudo em um único lugar — no computador do balcão e no celular da equipe — feito pra quem vende de verdade.",
     downloadButton: "Baixar para Windows",
     downloadNote: "Disponível na Microsoft Store · Windows 10/11 (64 bits) · Teste grátis por 14 dias, sem cartão.",
     androidButton: "Disponível no Google Play",
@@ -104,6 +111,7 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     viewPlansButton: "Ver planos",
     badgePlatforms: "Windows + Android",
     badgeNfce: "NFC-e / NF-e / NFS-e",
+    badgeRestaurant: "Restaurante + Delivery",
     badgeOffline: "Offline-first",
     badgeSync: "Multi-caixa em tempo real",
     badgeUpdate: "Atualização automática",
@@ -145,6 +153,23 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     ],
     nfseNote:
       "Função em fase de testes (beta): em alguns casos a emissão pode falhar. Se acontecer, o app mostra o motivo na hora e você pode emitir pelo Emissor Nacional (gov.br/nfse).",
+    restaurantTitle: "🍕 Modo Restaurante, Lanchonete e Delivery",
+    restaurantBadge: "Novo",
+    restaurantDesc:
+      "Tem pizzaria, lanchonete ou restaurante? Ative o modo restaurante e o app se reorganiza para o salão, a cozinha e a entrega — sem mudar nada para quem vende no balcão de mercado ou loja:",
+    restaurantItems: [
+      "Mesas e comandas: mapa de mesas em tempo real, pedidos por rodada, transferir e juntar mesas, pré-conta, taxa de serviço e pagamento dividido;",
+      "Perfis de garçom e cozinha: cada um cai direto na sua tela, com as permissões que o dono liberar;",
+      "Cozinha (KDS) com cronômetro e cor de atraso, e impressão da via por setor (cozinha, bar, pizzaria);",
+      "Cardápio com complementos, borda, adicionais e pizza meio a meio, além de pausar item que acabou;",
+      "Delivery: painel de pedidos (novo → preparo → pronto → em rota), taxa por bairro, despacho de vários pedidos de uma vez e acerto do entregador;",
+      "App do entregador com login próprio — ele pode trabalhar para vários estabelecimentos;",
+      "Cardápio online (link e QR Code) para o cliente pedir direto, com aceite automático opcional;",
+      "Cupons de desconto e programa de fidelidade;",
+      "NFC-e e NF-e também nos pedidos de delivery.",
+    ],
+    restaurantNote:
+      "O modo restaurante é opcional e vem desligado: quem usa o PDV Multi como caixa de loja continua com a mesma tela de sempre.",
     pricingTitle: "Planos pra cada fase do seu negócio",
     pricingSubtitle: "Comece grátis. Evolua quando precisar emitir nota fiscal.",
     requirementsTitle: "💻 Requisitos do sistema",
@@ -166,12 +191,12 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
   en: {
     title: "PDV Multi - Complete Real-Time Sales & POS System",
     metaDescription:
-      "PDV Multi is the perfect point of sale (POS) software for your business: real-time team sales, inventory control, fiscal invoices for products and services, client credit tracking, and more. Download free for Windows and Android.",
+      "PDV Multi is the perfect point of sale (POS) software for your business: real-time team sales, inventory control, fiscal invoices for products and services, restaurant mode with tables, kitchen, delivery and online menu, client credit tracking, and more. Download free for Windows and Android.",
     metaKeywords:
-      "pdv multi, windows pos, android pos, point of sale, register control, inventory system, shop manager, cash register software",
+      "pdv multi, windows pos, android pos, point of sale, register control, inventory system, shop manager, cash register software, restaurant pos, pizzeria software, delivery management, online menu, table management",
     heroSubtitle: "The point of sale your team uses without training — on the counter's computer and the team's phone.",
     heroDescription:
-      "PDV Multi syncs every register, sale, product, and customer to the cloud in real time, keeps working even when the internet doesn't, and issues fiscal invoices straight from the system. Everything in one place — on the counter's computer and the team's phone — built for people who actually sell.",
+      "PDV Multi syncs every register, sale, product, and customer to the cloud in real time, keeps working even when the internet doesn't, and issues fiscal invoices straight from the system. With restaurant mode it also handles tables, kitchen, delivery and an online menu. Everything in one place — on the counter's computer and the team's phone — built for people who actually sell.",
     downloadButton: "Download for Windows",
     downloadNote: "Available on the Microsoft Store · Windows 10/11 (64-bit) · Free 14-day trial, no card required.",
     androidButton: "Get it on Google Play",
@@ -179,6 +204,7 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     viewPlansButton: "View plans",
     badgePlatforms: "Windows + Android",
     badgeNfce: "Fiscal invoices (goods + services)",
+    badgeRestaurant: "Restaurant + Delivery",
     badgeOffline: "Offline-first",
     badgeSync: "Real-time multi-register",
     badgeUpdate: "Automatic updates",
@@ -219,6 +245,23 @@ const translations: Record<"pt" | "en", TranslationKeys> = {
     ],
     nfseNote:
       "This feature is in testing (beta): in some cases issuing may fail. If it does, the app shows the reason right away and you can issue it on the National Issuer (gov.br/nfse).",
+    restaurantTitle: "🍕 Restaurant, Snack Bar & Delivery mode",
+    restaurantBadge: "New",
+    restaurantDesc:
+      "Run a pizzeria, snack bar or restaurant? Turn on restaurant mode and the app reorganizes itself around the dining room, the kitchen and deliveries — without changing anything for stores that sell at the counter:",
+    restaurantItems: [
+      "Tables and tabs: real-time table map, orders by round, transfer and merge tables, pre-bill, service fee and split payment;",
+      "Waiter and kitchen profiles: each lands straight on their own screen, with the permissions the owner allows;",
+      "Kitchen display (KDS) with timer and delay colors, plus ticket printing per sector (kitchen, bar, pizza);",
+      "Menu with modifiers, crust, extras and half-and-half pizza, plus pausing items that ran out;",
+      "Delivery: order board (new → preparing → ready → on the way), per-neighborhood fee, batch dispatch and courier settlement;",
+      "Courier app with its own login — a courier can work for several businesses;",
+      "Online menu (link and QR Code) so customers can order directly, with optional auto-accept;",
+      "Discount coupons and a loyalty program;",
+      "NFC-e and NF-e on delivery orders too.",
+    ],
+    restaurantNote:
+      "Restaurant mode is optional and off by default: stores using PDV Multi as a regular register keep the same screen as always.",
     pricingTitle: "Plans for every stage of your business",
     pricingSubtitle: "Start free. Upgrade when you need to issue fiscal invoices.",
     requirementsTitle: "💻 System requirements",
@@ -261,6 +304,10 @@ export default function PDVMultiPage() {
         <meta property="og:description" content={t.metaDescription} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://jfcoder.com/pdv-multi" />
+        <meta property="og:locale" content={lang === "pt" ? "pt_BR" : "en_US"} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={t.title} />
+        <meta name="twitter:description" content={t.metaDescription} />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -271,6 +318,25 @@ export default function PDVMultiPage() {
             description: t.metaDescription,
             url: `${SITE_BASE_URL}/pdv-multi`,
             downloadUrl: WINDOWS_LINK,
+            inLanguage: lang === "pt" ? "pt-BR" : "en",
+            featureList: t.restaurantItems.concat(t.nfseItems),
+            offers: {
+              "@type": "Offer",
+              price: "0",
+              priceCurrency: "BRL",
+              description: lang === "pt" ? "Teste grátis por 14 dias, sem cartão" : "Free 14-day trial, no card required",
+            },
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqContent[lang].map((item) => ({
+              "@type": "Question",
+              name: item.q,
+              acceptedAnswer: { "@type": "Answer", text: item.a },
+            })),
           })}
         </script>
       </Helmet>
@@ -309,6 +375,9 @@ export default function PDVMultiPage() {
               </span>
               <span className={styles.badge}>
                 <FaFileInvoiceDollar /> {t.badgeNfce}
+              </span>
+              <span className={styles.badge}>
+                <FaUtensils /> {t.badgeRestaurant}
               </span>
               <span className={styles.badge}>
                 <FaWifi /> {t.badgeOffline}
@@ -404,6 +473,22 @@ export default function PDVMultiPage() {
               <li>{t.nfceLi3}</li>
               <li>{t.nfceLi4}</li>
             </ul>
+          </motion.section>
+
+          {/* Modo restaurante / delivery */}
+          <motion.section className={`${styles.section} ${styles.sectionHighlight}`} {...fadeUp}>
+            <h2>
+              <FaUtensils style={{ display: "inline" }} />
+              {t.restaurantTitle}
+              <span className={styles.betaTag}>{t.restaurantBadge}</span>
+            </h2>
+            <p>{t.restaurantDesc}</p>
+            <ul>
+              {t.restaurantItems.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            <p className={styles.betaNote}>{t.restaurantNote}</p>
           </motion.section>
 
           {/* NFS-e (prestadores de serviço) */}
