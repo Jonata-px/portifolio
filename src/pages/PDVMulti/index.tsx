@@ -27,6 +27,7 @@ import FeatureGrid from "./FeatureGrid";
 import PricingTiers from "./PricingTiers";
 import Faq, { faqContent } from "./Faq";
 import StickyDownloadBar from "./StickyDownloadBar";
+import { useHelpVideos } from "./useHelpVideos";
 
 // Endpoint do Express na Firebase Cloud Function que redireciona para o instalador .exe
 // mais recente salvo no Firebase Storage (pdv/app/settings/latestVersion)
@@ -332,6 +333,8 @@ const fadeUp = {
 export default function PDVMultiPage() {
   const [lang, setLang] = useState<"pt" | "en">("pt");
   const t = useMemo(() => translations[lang], [lang]);
+  const { videos } = useHelpVideos();
+  const promoVideo = videos.find((v) => v.promo && v.youtubeId) ?? videos.find((v) => v.youtubeId);
 
   return (
     <div className={styles.page}>
@@ -581,6 +584,18 @@ export default function PDVMultiPage() {
                 <li key={item}>{item}</li>
               ))}
             </ul>
+            {promoVideo && (
+              <Link to="/pdv-multi/videos" className={styles.videoTeaser} aria-label={promoVideo.title}>
+                <img
+                  src={promoVideo.thumbnailUrl || `https://i.ytimg.com/vi/${promoVideo.youtubeId}/hqdefault.jpg`}
+                  alt=""
+                  loading="lazy"
+                />
+                <span className={styles.videoTeaserPlay}>
+                  <FaPlayCircle />
+                </span>
+              </Link>
+            )}
             <div className={styles.cta} style={{ marginTop: "1.25rem" }}>
               <Link to="/pdv-multi/videos" className={styles.ctaButton}>
                 <FaPlayCircle />

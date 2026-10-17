@@ -454,3 +454,37 @@
 .ctaSecondary svg {
     flex-shrink: 0;
 }
+
+.videoTeaser {
+    position: relative;
+    display: block;
+    margin-top: 1.25rem;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+.videoTeaser img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.videoTeaserPlay {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    font-size: 4rem;
+    color: #f8fafc;
+    background: rgba(2, 6, 23, 0.3);
+    transition: background 0.2s ease;
+}
+
+.videoTeaser:hover .videoTeaserPlay {
+    background: rgba(2, 6, 23, 0.05);
+    color: #38bdf8;
+}
