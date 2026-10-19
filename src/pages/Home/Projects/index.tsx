@@ -4,6 +4,7 @@ import logoDoctorFriendApp from "../../../assets/images/doctorFriendApp.png";
 import logoPdv from "../../../assets/images/pdv.png";
 import logoPdvMulti from "../../../assets/images/pdvMulti.png";
 import logoIlst from "../../../assets/images/ilst.png";
+import logoRodou from "../../../assets/images/rodou.png";
 import reflexoterapia from "../../../assets/images/reflexoterapia.png";
 import promotionGameAlert from "../../../assets/images/game_promo_alert.png";
 import goalBuilder from "../../../assets/images/goalbuilder.png";
@@ -71,6 +72,11 @@ export default function Projects() {
                 logo: logoPdvMulti,
                 name: "PDV Multi",
                 url: "/pdv-multi",
+            },
+            {
+                logo: logoRodou,
+                name: "Rodou - Consumo e Gastos",
+                url: "/rodou/pt",
             },
             {
                 logo: logoPdv,

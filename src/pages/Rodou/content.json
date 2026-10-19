@@ -1,0 +1,1732 @@
+{
+ "pt": {
+  "label": "Português",
+  "htmlLang": "pt-BR",
+  "ogLocale": "pt_BR",
+  "title": "Rodou: consumo do carro, álcool ou gasolina e lucro do dia",
+  "description": "App grátis para controlar combustível, km/l, gastos e manutenção do carro ou moto. Calculadora álcool ou gasolina, lembretes e lucro para motorista de app. Sem login.",
+  "keywords": "controle de combustível, consumo do carro, km por litro, álcool ou gasolina, gastos do carro, lucro motorista de aplicativo, lembrete troca de óleo, app de abastecimento",
+  "nav": {
+   "features": "Recursos",
+   "screens": "Telas",
+   "premium": "Premium",
+   "faq": "Dúvidas"
+  },
+  "hero": {
+   "eyebrow": "Combustível · Gastos · Manutenção · Lucro",
+   "title": "Rodou",
+   "subtitle": "Saiba quanto seu carro rodou, gastou e rendeu.",
+   "text": "Registre o abastecimento em segundos e veja na hora o consumo em km/l, o custo por km e quanto você gasta por mês. Para quem dirige por prazer ou trabalha com aplicativo.",
+   "cta": "Baixar no Google Play",
+   "ctaNote": "Grátis · Android",
+   "secondary": "Ver o que ele faz"
+  },
+  "badges": [
+   "Grátis para usar",
+   "Sem cadastro e sem login",
+   "Dados só no seu celular"
+  ],
+  "stats": [
+   {
+    "v": "10",
+    "l": "idiomas"
+   },
+   {
+    "v": "25",
+    "l": "países, com moeda e unidades locais"
+   },
+   {
+    "v": "0",
+    "l": "cadastros exigidos"
+   }
+  ],
+  "features": {
+   "title": "Tudo o que o seu veículo precisa em um só app",
+   "intro": "Do posto à oficina: o Rodou transforma anotações soltas em números que ajudam você a gastar menos.",
+   "items": [
+    {
+     "icon": "gauge",
+     "title": "Consumo de verdade",
+     "text": "Média em km/l pelo método do tanque cheio, o mais preciso. Abastecimentos parciais entram na conta sozinhos."
+    },
+    {
+     "icon": "flex",
+     "title": "Álcool ou gasolina?",
+     "text": "A calculadora mostra qual combustível compensa. O Rodou aprende com seus abastecimentos e acha o limite real do SEU carro."
+    },
+    {
+     "icon": "widget",
+     "title": "Widget na tela inicial",
+     "text": "Ajuste o preço com + e − na frente da bomba, sem nem abrir o app."
+    },
+    {
+     "icon": "chart",
+     "title": "Relatórios e gráficos",
+     "text": "Gasto por mês, consumo por tanque e custo por combustível. Exporte em PDF ou Excel."
+    },
+    {
+     "icon": "bell",
+     "title": "Lembretes de manutenção",
+     "text": "Óleo, IPVA, seguro e pneus, por data, por km ou pelo que vencer primeiro. Avisa antes de chegar."
+    },
+    {
+     "icon": "route",
+     "title": "Meu dia: lucro de verdade",
+     "text": "Ganhos por plataforma, combustível por km rodado, lucro por hora e meta diária para motoristas e entregadores."
+    },
+    {
+     "icon": "car",
+     "title": "Vários veículos",
+     "text": "Carro e moto no mesmo lugar, com tema claro e escuro e moeda do seu país."
+    },
+    {
+     "icon": "shield",
+     "title": "Privado por padrão",
+     "text": "Sem conta e sem login. Faça backup em arquivo para trocar de celular sem perder nada."
+    }
+   ]
+  },
+  "steps": {
+   "title": "Como funciona",
+   "items": [
+    {
+     "title": "Abasteceu? Anote",
+     "text": "Valor, litros e km. Leva poucos segundos."
+    },
+    {
+     "title": "Veja os números",
+     "text": "Consumo, custo por km e gasto do mês aparecem na hora."
+    },
+    {
+     "title": "Decida melhor",
+     "text": "Descubra o combustível que compensa e não perca a data de nenhuma revisão."
+    }
+   ]
+  },
+  "screens": {
+   "title": "Veja o Rodou em ação",
+   "intro": "Telas reais do aplicativo.",
+   "alts": [
+    "Tela inicial do Rodou com consumo médio, custo por km e gasto do mês",
+    "Registro de abastecimento no Rodou",
+    "Calculadora álcool ou gasolina do Rodou",
+    "Meu dia: ganhos, combustível e lucro do dia",
+    "Relatórios e gráficos de consumo e gastos",
+    "Lembretes de manutenção como troca de óleo e IPVA"
+   ]
+  },
+  "premium": {
+   "title": "Rodou Premium, se você quiser",
+   "text": "O app é gratuito com anúncios. A assinatura Premium, mensal ou anual, remove todos os anúncios e libera a exportação de relatórios sem assistir a vídeos.",
+   "points": [
+    "Nenhum anúncio",
+    "Relatórios sem vídeos",
+    "Cancele quando quiser no Google Play"
+   ]
+  },
+  "faq": {
+   "title": "Perguntas frequentes",
+   "items": [
+    {
+     "q": "O Rodou é gratuito?",
+     "a": "Sim. O app é gratuito com anúncios. A assinatura Premium opcional remove os anúncios e libera a exportação de relatórios sem vídeos."
+    },
+    {
+     "q": "Preciso criar uma conta?",
+     "a": "Não. Não há cadastro nem login. Seus veículos, abastecimentos e lembretes ficam só no seu celular, e você pode fazer backup em arquivo."
+    },
+    {
+     "q": "Como o consumo em km/l é calculado?",
+     "a": "Pelo método do tanque cheio, o mais preciso. Abastecimentos parciais são somados automaticamente até o próximo tanque cheio."
+    },
+    {
+     "q": "Funciona para moto e para motorista de aplicativo?",
+     "a": "Sim. Você cadastra carros e motos e ativa o Meu dia para ver ganhos por plataforma, gasto com combustível e lucro por hora."
+    },
+    {
+     "q": "Funciona fora do Brasil?",
+     "a": "Sim. O Rodou tem 10 idiomas e adapta moeda, quilômetros ou milhas e litros ou galões ao país escolhido."
+    }
+   ]
+  },
+  "final": {
+   "title": "Chegou a hora de saber para onde vai o seu dinheiro",
+   "text": "Baixe o Rodou e registre o primeiro abastecimento. Rodou, anotou, economizou.",
+   "cta": "Baixar no Google Play"
+  },
+  "footer": {
+   "privacy": "Política de privacidade",
+   "by": "Desenvolvido por JF Coder",
+   "rights": "Todos os direitos reservados.",
+   "portfolio": "Mais projetos",
+   "languages": "Idiomas"
+  },
+  "a11y": {
+   "skip": "Ir para o conteúdo",
+   "langLabel": "Idioma",
+   "logoAlt": "Ícone do aplicativo Rodou"
+  },
+  "schema": {
+   "offer": "Gratuito, com assinatura Premium opcional",
+   "home": "Início"
+  },
+  "playHl": "pt_BR"
+ },
+ "en": {
+  "label": "English",
+  "htmlLang": "en",
+  "ogLocale": "en_US",
+  "title": "Rodou: fuel log, mpg tracker, car costs and rideshare profit",
+  "description": "Free app to track fuel, mpg, car expenses and maintenance for your car or motorcycle. E85 or gasoline calculator, reminders and rideshare profit. No sign-up.",
+  "keywords": "fuel log, mpg tracker, gas mileage app, car expenses, cost per mile, E85 or gasoline, oil change reminder, rideshare driver profit, fuel economy",
+  "nav": {
+   "features": "Features",
+   "screens": "Screenshots",
+   "premium": "Premium",
+   "faq": "FAQ"
+  },
+  "hero": {
+   "eyebrow": "Fuel · Costs · Maintenance · Profit",
+   "title": "Rodou",
+   "subtitle": "Know how far your car went, what it cost and what it earned.",
+   "text": "Log a fill-up in seconds and instantly see your real fuel economy, cost per mile and monthly spending. Built for everyday drivers and for rideshare and delivery work.",
+   "cta": "Get it on Google Play",
+   "ctaNote": "Free · Android",
+   "secondary": "See what it does"
+  },
+  "badges": [
+   "Free to use",
+   "No sign-up, no login",
+   "Your data stays on your phone"
+  ],
+  "stats": [
+   {
+    "v": "10",
+    "l": "languages"
+   },
+   {
+    "v": "25",
+    "l": "countries, with local currency and units"
+   },
+   {
+    "v": "0",
+    "l": "accounts required"
+   }
+  ],
+  "features": {
+   "title": "Everything your vehicle needs in one app",
+   "intro": "From the pump to the garage: Rodou turns scattered notes into numbers that help you spend less.",
+   "items": [
+    {
+     "icon": "gauge",
+     "title": "Real fuel economy",
+     "text": "Average mpg (or L/100 km, km/L) with the full-tank method, the most accurate one. Partial fill-ups count automatically."
+    },
+    {
+     "icon": "flex",
+     "title": "E85 or gasoline?",
+     "text": "The calculator shows which fuel pays off. Rodou learns from your fill-ups and finds the real limit for YOUR vehicle."
+    },
+    {
+     "icon": "widget",
+     "title": "Home screen widget",
+     "text": "Adjust prices with + and − at the pump without opening the app."
+    },
+    {
+     "icon": "chart",
+     "title": "Reports and charts",
+     "text": "Monthly spending, economy per tank and cost per fuel type. Export to PDF or Excel."
+    },
+    {
+     "icon": "bell",
+     "title": "Maintenance reminders",
+     "text": "Oil, registration, insurance and tires by date, by mileage or whichever comes first, with a heads-up before it is due."
+    },
+    {
+     "icon": "route",
+     "title": "My day: real profit",
+     "text": "Earnings per platform, fuel cost by miles driven, profit per hour and a daily goal for rideshare and delivery drivers."
+    },
+    {
+     "icon": "car",
+     "title": "Multiple vehicles",
+     "text": "Cars and motorcycles in one place, with light and dark themes and your country's currency."
+    },
+    {
+     "icon": "shield",
+     "title": "Private by default",
+     "text": "No account, no login. Back up to a file to switch phones without losing anything."
+    }
+   ]
+  },
+  "steps": {
+   "title": "How it works",
+   "items": [
+    {
+     "title": "Filled up? Log it",
+     "text": "Amount, volume and mileage. It takes a few seconds."
+    },
+    {
+     "title": "See the numbers",
+     "text": "Fuel economy, cost per mile and monthly spending show up instantly."
+    },
+    {
+     "title": "Decide better",
+     "text": "Find the fuel that pays off and never miss a service date."
+    }
+   ]
+  },
+  "screens": {
+   "title": "See Rodou in action",
+   "intro": "Real screens from the app.",
+   "alts": [
+    "Rodou home screen with average fuel economy, cost per mile and monthly spending",
+    "Logging a fill-up in Rodou",
+    "Rodou E85 or gasoline calculator",
+    "My day: earnings, fuel and daily profit",
+    "Reports and charts for fuel economy and spending",
+    "Maintenance reminders such as oil change and registration"
+   ]
+  },
+  "premium": {
+   "title": "Rodou Premium, if you want it",
+   "text": "The app is free with ads. The Premium subscription, monthly or yearly, removes every ad and lets you export reports without watching videos.",
+   "points": [
+    "No ads at all",
+    "Reports without videos",
+    "Cancel anytime on Google Play"
+   ]
+  },
+  "faq": {
+   "title": "Frequently asked questions",
+   "items": [
+    {
+     "q": "Is Rodou free?",
+     "a": "Yes. The app is free with ads. The optional Premium subscription removes ads and lets you export reports without watching videos."
+    },
+    {
+     "q": "Do I need to create an account?",
+     "a": "No. There is no sign-up or login. Your vehicles, fill-ups and reminders stay on your phone, and you can back them up to a file."
+    },
+    {
+     "q": "How is fuel economy calculated?",
+     "a": "With the full-tank method, the most accurate one. Partial fill-ups are added up automatically until the next full tank."
+    },
+    {
+     "q": "Does it work for motorcycles and rideshare drivers?",
+     "a": "Yes. Add cars and motorcycles and turn on My day to see earnings per platform, fuel cost and profit per hour."
+    },
+    {
+     "q": "Does it work outside Brazil?",
+     "a": "Yes. Rodou comes in 10 languages and adapts currency, miles or kilometers and gallons or liters to your country."
+    }
+   ]
+  },
+  "final": {
+   "title": "Time to see where your money goes",
+   "text": "Download Rodou and log your first fill-up. Drive, log, save.",
+   "cta": "Get it on Google Play"
+  },
+  "footer": {
+   "privacy": "Privacy policy",
+   "by": "Developed by JF Coder",
+   "rights": "All rights reserved.",
+   "portfolio": "More projects",
+   "languages": "Languages"
+  },
+  "a11y": {
+   "skip": "Skip to content",
+   "langLabel": "Language",
+   "logoAlt": "Rodou app icon"
+  },
+  "schema": {
+   "offer": "Free, with optional Premium subscription",
+   "home": "Home"
+  },
+  "playHl": "en_US"
+ },
+ "es": {
+  "label": "Español",
+  "htmlLang": "es-419",
+  "ogLocale": "es_LA",
+  "title": "Rodou: consumo del auto, gastos y ganancia del día",
+  "description": "App gratis para controlar combustible, km/L, gastos y mantenimiento de tu auto o moto. Recordatorios y ganancia del día para conductores de app. Sin registro.",
+  "keywords": "control de combustible, consumo del auto, km por litro, gastos del auto, costo por km, recordatorio cambio de aceite, ganancia conductor de app, app de gasolina",
+  "nav": {
+   "features": "Funciones",
+   "screens": "Capturas",
+   "premium": "Premium",
+   "faq": "Preguntas"
+  },
+  "hero": {
+   "eyebrow": "Combustible · Gastos · Mantenimiento · Ganancia",
+   "title": "Rodou",
+   "subtitle": "Descubre cuánto recorrió, gastó y rindió tu auto.",
+   "text": "Registra la carga en segundos y mira al instante el consumo real, el costo por km y cuánto gastas al mes. Para quien maneja a diario o trabaja con aplicaciones.",
+   "cta": "Descargar en Google Play",
+   "ctaNote": "Gratis · Android",
+   "secondary": "Ver qué hace"
+  },
+  "badges": [
+   "Gratis",
+   "Sin registro ni login",
+   "Tus datos quedan en tu celular"
+  ],
+  "stats": [
+   {
+    "v": "10",
+    "l": "idiomas"
+   },
+   {
+    "v": "25",
+    "l": "países, con moneda y unidades locales"
+   },
+   {
+    "v": "0",
+    "l": "cuentas necesarias"
+   }
+  ],
+  "features": {
+   "title": "Todo lo que tu vehículo necesita en una sola app",
+   "intro": "De la estación al taller: Rodou convierte apuntes sueltos en números que te ayudan a gastar menos.",
+   "items": [
+    {
+     "icon": "gauge",
+     "title": "Consumo real",
+     "text": "Consumo medio en km/L (o L/100 km) con el método del tanque lleno, el más preciso. Las cargas parciales se suman solas."
+    },
+    {
+     "icon": "flex",
+     "title": "¿Qué combustible conviene?",
+     "text": "La calculadora te dice cuál compensa. Rodou aprende de tus cargas y encuentra el límite real de TU vehículo."
+    },
+    {
+     "icon": "widget",
+     "title": "Widget en la pantalla de inicio",
+     "text": "Ajusta el precio con + y − frente a la bomba, sin abrir la app."
+    },
+    {
+     "icon": "chart",
+     "title": "Informes y gráficos",
+     "text": "Gasto por mes, consumo por tanque y gasto por combustible. Exporta a PDF o Excel."
+    },
+    {
+     "icon": "bell",
+     "title": "Recordatorios de mantenimiento",
+     "text": "Aceite, impuestos, seguro y neumáticos, por fecha, por kilometraje o lo que llegue primero. Te avisa con tiempo."
+    },
+    {
+     "icon": "route",
+     "title": "Mi día: ganancia real",
+     "text": "Ganancias por plataforma, combustible según los km recorridos, ganancia por hora y meta diaria para conductores y repartidores."
+    },
+    {
+     "icon": "car",
+     "title": "Varios vehículos",
+     "text": "Autos y motos en un solo lugar, con tema claro u oscuro y la moneda de tu país."
+    },
+    {
+     "icon": "shield",
+     "title": "Privado por defecto",
+     "text": "Sin cuenta ni login. Haz una copia en archivo para cambiar de celular sin perder nada."
+    }
+   ]
+  },
+  "steps": {
+   "title": "Cómo funciona",
+   "items": [
+    {
+     "title": "¿Cargaste? Anótalo",
+     "text": "Importe, litros y km. Toma unos segundos."
+    },
+    {
+     "title": "Mira los números",
+     "text": "Consumo, costo por km y gasto del mes aparecen al instante."
+    },
+    {
+     "title": "Decide mejor",
+     "text": "Descubre qué combustible conviene y no pierdas ninguna fecha de mantenimiento."
+    }
+   ]
+  },
+  "screens": {
+   "title": "Mira Rodou en acción",
+   "intro": "Pantallas reales de la app.",
+   "alts": [
+    "Pantalla de inicio de Rodou con consumo medio, costo por km y gasto del mes",
+    "Registro de una carga de combustible en Rodou",
+    "Historial de cargas por mes en Rodou",
+    "Mi día: ganancias, combustible y ganancia del día",
+    "Informes y gráficos de consumo y gastos",
+    "Recordatorios de mantenimiento como cambio de aceite"
+   ]
+  },
+  "premium": {
+   "title": "Rodou Premium, si quieres",
+   "text": "La app es gratuita con anuncios. La suscripción Premium, mensual o anual, quita todos los anuncios y permite exportar informes sin ver videos.",
+   "points": [
+    "Cero anuncios",
+    "Informes sin videos",
+    "Cancela cuando quieras en Google Play"
+   ]
+  },
+  "faq": {
+   "title": "Preguntas frecuentes",
+   "items": [
+    {
+     "q": "¿Rodou es gratis?",
+     "a": "Sí. La app es gratuita con anuncios. La suscripción Premium opcional quita los anuncios y permite exportar informes sin ver videos."
+    },
+    {
+     "q": "¿Necesito crear una cuenta?",
+     "a": "No. No hay registro ni login. Tus vehículos, cargas y recordatorios quedan solo en tu celular y puedes hacer una copia en archivo."
+    },
+    {
+     "q": "¿Cómo se calcula el consumo?",
+     "a": "Con el método del tanque lleno, el más preciso. Las cargas parciales se suman automáticamente hasta el siguiente tanque lleno."
+    },
+    {
+     "q": "¿Sirve para motos y conductores de aplicaciones?",
+     "a": "Sí. Registra autos y motos y activa Mi día para ver ganancias por plataforma, gasto de combustible y ganancia por hora."
+    },
+    {
+     "q": "¿Funciona fuera de Brasil?",
+     "a": "Sí. Rodou está en 10 idiomas y adapta la moneda, los kilómetros o millas y los litros o galones al país que elijas."
+    }
+   ]
+  },
+  "final": {
+   "title": "Es hora de saber a dónde va tu dinero",
+   "text": "Descarga Rodou y registra tu primera carga. Rodó, anotó, ahorró.",
+   "cta": "Descargar en Google Play"
+  },
+  "footer": {
+   "privacy": "Política de privacidad",
+   "by": "Desarrollado por JF Coder",
+   "rights": "Todos los derechos reservados.",
+   "portfolio": "Más proyectos",
+   "languages": "Idiomas"
+  },
+  "a11y": {
+   "skip": "Ir al contenido",
+   "langLabel": "Idioma",
+   "logoAlt": "Ícono de la app Rodou"
+  },
+  "schema": {
+   "offer": "Gratis, con suscripción Premium opcional",
+   "home": "Inicio"
+  },
+  "playHl": "es_419"
+ },
+ "fr": {
+  "label": "Français",
+  "htmlLang": "fr",
+  "ogLocale": "fr_FR",
+  "title": "Rodou : consommation, dépenses auto et bénéfice VTC du jour",
+  "description": "App gratuite pour suivre carburant, consommation L/100 km, dépenses et entretien de votre voiture ou moto. Superéthanol E85 ou essence, rappels, gains VTC.",
+  "keywords": "suivi carburant, consommation voiture, L/100 km, dépenses auto, coût au km, superéthanol E85 ou essence, rappel vidange, bénéfice chauffeur VTC",
+  "nav": {
+   "features": "Fonctions",
+   "screens": "Captures",
+   "premium": "Premium",
+   "faq": "FAQ"
+  },
+  "hero": {
+   "eyebrow": "Carburant · Dépenses · Entretien · Bénéfice",
+   "title": "Rodou",
+   "subtitle": "Sachez combien votre voiture consomme, coûte et rapporte.",
+   "text": "Enregistrez un plein en quelques secondes et voyez tout de suite la consommation réelle, le coût au km et vos dépenses du mois. Pour le quotidien comme pour le VTC et la livraison.",
+   "cta": "Télécharger sur Google Play",
+   "ctaNote": "Gratuit · Android",
+   "secondary": "Découvrir les fonctions"
+  },
+  "badges": [
+   "Gratuit",
+   "Sans inscription ni connexion",
+   "Vos données restent sur votre téléphone"
+  ],
+  "stats": [
+   {
+    "v": "10",
+    "l": "langues"
+   },
+   {
+    "v": "25",
+    "l": "pays, avec devise et unités locales"
+   },
+   {
+    "v": "0",
+    "l": "compte exigé"
+   }
+  ],
+  "features": {
+   "title": "Tout ce dont votre véhicule a besoin, dans une seule app",
+   "intro": "De la pompe au garage : Rodou transforme des notes éparses en chiffres qui vous aident à dépenser moins.",
+   "items": [
+    {
+     "icon": "gauge",
+     "title": "La vraie consommation",
+     "text": "Consommation moyenne en L/100 km par la méthode du plein complet, la plus précise. Les pleins partiels sont pris en compte seuls."
+    },
+    {
+     "icon": "flex",
+     "title": "E85 ou essence ?",
+     "text": "La calculatrice indique le carburant le plus rentable. Rodou apprend de vos pleins et trouve la limite réelle de VOTRE véhicule."
+    },
+    {
+     "icon": "widget",
+     "title": "Widget sur l'écran d'accueil",
+     "text": "Ajustez les prix avec + et − devant la pompe, sans ouvrir l'app."
+    },
+    {
+     "icon": "chart",
+     "title": "Rapports et graphiques",
+     "text": "Dépenses par mois, consommation par plein et coût par carburant. Export en PDF ou Excel."
+    },
+    {
+     "icon": "bell",
+     "title": "Rappels d'entretien",
+     "text": "Vidange, contrôle technique, assurance et pneus, par date, par kilométrage ou selon la première échéance."
+    },
+    {
+     "icon": "route",
+     "title": "Ma journée : le vrai bénéfice",
+     "text": "Gains par plateforme, carburant selon les km parcourus, bénéfice par heure et objectif du jour pour chauffeurs et livreurs."
+    },
+    {
+     "icon": "car",
+     "title": "Plusieurs véhicules",
+     "text": "Voitures et motos au même endroit, avec thème clair ou sombre et la devise de votre pays."
+    },
+    {
+     "icon": "shield",
+     "title": "Privé par défaut",
+     "text": "Pas de compte, pas de connexion. Sauvegardez dans un fichier pour changer de téléphone sans rien perdre."
+    }
+   ]
+  },
+  "steps": {
+   "title": "Comment ça marche",
+   "items": [
+    {
+     "title": "Plein fait ? Notez-le",
+     "text": "Montant, volume et kilométrage. Quelques secondes suffisent."
+    },
+    {
+     "title": "Voyez les chiffres",
+     "text": "Consommation, coût au km et dépenses du mois s'affichent aussitôt."
+    },
+    {
+     "title": "Décidez mieux",
+     "text": "Trouvez le carburant rentable et ne ratez plus aucune échéance d'entretien."
+    }
+   ]
+  },
+  "screens": {
+   "title": "Rodou en action",
+   "intro": "De vraies captures de l'application.",
+   "alts": [
+    "Écran d'accueil de Rodou avec consommation moyenne, coût au km et dépenses du mois",
+    "Enregistrement d'un plein dans Rodou",
+    "Calculatrice Superéthanol E85 ou essence de Rodou",
+    "Ma journée : gains, carburant et bénéfice du jour",
+    "Rapports et graphiques de consommation et de dépenses",
+    "Rappels d'entretien comme la vidange et le contrôle technique"
+   ]
+  },
+  "premium": {
+   "title": "Rodou Premium, si vous voulez",
+   "text": "L'app est gratuite avec publicités. L'abonnement Premium, mensuel ou annuel, supprime toutes les publicités et permet d'exporter les rapports sans regarder de vidéos.",
+   "points": [
+    "Aucune publicité",
+    "Rapports sans vidéos",
+    "Résiliable à tout moment sur Google Play"
+   ]
+  },
+  "faq": {
+   "title": "Questions fréquentes",
+   "items": [
+    {
+     "q": "Rodou est-il gratuit ?",
+     "a": "Oui. L'app est gratuite avec publicités. L'abonnement Premium facultatif supprime les publicités et permet d'exporter les rapports sans vidéos."
+    },
+    {
+     "q": "Dois-je créer un compte ?",
+     "a": "Non. Il n'y a ni inscription ni connexion. Vos véhicules, pleins et rappels restent sur votre téléphone et peuvent être sauvegardés dans un fichier."
+    },
+    {
+     "q": "Comment la consommation est-elle calculée ?",
+     "a": "Par la méthode du plein complet, la plus précise. Les pleins partiels sont additionnés automatiquement jusqu'au plein suivant."
+    },
+    {
+     "q": "Convient-il aux motos et aux chauffeurs VTC ?",
+     "a": "Oui. Ajoutez voitures et motos et activez Ma journée pour voir les gains par plateforme, le coût du carburant et le bénéfice par heure."
+    },
+    {
+     "q": "Fonctionne-t-il hors du Brésil ?",
+     "a": "Oui. Rodou existe en 10 langues et adapte la devise, les kilomètres ou miles et les litres ou gallons à votre pays."
+    }
+   ]
+  },
+  "final": {
+   "title": "Il est temps de savoir où va votre argent",
+   "text": "Téléchargez Rodou et enregistrez votre premier plein. Roulé, noté, économisé.",
+   "cta": "Télécharger sur Google Play"
+  },
+  "footer": {
+   "privacy": "Politique de confidentialité",
+   "by": "Développé par JF Coder",
+   "rights": "Tous droits réservés.",
+   "portfolio": "Autres projets",
+   "languages": "Langues"
+  },
+  "a11y": {
+   "skip": "Aller au contenu",
+   "langLabel": "Langue",
+   "logoAlt": "Icône de l'application Rodou"
+  },
+  "schema": {
+   "offer": "Gratuit, avec abonnement Premium facultatif",
+   "home": "Accueil"
+  },
+  "playHl": "fr"
+ },
+ "de": {
+  "label": "Deutsch",
+  "htmlLang": "de",
+  "ogLocale": "de_DE",
+  "title": "Rodou: Spritverbrauch, Autokosten und Fahrer-Gewinn im Blick",
+  "description": "Kostenlose App für Spritverbrauch in L/100 km, Autokosten und Wartung von Auto und Motorrad. Autogas oder Benzin, HU-Erinnerung, Tagesgewinn. Ohne Anmeldung.",
+  "keywords": "Spritverbrauch, Spritbuch, L/100 km, Autokosten, Kosten pro km, Autogas oder Benzin, Ölwechsel Erinnerung, Fahrdienst Gewinn, Tank-App",
+  "nav": {
+   "features": "Funktionen",
+   "screens": "Screenshots",
+   "premium": "Premium",
+   "faq": "FAQ"
+  },
+  "hero": {
+   "eyebrow": "Sprit · Kosten · Wartung · Gewinn",
+   "title": "Rodou",
+   "subtitle": "Wisse, was dein Auto verbraucht, kostet und einbringt.",
+   "text": "Erfasse einen Tankvorgang in Sekunden und sieh sofort den echten Verbrauch, die Kosten pro km und deine monatlichen Ausgaben. Für den Alltag und für Fahrdienst und Lieferjobs.",
+   "cta": "Bei Google Play laden",
+   "ctaNote": "Kostenlos · Android",
+   "secondary": "Funktionen ansehen"
+  },
+  "badges": [
+   "Kostenlos nutzbar",
+   "Ohne Anmeldung und Login",
+   "Deine Daten bleiben auf dem Handy"
+  ],
+  "stats": [
+   {
+    "v": "10",
+    "l": "Sprachen"
+   },
+   {
+    "v": "25",
+    "l": "Länder, mit lokaler Währung und Einheiten"
+   },
+   {
+    "v": "0",
+    "l": "Konten nötig"
+   }
+  ],
+  "features": {
+   "title": "Alles, was dein Fahrzeug braucht, in einer App",
+   "intro": "Von der Zapfsäule bis zur Werkstatt: Rodou macht aus losen Notizen Zahlen, mit denen du weniger ausgibst.",
+   "items": [
+    {
+     "icon": "gauge",
+     "title": "Der echte Verbrauch",
+     "text": "Durchschnitt in L/100 km nach der Volltank-Methode, der genauesten. Teilbetankungen werden automatisch berücksichtigt."
+    },
+    {
+     "icon": "flex",
+     "title": "Autogas oder Benzin?",
+     "text": "Der Rechner zeigt, welcher Kraftstoff sich lohnt. Rodou lernt aus deinen Tankvorgängen und findet die echte Grenze DEINES Fahrzeugs."
+    },
+    {
+     "icon": "widget",
+     "title": "Widget auf dem Startbildschirm",
+     "text": "Ändere Preise mit + und − an der Zapfsäule, ohne die App zu öffnen."
+    },
+    {
+     "icon": "chart",
+     "title": "Berichte und Diagramme",
+     "text": "Ausgaben pro Monat, Verbrauch je Tankfüllung und Kosten je Kraftstoff. Export als PDF oder Excel."
+    },
+    {
+     "icon": "bell",
+     "title": "Wartungs-Erinnerungen",
+     "text": "Ölwechsel, Kfz-Steuer, HU, Versicherung und Reifen, nach Datum, Kilometerstand oder je nachdem, was zuerst eintritt."
+    },
+    {
+     "icon": "route",
+     "title": "Mein Tag: der echte Gewinn",
+     "text": "Einnahmen je Plattform, Spritkosten nach gefahrenen km, Gewinn pro Stunde und Tagesziel für Fahr- und Lieferdienste."
+    },
+    {
+     "icon": "car",
+     "title": "Mehrere Fahrzeuge",
+     "text": "Autos und Motorräder an einem Ort, mit hellem und dunklem Design und der Währung deines Landes."
+    },
+    {
+     "icon": "shield",
+     "title": "Standardmäßig privat",
+     "text": "Kein Konto, kein Login. Sichere alles in einer Datei, um das Handy ohne Verlust zu wechseln."
+    }
+   ]
+  },
+  "steps": {
+   "title": "So funktioniert es",
+   "items": [
+    {
+     "title": "Getankt? Eintragen",
+     "text": "Betrag, Menge und Kilometerstand. Das dauert wenige Sekunden."
+    },
+    {
+     "title": "Zahlen ansehen",
+     "text": "Verbrauch, Kosten pro km und Monatsausgaben erscheinen sofort."
+    },
+    {
+     "title": "Besser entscheiden",
+     "text": "Finde den Kraftstoff, der sich lohnt, und verpasse keinen Wartungstermin mehr."
+    }
+   ]
+  },
+  "screens": {
+   "title": "Rodou in Aktion",
+   "intro": "Echte Screenshots aus der App.",
+   "alts": [
+    "Rodou-Startseite mit Durchschnittsverbrauch, Kosten pro km und Monatsausgaben",
+    "Tankvorgang in Rodou erfassen",
+    "Rodou-Rechner Autogas oder Benzin",
+    "Mein Tag: Einnahmen, Sprit und Tagesgewinn",
+    "Berichte und Diagramme zu Verbrauch und Ausgaben",
+    "Wartungs-Erinnerungen wie Ölwechsel und HU"
+   ]
+  },
+  "premium": {
+   "title": "Rodou Premium, wenn du willst",
+   "text": "Die App ist kostenlos mit Werbung. Das Premium-Abo, monatlich oder jährlich, entfernt jede Werbung und erlaubt den Berichtsexport ohne Videos.",
+   "points": [
+    "Keine Werbung",
+    "Berichte ohne Videos",
+    "Jederzeit bei Google Play kündbar"
+   ]
+  },
+  "faq": {
+   "title": "Häufige Fragen",
+   "items": [
+    {
+     "q": "Ist Rodou kostenlos?",
+     "a": "Ja. Die App ist kostenlos mit Werbung. Das optionale Premium-Abo entfernt die Werbung und erlaubt den Berichtsexport ohne Videos."
+    },
+    {
+     "q": "Muss ich ein Konto erstellen?",
+     "a": "Nein. Es gibt weder Anmeldung noch Login. Fahrzeuge, Tankvorgänge und Erinnerungen bleiben auf deinem Handy, und du kannst sie in einer Datei sichern."
+    },
+    {
+     "q": "Wie wird der Verbrauch berechnet?",
+     "a": "Mit der Volltank-Methode, der genauesten. Teilbetankungen werden automatisch bis zur nächsten Volltankung addiert."
+    },
+    {
+     "q": "Eignet sich Rodou für Motorräder und Fahrdienste?",
+     "a": "Ja. Lege Autos und Motorräder an und aktiviere Mein Tag, um Einnahmen je Plattform, Spritkosten und Gewinn pro Stunde zu sehen."
+    },
+    {
+     "q": "Funktioniert es auch außerhalb Brasiliens?",
+     "a": "Ja. Rodou gibt es in 10 Sprachen und passt Währung, Kilometer oder Meilen und Liter oder Gallonen an dein Land an."
+    }
+   ]
+  },
+  "final": {
+   "title": "Zeit zu sehen, wohin dein Geld fließt",
+   "text": "Lade Rodou herunter und trage deine erste Tankfüllung ein. Gefahren, notiert, gespart.",
+   "cta": "Bei Google Play laden"
+  },
+  "footer": {
+   "privacy": "Datenschutzerklärung",
+   "by": "Entwickelt von JF Coder",
+   "rights": "Alle Rechte vorbehalten.",
+   "portfolio": "Weitere Projekte",
+   "languages": "Sprachen"
+  },
+  "a11y": {
+   "skip": "Zum Inhalt springen",
+   "langLabel": "Sprache",
+   "logoAlt": "Rodou-App-Symbol"
+  },
+  "schema": {
+   "offer": "Kostenlos, mit optionalem Premium-Abo",
+   "home": "Startseite"
+  },
+  "playHl": "de"
+ },
+ "it": {
+  "label": "Italiano",
+  "htmlLang": "it",
+  "ogLocale": "it_IT",
+  "title": "Rodou: consumi, spese auto e guadagno giornaliero NCC",
+  "description": "App gratuita per controllare carburante, consumi L/100 km, spese e manutenzione di auto o moto. GPL o benzina, promemoria bollo e revisione, utile NCC. Senza registrazione.",
+  "keywords": "controllo carburante, consumi auto, L/100 km, spese auto, costo al km, GPL o benzina, promemoria cambio olio, guadagno autista NCC, app rifornimenti",
+  "nav": {
+   "features": "Funzioni",
+   "screens": "Schermate",
+   "premium": "Premium",
+   "faq": "FAQ"
+  },
+  "hero": {
+   "eyebrow": "Carburante · Spese · Manutenzione · Utile",
+   "title": "Rodou",
+   "subtitle": "Scopri quanto consuma, costa e rende la tua auto.",
+   "text": "Registra un rifornimento in pochi secondi e vedi subito il consumo reale, il costo al km e la spesa del mese. Per chi guida ogni giorno e per chi lavora con le app.",
+   "cta": "Scarica su Google Play",
+   "ctaNote": "Gratis · Android",
+   "secondary": "Scopri le funzioni"
+  },
+  "badges": [
+   "Gratis",
+   "Senza registrazione né login",
+   "I dati restano sul tuo telefono"
+  ],
+  "stats": [
+   {
+    "v": "10",
+    "l": "lingue"
+   },
+   {
+    "v": "25",
+    "l": "paesi, con valuta e unità locali"
+   },
+   {
+    "v": "0",
+    "l": "account richiesti"
+   }
+  ],
+  "features": {
+   "title": "Tutto ciò che serve al tuo veicolo in un'unica app",
+   "intro": "Dal distributore all'officina: Rodou trasforma appunti sparsi in numeri che ti aiutano a spendere meno.",
+   "items": [
+    {
+     "icon": "gauge",
+     "title": "Il consumo reale",
+     "text": "Consumo medio in L/100 km con il metodo del pieno, il più preciso. I rifornimenti parziali vengono conteggiati da soli."
+    },
+    {
+     "icon": "flex",
+     "title": "GPL o benzina?",
+     "text": "Il calcolatore mostra quale carburante conviene. Rodou impara dai tuoi rifornimenti e trova il limite reale della TUA auto."
+    },
+    {
+     "icon": "widget",
+     "title": "Widget nella schermata Home",
+     "text": "Cambia i prezzi con + e − davanti alla pompa, senza aprire l'app."
+    },
+    {
+     "icon": "chart",
+     "title": "Report e grafici",
+     "text": "Spesa per mese, consumo per pieno e costo per carburante. Esporta in PDF o Excel."
+    },
+    {
+     "icon": "bell",
+     "title": "Promemoria di manutenzione",
+     "text": "Olio, bollo, revisione, assicurazione e pneumatici, per data, per chilometraggio o alla prima scadenza."
+    },
+    {
+     "icon": "route",
+     "title": "La mia giornata: utile vero",
+     "text": "Guadagni per piattaforma, carburante in base ai km percorsi, utile all'ora e obiettivo giornaliero per autisti e rider."
+    },
+    {
+     "icon": "car",
+     "title": "Più veicoli",
+     "text": "Auto e moto nello stesso posto, con tema chiaro o scuro e la valuta del tuo paese."
+    },
+    {
+     "icon": "shield",
+     "title": "Privato per impostazione",
+     "text": "Nessun account, nessun login. Fai il backup in un file per cambiare telefono senza perdere nulla."
+    }
+   ]
+  },
+  "steps": {
+   "title": "Come funziona",
+   "items": [
+    {
+     "title": "Fatto il pieno? Segnalo",
+     "text": "Importo, litri e chilometri. Bastano pochi secondi."
+    },
+    {
+     "title": "Guarda i numeri",
+     "text": "Consumo, costo al km e spesa del mese compaiono subito."
+    },
+    {
+     "title": "Decidi meglio",
+     "text": "Scopri il carburante che conviene e non perdere nessuna scadenza."
+    }
+   ]
+  },
+  "screens": {
+   "title": "Rodou in azione",
+   "intro": "Schermate reali dell'app.",
+   "alts": [
+    "Schermata iniziale di Rodou con consumo medio, costo al km e spesa del mese",
+    "Registrazione di un rifornimento in Rodou",
+    "Calcolatore GPL o benzina di Rodou",
+    "La mia giornata: guadagni, carburante e utile del giorno",
+    "Report e grafici di consumi e spese",
+    "Promemoria di manutenzione come cambio olio e revisione"
+   ]
+  },
+  "premium": {
+   "title": "Rodou Premium, se vuoi",
+   "text": "L'app è gratuita con pubblicità. L'abbonamento Premium, mensile o annuale, elimina tutta la pubblicità e permette di esportare i report senza guardare video.",
+   "points": [
+    "Nessuna pubblicità",
+    "Report senza video",
+    "Annulla quando vuoi su Google Play"
+   ]
+  },
+  "faq": {
+   "title": "Domande frequenti",
+   "items": [
+    {
+     "q": "Rodou è gratuito?",
+     "a": "Sì. L'app è gratuita con pubblicità. L'abbonamento Premium facoltativo elimina la pubblicità e permette di esportare i report senza video."
+    },
+    {
+     "q": "Devo creare un account?",
+     "a": "No. Non c'è registrazione né login. Veicoli, rifornimenti e promemoria restano sul tuo telefono e puoi salvarli in un file di backup."
+    },
+    {
+     "q": "Come viene calcolato il consumo?",
+     "a": "Con il metodo del pieno, il più preciso. I rifornimenti parziali vengono sommati automaticamente fino al pieno successivo."
+    },
+    {
+     "q": "Va bene per le moto e per gli autisti NCC?",
+     "a": "Sì. Aggiungi auto e moto e attiva La mia giornata per vedere guadagni per piattaforma, costo del carburante e utile all'ora."
+    },
+    {
+     "q": "Funziona fuori dal Brasile?",
+     "a": "Sì. Rodou è disponibile in 10 lingue e adatta valuta, chilometri o miglia e litri o galloni al tuo paese."
+    }
+   ]
+  },
+  "final": {
+   "title": "È il momento di sapere dove vanno i tuoi soldi",
+   "text": "Scarica Rodou e registra il tuo primo rifornimento. Guidato, annotato, risparmiato.",
+   "cta": "Scarica su Google Play"
+  },
+  "footer": {
+   "privacy": "Informativa sulla privacy",
+   "by": "Sviluppato da JF Coder",
+   "rights": "Tutti i diritti riservati.",
+   "portfolio": "Altri progetti",
+   "languages": "Lingue"
+  },
+  "a11y": {
+   "skip": "Vai al contenuto",
+   "langLabel": "Lingua",
+   "logoAlt": "Icona dell'app Rodou"
+  },
+  "schema": {
+   "offer": "Gratis, con abbonamento Premium facoltativo",
+   "home": "Home"
+  },
+  "playHl": "it"
+ },
+ "tr": {
+  "label": "Türkçe",
+  "htmlLang": "tr",
+  "ogLocale": "tr_TR",
+  "title": "Rodou: yakıt tüketimi, araç giderleri ve günlük kâr takibi",
+  "description": "Otomobil veya motosiklet için yakıt, L/100 km tüketim, gider ve bakım takibi yapan ücretsiz uygulama. LPG mi benzin mi, muayene hatırlatma, günlük kâr. Kayıt yok.",
+  "keywords": "yakıt takibi, yakıt tüketimi, L/100 km, araç giderleri, km başına maliyet, LPG mi benzin mi, yağ değişimi hatırlatma, taksi kurye kârı, yakıt uygulaması",
+  "nav": {
+   "features": "Özellikler",
+   "screens": "Ekranlar",
+   "premium": "Premium",
+   "faq": "SSS"
+  },
+  "hero": {
+   "eyebrow": "Yakıt · Gider · Bakım · Kâr",
+   "title": "Rodou",
+   "subtitle": "Aracının ne kadar yaktığını, neye mal olduğunu ve ne kazandırdığını öğren.",
+   "text": "Yakıt alımını saniyeler içinde kaydet; gerçek tüketimi, km başına maliyeti ve aylık harcamanı anında gör. Günlük sürücüler, taksiciler ve kuryeler için.",
+   "cta": "Google Play'den indir",
+   "ctaNote": "Ücretsiz · Android",
+   "secondary": "Özelliklere bak"
+  },
+  "badges": [
+   "Ücretsiz",
+   "Kayıt ve giriş yok",
+   "Verilerin telefonunda kalır"
+  ],
+  "stats": [
+   {
+    "v": "10",
+    "l": "dil"
+   },
+   {
+    "v": "25",
+    "l": "ülke, yerel para birimi ve birimlerle"
+   },
+   {
+    "v": "0",
+    "l": "hesap gerekir"
+   }
+  ],
+  "features": {
+   "title": "Aracının ihtiyacı olan her şey tek uygulamada",
+   "intro": "Pompadan servise: Rodou dağınık notlarını daha az harcamana yardım eden rakamlara çevirir.",
+   "items": [
+    {
+     "icon": "gauge",
+     "title": "Gerçek tüketim",
+     "text": "Tam depo yöntemiyle L/100 km cinsinden ortalama tüketim, en doğru yöntem. Kısmi alımlar kendiliğinden hesaba katılır."
+    },
+    {
+     "icon": "flex",
+     "title": "LPG mi benzin mi?",
+     "text": "Hesaplayıcı hangi yakıtın kârlı olduğunu gösterir. Rodou yakıt alımlarından öğrenir ve SENİN aracının gerçek sınırını bulur."
+    },
+    {
+     "icon": "widget",
+     "title": "Ana ekran widget'ı",
+     "text": "Pompanın başında + ve − ile fiyatı ayarla, uygulamayı açmadan."
+    },
+    {
+     "icon": "chart",
+     "title": "Raporlar ve grafikler",
+     "text": "Aylık harcama, depo başına tüketim ve yakıt türüne göre maliyet. PDF veya Excel olarak dışa aktar."
+    },
+    {
+     "icon": "bell",
+     "title": "Bakım hatırlatıcıları",
+     "text": "Yağ, MTV, muayene, sigorta ve lastik; tarihe, kilometreye veya hangisi önce gelirse ona göre. Vaktinden önce uyarır."
+    },
+    {
+     "icon": "route",
+     "title": "Günüm: gerçek kâr",
+     "text": "Platform başına kazanç, gidilen km'ye göre yakıt maliyeti, saatlik kâr ve günlük hedef; taksiciler ve kuryeler için."
+    },
+    {
+     "icon": "car",
+     "title": "Birden fazla araç",
+     "text": "Otomobil ve motosiklet tek yerde; açık ve koyu tema, ülkenin para birimi."
+    },
+    {
+     "icon": "shield",
+     "title": "Varsayılan olarak gizli",
+     "text": "Hesap yok, giriş yok. Telefon değiştirirken hiçbir şey kaybetmemek için dosyaya yedekle."
+    }
+   ]
+  },
+  "steps": {
+   "title": "Nasıl çalışır",
+   "items": [
+    {
+     "title": "Yakıt aldın mı? Kaydet",
+     "text": "Tutar, litre ve km. Birkaç saniye sürer."
+    },
+    {
+     "title": "Rakamları gör",
+     "text": "Tüketim, km başına maliyet ve aylık harcama anında görünür."
+    },
+    {
+     "title": "Daha iyi karar ver",
+     "text": "Kârlı yakıtı bul ve hiçbir bakım tarihini kaçırma."
+    }
+   ]
+  },
+  "screens": {
+   "title": "Rodou iş başında",
+   "intro": "Uygulamadan gerçek ekranlar.",
+   "alts": [
+    "Rodou ana ekranı: ortalama tüketim, km başına maliyet ve aylık harcama",
+    "Rodou'da yakıt alımı kaydı",
+    "Rodou LPG mi benzin mi hesaplayıcısı",
+    "Günüm: kazanç, yakıt ve günlük kâr",
+    "Tüketim ve harcama raporları ile grafikleri",
+    "Yağ değişimi ve muayene gibi bakım hatırlatıcıları"
+   ]
+  },
+  "premium": {
+   "title": "İstersen Rodou Premium",
+   "text": "Uygulama reklamlarla ücretsizdir. Aylık veya yıllık Premium abonelik tüm reklamları kaldırır ve raporları video izlemeden dışa aktarmanı sağlar.",
+   "points": [
+    "Hiç reklam yok",
+    "Videosuz raporlar",
+    "Google Play'de istediğin zaman iptal et"
+   ]
+  },
+  "faq": {
+   "title": "Sık sorulan sorular",
+   "items": [
+    {
+     "q": "Rodou ücretsiz mi?",
+     "a": "Evet. Uygulama reklamlarla ücretsizdir. İsteğe bağlı Premium abonelik reklamları kaldırır ve raporları video izlemeden dışa aktarmanı sağlar."
+    },
+    {
+     "q": "Hesap oluşturmam gerekiyor mu?",
+     "a": "Hayır. Kayıt ve giriş yoktur. Araçların, yakıt alımların ve hatırlatıcıların yalnızca telefonunda kalır; dosyaya yedekleyebilirsin."
+    },
+    {
+     "q": "Tüketim nasıl hesaplanıyor?",
+     "a": "En doğru yöntem olan tam depo yöntemiyle. Kısmi alımlar bir sonraki tam depoya kadar otomatik toplanır."
+    },
+    {
+     "q": "Motosiklet ve taksi sürücüleri için uygun mu?",
+     "a": "Evet. Otomobil ve motosiklet ekle, Günüm'ü açarak platform başına kazancı, yakıt maliyetini ve saatlik kârı gör."
+    },
+    {
+     "q": "Brezilya dışında çalışır mı?",
+     "a": "Evet. Rodou 10 dilde gelir; para birimini, kilometre veya mili ve litre veya galonu ülkene göre uyarlar."
+    }
+   ]
+  },
+  "final": {
+   "title": "Paranın nereye gittiğini görme zamanı",
+   "text": "Rodou'yu indir ve ilk yakıt alımını kaydet. Sürdün, not ettin, tasarruf ettin.",
+   "cta": "Google Play'den indir"
+  },
+  "footer": {
+   "privacy": "Gizlilik politikası",
+   "by": "JF Coder tarafından geliştirildi",
+   "rights": "Tüm hakları saklıdır.",
+   "portfolio": "Diğer projeler",
+   "languages": "Diller"
+  },
+  "a11y": {
+   "skip": "İçeriğe geç",
+   "langLabel": "Dil",
+   "logoAlt": "Rodou uygulama simgesi"
+  },
+  "schema": {
+   "offer": "Ücretsiz, isteğe bağlı Premium abonelikle",
+   "home": "Ana sayfa"
+  },
+  "playHl": "tr"
+ },
+ "pl": {
+  "label": "Polski",
+  "htmlLang": "pl",
+  "ogLocale": "pl_PL",
+  "title": "Rodou: spalanie, koszty auta i dzienny zysk kierowcy",
+  "description": "Darmowa aplikacja do kontroli paliwa, spalania w L/100 km, kosztów i serwisu auta lub motocykla. LPG czy benzyna, przypomnienia o przeglądzie i OC. Bez rejestracji.",
+  "keywords": "kontrola paliwa, spalanie samochodu, L/100 km, koszty auta, koszt na km, LPG czy benzyna, przypomnienie o wymianie oleju, zysk kierowcy, aplikacja do tankowania",
+  "nav": {
+   "features": "Funkcje",
+   "screens": "Zrzuty ekranu",
+   "premium": "Premium",
+   "faq": "FAQ"
+  },
+  "hero": {
+   "eyebrow": "Paliwo · Koszty · Serwis · Zysk",
+   "title": "Rodou",
+   "subtitle": "Sprawdź, ile pali, kosztuje i zarabia Twój samochód.",
+   "text": "Zapisz tankowanie w kilka sekund i od razu zobacz rzeczywiste spalanie, koszt na km i miesięczne wydatki. Na co dzień i do pracy w przewozach czy dostawach.",
+   "cta": "Pobierz z Google Play",
+   "ctaNote": "Za darmo · Android",
+   "secondary": "Zobacz funkcje"
+  },
+  "badges": [
+   "Za darmo",
+   "Bez rejestracji i logowania",
+   "Dane zostają na Twoim telefonie"
+  ],
+  "stats": [
+   {
+    "v": "10",
+    "l": "języków"
+   },
+   {
+    "v": "25",
+    "l": "krajów, z lokalną walutą i jednostkami"
+   },
+   {
+    "v": "0",
+    "l": "wymaganych kont"
+   }
+  ],
+  "features": {
+   "title": "Wszystko, czego potrzebuje Twój pojazd, w jednej aplikacji",
+   "intro": "Od dystrybutora do warsztatu: Rodou zamienia luźne notatki w liczby, które pomagają wydawać mniej.",
+   "items": [
+    {
+     "icon": "gauge",
+     "title": "Rzeczywiste spalanie",
+     "text": "Średnie spalanie w L/100 km metodą pełnego baku, najdokładniejszą. Częściowe tankowania liczą się same."
+    },
+    {
+     "icon": "flex",
+     "title": "LPG czy benzyna?",
+     "text": "Kalkulator pokazuje, które paliwo się opłaca. Rodou uczy się na Twoich tankowaniach i znajduje rzeczywisty próg TWOJEGO auta."
+    },
+    {
+     "icon": "widget",
+     "title": "Widżet na ekranie głównym",
+     "text": "Zmieniaj ceny przyciskami + i − przy dystrybutorze, bez otwierania aplikacji."
+    },
+    {
+     "icon": "chart",
+     "title": "Raporty i wykresy",
+     "text": "Wydatki według miesięcy, spalanie na bak i koszt według paliwa. Eksport do PDF lub Excela."
+    },
+    {
+     "icon": "bell",
+     "title": "Przypomnienia serwisowe",
+     "text": "Olej, przegląd, OC i opony, według daty, przebiegu lub tego, co nastąpi wcześniej. Ostrzega z wyprzedzeniem."
+    },
+    {
+     "icon": "route",
+     "title": "Mój dzień: prawdziwy zysk",
+     "text": "Zarobki według platformy, koszt paliwa wg przejechanych km, zysk na godzinę i dzienny cel dla kierowców i kurierów."
+    },
+    {
+     "icon": "car",
+     "title": "Wiele pojazdów",
+     "text": "Samochody i motocykle w jednym miejscu, z jasnym i ciemnym motywem oraz walutą Twojego kraju."
+    },
+    {
+     "icon": "shield",
+     "title": "Domyślnie prywatnie",
+     "text": "Bez konta i logowania. Zrób kopię w pliku, by zmienić telefon bez utraty danych."
+    }
+   ]
+  },
+  "steps": {
+   "title": "Jak to działa",
+   "items": [
+    {
+     "title": "Zatankowałeś? Zapisz",
+     "text": "Kwota, litry i przebieg. To kilka sekund."
+    },
+    {
+     "title": "Zobacz liczby",
+     "text": "Spalanie, koszt na km i wydatki z miesiąca pojawiają się od razu."
+    },
+    {
+     "title": "Decyduj lepiej",
+     "text": "Sprawdź, które paliwo się opłaca, i nie przegap żadnego terminu serwisu."
+    }
+   ]
+  },
+  "screens": {
+   "title": "Rodou w akcji",
+   "intro": "Prawdziwe ekrany aplikacji.",
+   "alts": [
+    "Ekran główny Rodou ze średnim spalaniem, kosztem na km i wydatkami z miesiąca",
+    "Zapisywanie tankowania w Rodou",
+    "Kalkulator LPG czy benzyna w Rodou",
+    "Mój dzień: zarobki, paliwo i zysk dnia",
+    "Raporty i wykresy spalania oraz wydatków",
+    "Przypomnienia serwisowe, np. wymiana oleju i przegląd"
+   ]
+  },
+  "premium": {
+   "title": "Rodou Premium, jeśli chcesz",
+   "text": "Aplikacja jest darmowa z reklamami. Subskrypcja Premium, miesięczna lub roczna, usuwa wszystkie reklamy i pozwala eksportować raporty bez oglądania filmów.",
+   "points": [
+    "Zero reklam",
+    "Raporty bez filmów",
+    "Anuluj w każdej chwili w Google Play"
+   ]
+  },
+  "faq": {
+   "title": "Najczęstsze pytania",
+   "items": [
+    {
+     "q": "Czy Rodou jest darmowe?",
+     "a": "Tak. Aplikacja jest darmowa z reklamami. Opcjonalna subskrypcja Premium usuwa reklamy i pozwala eksportować raporty bez filmów."
+    },
+    {
+     "q": "Czy muszę zakładać konto?",
+     "a": "Nie. Nie ma rejestracji ani logowania. Pojazdy, tankowania i przypomnienia zostają na Twoim telefonie, a kopię zapasową zapiszesz w pliku."
+    },
+    {
+     "q": "Jak liczone jest spalanie?",
+     "a": "Metodą pełnego baku, najdokładniejszą. Częściowe tankowania są sumowane automatycznie do następnego pełnego baku."
+    },
+    {
+     "q": "Czy działa dla motocykli i kierowców przewozów?",
+     "a": "Tak. Dodaj samochody i motocykle i włącz Mój dzień, by zobaczyć zarobki według platformy, koszt paliwa i zysk na godzinę."
+    },
+    {
+     "q": "Czy działa poza Brazylią?",
+     "a": "Tak. Rodou jest w 10 językach i dopasowuje walutę, kilometry lub mile oraz litry lub galony do Twojego kraju."
+    }
+   ]
+  },
+  "final": {
+   "title": "Czas sprawdzić, na co idą Twoje pieniądze",
+   "text": "Pobierz Rodou i zapisz pierwsze tankowanie. Przejechane, zapisane, zaoszczędzone.",
+   "cta": "Pobierz z Google Play"
+  },
+  "footer": {
+   "privacy": "Polityka prywatności",
+   "by": "Stworzone przez JF Coder",
+   "rights": "Wszelkie prawa zastrzeżone.",
+   "portfolio": "Więcej projektów",
+   "languages": "Języki"
+  },
+  "a11y": {
+   "skip": "Przejdź do treści",
+   "langLabel": "Język",
+   "logoAlt": "Ikona aplikacji Rodou"
+  },
+  "schema": {
+   "offer": "Za darmo, z opcjonalną subskrypcją Premium",
+   "home": "Strona główna"
+  },
+  "playHl": "pl"
+ },
+ "id": {
+  "label": "Bahasa Indonesia",
+  "htmlLang": "id",
+  "ogLocale": "id_ID",
+  "title": "Rodou: catat BBM, konsumsi km/L, biaya kendaraan dan untung ojol",
+  "description": "Aplikasi gratis untuk mencatat BBM, konsumsi km/L, biaya dan perawatan mobil atau motor. Pengingat servis, pajak dan STNK, serta untung harian ojol. Tanpa daftar.",
+  "keywords": "catat BBM, konsumsi bensin km/L, biaya kendaraan, biaya per km, pengingat ganti oli, pajak kendaraan, STNK, untung ojol, aplikasi isi bensin",
+  "nav": {
+   "features": "Fitur",
+   "screens": "Tampilan",
+   "premium": "Premium",
+   "faq": "FAQ"
+  },
+  "hero": {
+   "eyebrow": "BBM · Biaya · Perawatan · Untung",
+   "title": "Rodou",
+   "subtitle": "Ketahui seberapa irit, berapa biaya, dan berapa untung dari kendaraanmu.",
+   "text": "Catat pengisian BBM dalam hitungan detik dan langsung lihat konsumsi nyata, biaya per km, dan pengeluaran bulanan. Untuk pemakaian sehari-hari dan driver ojol atau kurir.",
+   "cta": "Unduh di Google Play",
+   "ctaNote": "Gratis · Android",
+   "secondary": "Lihat fiturnya"
+  },
+  "badges": [
+   "Gratis dipakai",
+   "Tanpa daftar dan login",
+   "Datamu tetap di ponselmu"
+  ],
+  "stats": [
+   {
+    "v": "10",
+    "l": "bahasa"
+   },
+   {
+    "v": "25",
+    "l": "negara, dengan mata uang dan satuan lokal"
+   },
+   {
+    "v": "0",
+    "l": "akun diperlukan"
+   }
+  ],
+  "features": {
+   "title": "Semua kebutuhan kendaraanmu dalam satu aplikasi",
+   "intro": "Dari SPBU sampai bengkel: Rodou mengubah catatan berserakan menjadi angka yang membantumu berhemat.",
+   "items": [
+    {
+     "icon": "gauge",
+     "title": "Konsumsi nyata",
+     "text": "Rata-rata km/L dengan metode isi penuh, yang paling akurat. Pengisian sebagian dihitung otomatis."
+    },
+    {
+     "icon": "flex",
+     "title": "Pilih BBM yang hemat",
+     "text": "Kalkulator menunjukkan bahan bakar mana yang lebih menguntungkan. Rodou belajar dari pengisianmu dan menemukan batas nyata kendaraanMU."
+    },
+    {
+     "icon": "widget",
+     "title": "Widget di layar utama",
+     "text": "Ubah harga dengan tombol + dan − di depan pompa, tanpa membuka aplikasi."
+    },
+    {
+     "icon": "chart",
+     "title": "Laporan dan grafik",
+     "text": "Pengeluaran per bulan, konsumsi tiap tangki, dan biaya per jenis BBM. Ekspor ke PDF atau Excel."
+    },
+    {
+     "icon": "bell",
+     "title": "Pengingat perawatan",
+     "text": "Oli, pajak kendaraan, STNK, asuransi dan ban, berdasarkan tanggal, kilometer, atau mana yang lebih dulu. Memberi tahu sebelum jatuh tempo."
+    },
+    {
+     "icon": "route",
+     "title": "Hariku: untung sebenarnya",
+     "text": "Pendapatan per platform, biaya BBM dari jarak tempuh, untung per jam dan target harian untuk driver ojol dan kurir."
+    },
+    {
+     "icon": "car",
+     "title": "Banyak kendaraan",
+     "text": "Mobil dan motor di satu tempat, dengan tema terang dan gelap serta mata uang negaramu."
+    },
+    {
+     "icon": "shield",
+     "title": "Privat sejak awal",
+     "text": "Tanpa akun dan login. Cadangkan ke file untuk ganti ponsel tanpa kehilangan apa pun."
+    }
+   ]
+  },
+  "steps": {
+   "title": "Cara kerjanya",
+   "items": [
+    {
+     "title": "Habis isi BBM? Catat",
+     "text": "Nominal, liter dan kilometer. Hanya butuh beberapa detik."
+    },
+    {
+     "title": "Lihat angkanya",
+     "text": "Konsumsi, biaya per km dan pengeluaran bulan ini langsung muncul."
+    },
+    {
+     "title": "Putuskan lebih baik",
+     "text": "Temukan BBM yang menguntungkan dan jangan lewatkan jadwal servis."
+    }
+   ]
+  },
+  "screens": {
+   "title": "Lihat Rodou beraksi",
+   "intro": "Tampilan asli dari aplikasi.",
+   "alts": [
+    "Layar utama Rodou dengan konsumsi rata-rata, biaya per km dan pengeluaran bulan ini",
+    "Mencatat pengisian BBM di Rodou",
+    "Riwayat pengisian BBM per bulan di Rodou",
+    "Hariku: pendapatan, BBM dan untung harian",
+    "Laporan dan grafik konsumsi serta pengeluaran",
+    "Pengingat perawatan seperti ganti oli dan pajak"
+   ]
+  },
+  "premium": {
+   "title": "Rodou Premium, jika kamu mau",
+   "text": "Aplikasi ini gratis dengan iklan. Langganan Premium, bulanan atau tahunan, menghapus semua iklan dan memungkinkan ekspor laporan tanpa menonton video.",
+   "points": [
+    "Tanpa iklan",
+    "Laporan tanpa video",
+    "Batalkan kapan saja di Google Play"
+   ]
+  },
+  "faq": {
+   "title": "Pertanyaan umum",
+   "items": [
+    {
+     "q": "Apakah Rodou gratis?",
+     "a": "Ya. Aplikasi ini gratis dengan iklan. Langganan Premium opsional menghapus iklan dan memungkinkan ekspor laporan tanpa video."
+    },
+    {
+     "q": "Apakah saya harus membuat akun?",
+     "a": "Tidak. Tidak ada pendaftaran atau login. Kendaraan, pengisian BBM dan pengingatmu tetap di ponsel, dan bisa dicadangkan ke file."
+    },
+    {
+     "q": "Bagaimana konsumsi dihitung?",
+     "a": "Dengan metode isi penuh, yang paling akurat. Pengisian sebagian dijumlahkan otomatis sampai pengisian penuh berikutnya."
+    },
+    {
+     "q": "Apakah cocok untuk motor dan driver ojol?",
+     "a": "Ya. Tambahkan mobil dan motor, lalu aktifkan Hariku untuk melihat pendapatan per platform, biaya BBM dan untung per jam."
+    },
+    {
+     "q": "Apakah bisa dipakai di luar Brasil?",
+     "a": "Ya. Rodou tersedia dalam 10 bahasa dan menyesuaikan mata uang, kilometer atau mil, serta liter atau galon dengan negaramu."
+    }
+   ]
+  },
+  "final": {
+   "title": "Saatnya tahu ke mana uangmu pergi",
+   "text": "Unduh Rodou dan catat pengisian BBM pertamamu. Jalan, catat, hemat.",
+   "cta": "Unduh di Google Play"
+  },
+  "footer": {
+   "privacy": "Kebijakan privasi",
+   "by": "Dikembangkan oleh JF Coder",
+   "rights": "Hak cipta dilindungi.",
+   "portfolio": "Proyek lainnya",
+   "languages": "Bahasa"
+  },
+  "a11y": {
+   "skip": "Lompat ke konten",
+   "langLabel": "Bahasa",
+   "logoAlt": "Ikon aplikasi Rodou"
+  },
+  "schema": {
+   "offer": "Gratis, dengan langganan Premium opsional",
+   "home": "Beranda"
+  },
+  "playHl": "id"
+ },
+ "vi": {
+  "label": "Tiếng Việt",
+  "htmlLang": "vi",
+  "ogLocale": "vi_VN",
+  "title": "Rodou: ghi xăng, mức tiêu hao, chi phí xe và lợi nhuận tài xế",
+  "description": "Ứng dụng miễn phí ghi xăng, mức tiêu hao L/100 km, chi phí và bảo dưỡng ô tô, xe máy. Nhắc bảo dưỡng, đăng kiểm, lợi nhuận hằng ngày cho tài xế. Không cần đăng ký.",
+  "keywords": "ghi xăng, mức tiêu hao nhiên liệu, L/100 km, chi phí xe, chi phí mỗi km, nhắc thay dầu, đăng kiểm, lợi nhuận tài xế công nghệ, ứng dụng đổ xăng",
+  "nav": {
+   "features": "Tính năng",
+   "screens": "Ảnh chụp",
+   "premium": "Premium",
+   "faq": "Hỏi đáp"
+  },
+  "hero": {
+   "eyebrow": "Xăng · Chi phí · Bảo dưỡng · Lợi nhuận",
+   "title": "Rodou",
+   "subtitle": "Biết xe của bạn tốn bao nhiêu xăng, chi phí bao nhiêu và kiếm được bao nhiêu.",
+   "text": "Ghi lại lần đổ xăng trong vài giây và xem ngay mức tiêu hao thực tế, chi phí mỗi km và chi tiêu hằng tháng. Cho người đi xe mỗi ngày, tài xế công nghệ và shipper.",
+   "cta": "Tải trên Google Play",
+   "ctaNote": "Miễn phí · Android",
+   "secondary": "Xem tính năng"
+  },
+  "badges": [
+   "Miễn phí",
+   "Không cần đăng ký hay đăng nhập",
+   "Dữ liệu ở lại trên điện thoại"
+  ],
+  "stats": [
+   {
+    "v": "10",
+    "l": "ngôn ngữ"
+   },
+   {
+    "v": "25",
+    "l": "quốc gia, với tiền tệ và đơn vị địa phương"
+   },
+   {
+    "v": "0",
+    "l": "tài khoản bắt buộc"
+   }
+  ],
+  "features": {
+   "title": "Mọi thứ chiếc xe cần, trong một ứng dụng",
+   "intro": "Từ cây xăng đến tiệm sửa xe: Rodou biến những ghi chép rời rạc thành con số giúp bạn chi ít hơn.",
+   "items": [
+    {
+     "icon": "gauge",
+     "title": "Mức tiêu hao thực tế",
+     "text": "Mức tiêu hao trung bình theo L/100 km bằng phương pháp đổ đầy bình, chính xác nhất. Các lần đổ không đầy được tính tự động."
+    },
+    {
+     "icon": "flex",
+     "title": "Chọn nhiên liệu có lợi",
+     "text": "Công cụ tính cho biết loại nhiên liệu nào đáng dùng. Rodou học từ các lần đổ của bạn và tìm ra giới hạn thực của xe CỦA BẠN."
+    },
+    {
+     "icon": "widget",
+     "title": "Widget trên màn hình chính",
+     "text": "Chỉnh giá bằng nút + và − ngay tại cây xăng, không cần mở ứng dụng."
+    },
+    {
+     "icon": "chart",
+     "title": "Báo cáo và biểu đồ",
+     "text": "Chi tiêu theo tháng, mức tiêu hao từng bình và chi phí theo loại nhiên liệu. Xuất PDF hoặc Excel."
+    },
+    {
+     "icon": "bell",
+     "title": "Nhắc bảo dưỡng",
+     "text": "Thay dầu, phí đường bộ, đăng kiểm, bảo hiểm và lốp, theo ngày, theo km hoặc mốc nào đến trước. Báo trước khi đến hạn."
+    },
+    {
+     "icon": "route",
+     "title": "Ngày của tôi: lợi nhuận thật",
+     "text": "Thu nhập theo nền tảng, chi phí xăng tính theo số km đã chạy, lợi nhuận mỗi giờ và mục tiêu ngày cho tài xế và shipper."
+    },
+    {
+     "icon": "car",
+     "title": "Nhiều phương tiện",
+     "text": "Ô tô và xe máy ở cùng một nơi, giao diện sáng hoặc tối và tiền tệ của nước bạn."
+    },
+    {
+     "icon": "shield",
+     "title": "Riêng tư mặc định",
+     "text": "Không tài khoản, không đăng nhập. Sao lưu ra tệp để đổi điện thoại mà không mất gì."
+    }
+   ]
+  },
+  "steps": {
+   "title": "Cách hoạt động",
+   "items": [
+    {
+     "title": "Đổ xăng xong? Ghi lại",
+     "text": "Số tiền, số lít và số km. Chỉ mất vài giây."
+    },
+    {
+     "title": "Xem con số",
+     "text": "Mức tiêu hao, chi phí mỗi km và chi tiêu tháng này hiện ngay."
+    },
+    {
+     "title": "Quyết định tốt hơn",
+     "text": "Tìm nhiên liệu có lợi và không bỏ lỡ lịch bảo dưỡng nào."
+    }
+   ]
+  },
+  "screens": {
+   "title": "Rodou trong thực tế",
+   "intro": "Màn hình thật của ứng dụng.",
+   "alts": [
+    "Màn hình chính Rodou với mức tiêu hao trung bình, chi phí mỗi km và chi tiêu tháng này",
+    "Ghi lần đổ xăng trong Rodou",
+    "Lịch sử đổ xăng theo tháng trong Rodou",
+    "Ngày của tôi: thu nhập, xăng và lợi nhuận trong ngày",
+    "Báo cáo và biểu đồ mức tiêu hao và chi tiêu",
+    "Nhắc bảo dưỡng như thay dầu và đăng kiểm"
+   ]
+  },
+  "premium": {
+   "title": "Rodou Premium, nếu bạn muốn",
+   "text": "Ứng dụng miễn phí có quảng cáo. Gói Premium, theo tháng hoặc năm, loại bỏ mọi quảng cáo và cho phép xuất báo cáo mà không cần xem video.",
+   "points": [
+    "Không quảng cáo",
+    "Báo cáo không cần video",
+    "Hủy bất cứ lúc nào trên Google Play"
+   ]
+  },
+  "faq": {
+   "title": "Câu hỏi thường gặp",
+   "items": [
+    {
+     "q": "Rodou có miễn phí không?",
+     "a": "Có. Ứng dụng miễn phí có quảng cáo. Gói Premium tùy chọn loại bỏ quảng cáo và cho phép xuất báo cáo mà không cần xem video."
+    },
+    {
+     "q": "Tôi có phải tạo tài khoản không?",
+     "a": "Không. Không có đăng ký hay đăng nhập. Xe, các lần đổ xăng và nhắc nhở chỉ nằm trên điện thoại của bạn và có thể sao lưu ra tệp."
+    },
+    {
+     "q": "Mức tiêu hao được tính thế nào?",
+     "a": "Bằng phương pháp đổ đầy bình, chính xác nhất. Các lần đổ không đầy được cộng dồn tự động đến lần đổ đầy tiếp theo."
+    },
+    {
+     "q": "Có dùng được cho xe máy và tài xế công nghệ không?",
+     "a": "Có. Thêm ô tô và xe máy rồi bật Ngày của tôi để xem thu nhập theo nền tảng, chi phí xăng và lợi nhuận mỗi giờ."
+    },
+    {
+     "q": "Có dùng được ngoài Brazil không?",
+     "a": "Có. Rodou có 10 ngôn ngữ và điều chỉnh tiền tệ, km hoặc dặm, lít hoặc gallon theo quốc gia của bạn."
+    }
+   ]
+  },
+  "final": {
+   "title": "Đến lúc biết tiền của bạn đi đâu",
+   "text": "Tải Rodou và ghi lần đổ xăng đầu tiên. Chạy xe, ghi lại, tiết kiệm.",
+   "cta": "Tải trên Google Play"
+  },
+  "footer": {
+   "privacy": "Chính sách quyền riêng tư",
+   "by": "Phát triển bởi JF Coder",
+   "rights": "Bảo lưu mọi quyền.",
+   "portfolio": "Dự án khác",
+   "languages": "Ngôn ngữ"
+  },
+  "a11y": {
+   "skip": "Chuyển đến nội dung",
+   "langLabel": "Ngôn ngữ",
+   "logoAlt": "Biểu tượng ứng dụng Rodou"
+  },
+  "schema": {
+   "offer": "Miễn phí, có gói Premium tùy chọn",
+   "home": "Trang chủ"
+  },
+  "playHl": "vi"
+ }
+}

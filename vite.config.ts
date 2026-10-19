@@ -6,6 +6,8 @@ export default defineConfig({
   plugins: [react()],
   // base: '/empel_site/',///deletar em produção
   server: {///deletar em produção
-    host: true
+    host: true,
+    port: 5180,
+    strictPort: true
   }
 })

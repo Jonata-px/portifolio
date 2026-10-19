@@ -26,6 +26,7 @@ import PDVMultiVideos from "./pages/PDVMulti/Videos";
 import IlstPrivacity from "./pages/Ilst/Privacity";
 import IlstApp from "./pages/Ilst";
 import RodouPrivacity from "./pages/Rodou/Privacity";
+import RodouPage from "./pages/Rodou";
 import Seo from "./components/Seo";
 
 function App() {
@@ -57,7 +58,9 @@ function App() {
           <Route path="/pdv-multi/privacity" element={<PDVMultiPrivacity />} />
           <Route path="/ilst" element={<IlstApp />} />
           <Route path="/ilst/privacity" element={<IlstPrivacity />} />
+          <Route path="/rodou" element={<RodouPage />} />
           <Route path="/rodou/privacity" element={<RodouPrivacity />} />
+          <Route path="/rodou/:lang" element={<RodouPage />} />
         </Routes>
       </BrowserRouter>
     </div>
