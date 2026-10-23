@@ -1,0 +1,97 @@
+.contact {
+    text-align: center;
+    background: rgba(15, 23, 42, 0.55);
+    border: 1px solid rgba(37, 211, 102, 0.3);
+    border-radius: 1.25rem;
+    padding: 2.5rem 1.5rem;
+    margin: 3rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.5);
+}
+
+.contact h2 {
+    font-size: clamp(1.4rem, 3vw, 1.8rem);
+    font-weight: 700;
+    color: #f8fafc;
+}
+
+.subtitle {
+    color: #94a3b8;
+    max-width: 620px;
+    line-height: 1.6;
+}
+
+.items {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+    max-width: 860px;
+}
+
+.items li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 1.1rem 1rem;
+    border-radius: 0.9rem;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    background: rgba(15, 23, 42, 0.6);
+}
+
+.items svg {
+    font-size: 1.4rem;
+    color: #38bdf8;
+}
+
+.items strong {
+    color: #f8fafc;
+    font-size: 0.98rem;
+}
+
+.items span {
+    color: #94a3b8;
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+
+.whatsButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.95rem 1.8rem;
+    border-radius: 0.8rem;
+    background: #25d366;
+    color: #04210f;
+    font-weight: 800;
+    font-size: 1.05rem;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.whatsButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px -8px rgba(37, 211, 102, 0.6);
+}
+
+.whatsButton svg {
+    font-size: 1.4rem;
+}
+
+.number {
+    font-size: 0.88rem;
+    color: #94a3b8;
+}
+
+@media (max-width: 700px) {
+    .items {
+        grid-template-columns: 1fr;
+    }
+}

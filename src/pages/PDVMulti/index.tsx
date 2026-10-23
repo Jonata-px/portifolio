@@ -21,12 +21,13 @@ import styles from "./styles.module.css";
 import pdvIcon from "../../assets/images/pdvMulti.png";
 import googlePlayBadge from "../../assets/images/google-play.png";
 import { Helmet } from "react-helmet-async";
-import { SITE_BASE_URL } from "../../config/constants";
+import { SITE_BASE_URL, whatsappLink } from "../../config/constants";
 import HeroMockup from "./HeroMockup";
 import FeatureGrid from "./FeatureGrid";
 import PricingTiers from "./PricingTiers";
 import Faq, { faqContent } from "./Faq";
 import StickyDownloadBar from "./StickyDownloadBar";
+import ContactSection from "./ContactSection";
 import { useHelpVideos } from "./useHelpVideos";
 
 // Endpoint do Express na Firebase Cloud Function que redireciona para o instalador .exe
@@ -333,6 +334,10 @@ const fadeUp = {
 export default function PDVMultiPage() {
   const [lang, setLang] = useState<"pt" | "en">("pt");
   const t = useMemo(() => translations[lang], [lang]);
+  const waMsg =
+    lang === "pt"
+      ? "Olá Jonatã! Vi o PDV Multi no seu site e gostaria de tirar uma dúvida."
+      : "Hi Jonatã! I saw PDV Multi on your website and I have a question.";
   const { videos } = useHelpVideos();
   const promoVideo = videos.find((v) => v.promo && v.youtubeId) ?? videos.find((v) => v.youtubeId);
 
@@ -393,6 +398,7 @@ export default function PDVMultiPage() {
             <a href="#pricing">{t.navPlans}</a>
             <Link to="/pdv-multi/videos">{t.navVideos}</Link>
             <a href="#faq">{t.navFaq}</a>
+            <a href="#contact">{lang === "pt" ? "Contato" : "Contact"}</a>
           </nav>
           <div className={styles.langSelector}>
             <button
@@ -461,6 +467,15 @@ export default function PDVMultiPage() {
                 <FaPlayCircle style={{ marginRight: 8 }} />
                 {t.videosButton}
               </Link>
+              <a
+                href={whatsappLink(waMsg)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.ctaSecondary}
+              >
+                <FaWhatsapp style={{ marginRight: 8 }} />
+                {lang === "pt" ? "Falar no WhatsApp" : "Chat on WhatsApp"}
+              </a>
             </div>
             <div className={styles.ctaLinks}>
               <a href="#pricing">{t.viewPlansButton}</a>
@@ -644,6 +659,7 @@ export default function PDVMultiPage() {
             <h2 className={styles.groupTitle}>{t.faqTitle}</h2>
           </motion.div>
           <Faq lang={lang} />
+          <ContactSection lang={lang} />
         </div>
 
         {/* Footer */}
@@ -663,6 +679,15 @@ export default function PDVMultiPage() {
               <FaPlayCircle style={{ marginRight: 8 }} />
               {t.videosButton}
             </Link>
+            <a
+              href={whatsappLink(waMsg)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.ctaSecondary}
+            >
+              <FaWhatsapp style={{ marginRight: 8 }} />
+              {lang === "pt" ? "Falar no WhatsApp" : "Chat on WhatsApp"}
+            </a>
           </div>
         </footer>
       </div>
