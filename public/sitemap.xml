@@ -414,7 +414,14 @@
 
   <url>
     <loc>https://jfcoder.com/atualizar-app-android</loc>
-    <lastmod>2026-10-26T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/publicar-app-android-ios</loc>
+    <lastmod>2026-10-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

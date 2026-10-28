@@ -125,7 +125,13 @@ const benefits = [
   {
     icon: FaCloudUploadAlt,
     title: "Publicação nas duas lojas",
-    text: "Não é só atualizar: também cuido da publicação completa no Google Play e na App Store, de apps atualizados ou novos.",
+    text: (
+      <>
+        Não é só atualizar: também cuido da{" "}
+        <Link to="/publicar-app-android-ios">publicação completa no Google Play e na App Store</Link>, de
+        apps atualizados ou novos.
+      </>
+    ),
   },
 ];
 
