@@ -27,6 +27,7 @@ import IlstPrivacity from "./pages/Ilst/Privacity";
 import IlstApp from "./pages/Ilst";
 import RodouPrivacity from "./pages/Rodou/Privacity";
 import RodouPage from "./pages/Rodou";
+import AppUpdatePage from "./pages/AppUpdate";
 import Seo from "./components/Seo";
 
 function App() {
@@ -61,6 +62,7 @@ function App() {
           <Route path="/rodou" element={<RodouPage />} />
           <Route path="/rodou/privacity" element={<RodouPrivacity />} />
           <Route path="/rodou/:lang" element={<RodouPage />} />
+          <Route path="/atualizar-app-android" element={<AppUpdatePage />} />
         </Routes>
       </BrowserRouter>
     </div>
