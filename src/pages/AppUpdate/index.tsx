@@ -18,34 +18,36 @@ import {
   FaTags,
   FaHistory,
   FaAndroid,
+  FaApple,
+  FaCloudUploadAlt,
 } from "react-icons/fa";
 import styles from "./styles.module.css";
 import { SITE_BASE_URL, WHATSAPP_DISPLAY, whatsappLink } from "../../config/constants";
 
 const WHATSAPP_MESSAGE =
-  "Olá Jonatã! Recebi um aviso sobre o target SDK do meu app na Play Store e preciso atualizar. Pode me ajudar?";
+  "Olá Jonatã! Recebi um aviso sobre o SDK do meu app na loja e preciso atualizar (ou publicar). Pode me ajudar?";
 
 const PAGE_PATH = "/atualizar-app-android";
 const PAGE_URL = `${SITE_BASE_URL}${PAGE_PATH}`;
 
-const TITLE = "Atualização de App Android (Target SDK) para a Play Store | jfcoder";
+const TITLE = "Atualização e Publicação de App Android e iOS (Target SDK) | jfcoder";
 const DESCRIPTION =
-  "Seu app Android recebeu aviso de remoção da Google Play por causa do target SDK? Atualizo, testo e publico de novo a sua versão — rápido, com preço fechado e direto com quem programa.";
+  "Seu app recebeu aviso de remoção da Google Play ou da App Store por causa do SDK desatualizado? Atualizo, testo e publico de novo a sua versão nas duas lojas — rápido, com preço fechado e direto com quem programa.";
 const KEYWORDS =
-  "atualizar target sdk, app removido da play store, atualizar app android, manutenção de app android, target api level, google play developer program policy, app parado play store, desenvolvedor android freelancer, atualização de aplicativo";
+  "atualizar target sdk, app removido da play store, app removido da app store, atualizar app android, atualizar app ios, manutenção de app android, manutenção de app ios, target api level, publicar app na play store, publicar app na app store, apple developer program, google play developer program policy, app parado play store, desenvolvedor android e ios freelancer, atualização de aplicativo";
 
 const steps = [
   {
     title: "Diagnóstico",
-    text: "Você me manda o link do app na Play Store (e o acesso ao Play Console, se tiver). Eu confirmo o que precisa mudar e te passo prazo e valor fechado.",
+    text: "Você me manda o link do app na Play Store e/ou na App Store (e o acesso ao Play Console / App Store Connect, se tiver). Eu confirmo o que precisa mudar e te passo prazo e valor fechado.",
   },
   {
     title: "Atualização",
-    text: "Atualizo o target SDK, ajusto o que as novas regras do Android exigirem (permissões, bibliotecas, etc.) e testo em aparelho real.",
+    text: "Atualizo o SDK — target SDK no Android, build/SDK mais recente no iOS — ajusto o que as novas regras de cada loja exigirem e testo em aparelho real.",
   },
   {
     title: "Publicação",
-    text: "Envio a nova versão para a revisão da Google e acompanho até ela voltar a aparecer normalmente para todo mundo.",
+    text: "Envio a nova versão para a revisão da Google e/ou da Apple e acompanho até ela voltar a aparecer normalmente para todo mundo. Também cuido da publicação de apps novos nas duas lojas, se for o caso.",
   },
   {
     title: "Confirmação",
@@ -76,7 +78,11 @@ const audience = [
   },
   {
     icon: FaAndroid,
-    text: "O app é Android nativo, Flutter, React Native ou Ionic — o problema de SDK é o mesmo.",
+    text: "O app é Android nativo, Flutter, React Native ou Ionic — o problema de SDK é parecido nas duas lojas.",
+  },
+  {
+    icon: FaCloudUploadAlt,
+    text: "Além de atualizar, você quer publicar um app novo (ou já pronto) no Google Play e na App Store.",
   },
 ];
 
@@ -114,7 +120,12 @@ const benefits = [
   {
     icon: FaCogs,
     title: "Aproveito para ajustar o resto",
-    text: "Enquanto estou no código, já resolvo outros avisos de política da Google que apareçam junto (permissões sensíveis, privacidade, etc.).",
+    text: "Enquanto estou no código, já resolvo outros avisos de política da Google ou da Apple que apareçam junto (permissões sensíveis, privacidade, etc.).",
+  },
+  {
+    icon: FaCloudUploadAlt,
+    title: "Publicação nas duas lojas",
+    text: "Não é só atualizar: também cuido da publicação completa no Google Play e na App Store, de apps atualizados ou novos.",
   },
 ];
 
@@ -133,7 +144,15 @@ const faqs = [
   },
   {
     q: "Funciona para apps feitos em Flutter, React Native ou Ionic, não só em Kotlin/Java nativo?",
-    a: "Sim, atendo os principais frameworks usados para Android. O importante é ter acesso ao projeto-fonte.",
+    a: "Sim, atendo os principais frameworks usados para Android e iOS. O importante é ter acesso ao projeto-fonte.",
+  },
+  {
+    q: "Você também atualiza e publica apps iOS (iPhone)?",
+    a: "Sim. Além do Android, atualizo o SDK e publico a nova versão na App Store. Para isso preciso que a conta do Apple Developer Program esteja ativa (assinatura anual em dia) — se não souber o status, me chama que eu confirmo com você.",
+  },
+  {
+    q: "Posso contratar só a publicação, sem precisar de atualização?",
+    a: "Sim. Além de atualizar apps existentes, também cuido da publicação completa de apps novos (ou já prontos) no Google Play e na App Store.",
   },
   {
     q: "Preciso pagar antes de começar?",
@@ -227,8 +246,8 @@ export default function AppUpdatePage() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            serviceType: "Atualização e manutenção de aplicativos Android",
-            name: "Atualização de target SDK para apps Android",
+            serviceType: "Atualização, manutenção e publicação de aplicativos Android e iOS",
+            name: "Atualização de SDK e publicação de apps na Play Store e App Store",
             description: DESCRIPTION,
             url: PAGE_URL,
             areaServed: "BR",
@@ -270,21 +289,25 @@ export default function AppUpdatePage() {
         <section className={styles.hero}>
           <div className={styles.heroCopy}>
             <span className={styles.eyebrow}>
-              <FaExclamationTriangle /> Aviso do Google Play
+              <FaExclamationTriangle /> Aviso da loja de aplicativos
             </span>
             <h1 className={styles.heroTitle}>
-              Seu app Android está na <strong>mira do Google</strong>?
+              Seu app está na <strong>mira da loja</strong>?
             </h1>
             <p className={styles.heroDescription}>
-              Todo ano a Google Play exige um <strong>target SDK</strong> mais novo. Quem não atualiza recebe
-              aviso no Play Console — e depois o app para de aparecer para novos usuários ou é removido da
-              loja. Eu atualizo, testo e publico a nova versão pra você, rápido e sem complicação.
+              Todo ano a Google Play exige um <strong>target SDK</strong> mais novo, e a Apple exige builds
+              com o SDK mais recente do Xcode. Quem não atualiza recebe aviso — e depois o app para de
+              aparecer para novos usuários ou é removido da loja. Eu atualizo, testo e publico a nova versão
+              pra você no Google Play e na App Store — e também cuido da publicação de apps novos nas duas
+              lojas.
             </p>
             <div className={styles.badgeRow}>
+              <span className={styles.badge}>
+                <FaAndroid /> <FaApple /> Android e iOS
+              </span>
               <span className={styles.badge}>Resposta rápida pelo WhatsApp</span>
               <span className={styles.badge}>Preço fechado</span>
               <span className={styles.badge}>Direto com quem programa</span>
-              <span className={styles.badge}>Android, Flutter, React Native, Ionic</span>
             </div>
             <div className={styles.cta}>
               <a
@@ -301,7 +324,8 @@ export default function AppUpdatePage() {
               </a>
             </div>
             <span className={styles.ctaNote}>
-              Me manda o link do seu app na Play Store e eu te digo em poucas horas o que precisa ser feito.
+              Me manda o link do seu app na Play Store ou na App Store e eu te digo em poucas horas o que
+              precisa ser feito.
             </span>
           </div>
 
@@ -325,6 +349,11 @@ export default function AppUpdatePage() {
                   removido para novos usuários em breve."
                 </p>
                 <code>targetSdkVersion desatualizado · atualização necessária</code>
+                <p style={{ marginTop: "0.9rem", marginBottom: 0, fontSize: "0.85rem", color: "#94a3b8" }}>
+                  <FaApple style={{ marginRight: "0.4rem" }} />
+                  Recebeu algo parecido no App Store Connect? O princípio é o mesmo: a Apple também exige
+                  builds com SDK atualizado.
+                </p>
               </div>
             </div>
           </motion.div>
@@ -374,7 +403,7 @@ export default function AppUpdatePage() {
           {/* O que é o target SDK (contexto / autoridade) */}
           <motion.section className={`${styles.section} ${styles.sectionHighlight}`} {...fadeUp}>
             <h2>
-              <FaSearchLocation style={{ display: "inline" }} />O que é essa exigência de target SDK?
+              <FaSearchLocation style={{ display: "inline" }} />O que é essa exigência de SDK?
             </h2>
             <p>
               A Google Play exige que todo app publicado tenha como alvo (target) uma versão recente do
@@ -388,8 +417,13 @@ export default function AppUpdatePage() {
               <li>Em casos mais antigos, chega a ser removido completamente da Play Store.</li>
             </ul>
             <p>
+              Na App Store, a exigência é parecida: a Apple obriga que todo envio seja compilado com o{" "}
+              <strong>SDK mais recente do Xcode</strong> até uma data definida todo ano, e também remove da
+              loja apps que ficam tempo demais sem nenhuma atualização, mesmo que ainda funcionem.
+            </p>
+            <p>
               Quem já instalou o app normalmente continua usando por um tempo, mas sem essa atualização o app
-              para de crescer — e o risco só aumenta com o tempo.
+              para de crescer — e o risco só aumenta com o tempo, nas duas lojas.
             </p>
           </motion.section>
 
@@ -425,8 +459,8 @@ export default function AppUpdatePage() {
             <FaRocket style={{ fontSize: "1.8rem", color: "#38bdf8" }} />
             <h2>Vamos resolver isso antes que o app saia do ar</h2>
             <p>
-              Me manda o link do seu app na Play Store pelo WhatsApp. Eu confirmo o que precisa ser feito, te
-              passo prazo e valor fechado — sem compromisso.
+              Me manda o link do seu app na Play Store e/ou na App Store pelo WhatsApp. Eu confirmo o que
+              precisa ser feito, te passo prazo e valor fechado — sem compromisso.
             </p>
             <a
               href={whatsappLink(WHATSAPP_MESSAGE)}
