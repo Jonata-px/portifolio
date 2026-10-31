@@ -27,6 +27,7 @@ import IlstPrivacity from "./pages/Ilst/Privacity";
 import IlstApp from "./pages/Ilst";
 import RodouPrivacity from "./pages/Rodou/Privacity";
 import RodouPage from "./pages/Rodou";
+import DiarioCaminhoneiroPage from "./pages/DiarioCaminhoneiro";
 import DiarioCaminhoneiroPrivacity from "./pages/DiarioCaminhoneiro/Privacity";
 import AppUpdatePage from "./pages/AppUpdate";
 import AppPublishPage from "./pages/AppPublish";
@@ -64,6 +65,7 @@ function App() {
           <Route path="/rodou" element={<RodouPage />} />
           <Route path="/rodou/privacity" element={<RodouPrivacity />} />
           <Route path="/rodou/:lang" element={<RodouPage />} />
+          <Route path="/diario-caminhoneiro" element={<DiarioCaminhoneiroPage />} />
           <Route path="/diario-caminhoneiro/privacity" element={<DiarioCaminhoneiroPrivacity />} />
           <Route path="/atualizar-app-android" element={<AppUpdatePage />} />
           <Route path="/publicar-app-android-ios" element={<AppPublishPage />} />
