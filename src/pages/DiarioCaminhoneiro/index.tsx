@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 import icon from "../../assets/images/diarioCaminhoneiro.png";
 
 // Troque para true quando o app estiver publicado na Play Store.
-const APP_PUBLISHED = false;
+const APP_PUBLISHED = true;
 const PLAY_STORE_LINK = "https://play.google.com/store/apps/details?id=com.jfcoder.diariocaminhoneiro";
 
 const title = "Diário do Caminhoneiro: Frete - Lucro real de cada viagem";
