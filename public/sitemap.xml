@@ -80,7 +80,13 @@
 
   <url>
     <loc>https://jfcoder.com/pdv-multi/privacity</loc>
-    <lastmod>2026-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jfcoder.com/pdv-multi/excluir-conta</loc>
+    <lastmod>2026-11-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

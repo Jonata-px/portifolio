@@ -22,6 +22,7 @@ import PDVPrivacity from "./pages/PDV/Privacity";
 import PDVOffline from "./pages/PDV";
 import PDVMultiPage from "./pages/PDVMulti";
 import PDVMultiPrivacity from "./pages/PDVMulti/Privacity";
+import PDVMultiDeleteAccount from "./pages/PDVMulti/DeleteAccount";
 import PDVMultiVideos from "./pages/PDVMulti/Videos";
 import IlstPrivacity from "./pages/Ilst/Privacity";
 import IlstApp from "./pages/Ilst";
@@ -60,6 +61,7 @@ function App() {
           <Route path="/pdv-multi" element={<PDVMultiPage />} />
           <Route path="/pdv-multi/videos" element={<PDVMultiVideos />} />
           <Route path="/pdv-multi/privacity" element={<PDVMultiPrivacity />} />
+          <Route path="/pdv-multi/excluir-conta" element={<PDVMultiDeleteAccount />} />
           <Route path="/ilst" element={<IlstApp />} />
           <Route path="/ilst/privacity" element={<IlstPrivacity />} />
           <Route path="/rodou" element={<RodouPage />} />
