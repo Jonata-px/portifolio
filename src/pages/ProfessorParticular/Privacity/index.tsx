@@ -108,9 +108,10 @@ function Pt() {
 
       <h2>4. Premium (Google Play)</h2>
       <p>
-        O app oferece o plano Premium, por compra única, que remove os anúncios
+        O app oferece o plano Premium, por assinatura mensal ou anual com
+        renovação automática, que remove os anúncios
         e libera recursos adicionais (como alunos ativos sem limite e o relatório
-        em PDF sem anúncio). A compra e a cobrança são feitas inteiramente pelo{" "}
+        em PDF sem anúncio). A assinatura e a cobrança são feitas inteiramente pelo{" "}
         <strong>Google Play</strong>. O app não recebe nem armazena seus dados de
         pagamento (como cartão ou boleto).
       </p>
@@ -266,9 +267,10 @@ function En() {
 
       <h2>4. Premium (Google Play)</h2>
       <p>
-        The app offers a one-time Premium purchase that removes ads and unlocks
+        The app offers a Premium plan as a monthly or yearly auto-renewing
+        subscription that removes ads and unlocks
         extras (such as unlimited active students and the PDF report without an
-        ad). Purchase and billing are handled entirely by{" "}
+        ad). Subscription and billing are handled entirely by{" "}
         <strong>Google Play</strong>. The app does not receive or store your
         payment details (such as card numbers).
       </p>
