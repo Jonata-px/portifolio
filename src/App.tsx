@@ -1,4 +1,4 @@
-import {
+﻿import {
   BrowserRouter,
   Routes,
   Route,
@@ -30,6 +30,7 @@ import RodouPrivacity from "./pages/Rodou/Privacity";
 import RodouPage from "./pages/Rodou";
 import DiarioCaminhoneiroPage from "./pages/DiarioCaminhoneiro";
 import DiarioCaminhoneiroPrivacity from "./pages/DiarioCaminhoneiro/Privacity";
+import ProfessorParticularPrivacity from "./pages/ProfessorParticular/Privacity";
 import AppUpdatePage from "./pages/AppUpdate";
 import AppPublishPage from "./pages/AppPublish";
 import Seo from "./components/Seo";
@@ -69,6 +70,8 @@ function App() {
           <Route path="/rodou/:lang" element={<RodouPage />} />
           <Route path="/diario-caminhoneiro" element={<DiarioCaminhoneiroPage />} />
           <Route path="/diario-caminhoneiro/privacity" element={<DiarioCaminhoneiroPrivacity />} />
+          <Route path="/professor-particular/privacity" element={<ProfessorParticularPrivacity lang="pt" />} />
+          <Route path="/professor-particular/privacity/en" element={<ProfessorParticularPrivacity lang="en" />} />
           <Route path="/atualizar-app-android" element={<AppUpdatePage />} />
           <Route path="/publicar-app-android-ios" element={<AppPublishPage />} />
         </Routes>
@@ -78,3 +81,4 @@ function App() {
 }
 
 export default App
+
