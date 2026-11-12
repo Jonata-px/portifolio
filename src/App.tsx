@@ -34,6 +34,7 @@ import ProfessorParticularPrivacity from "./pages/ProfessorParticular/Privacity"
 import AppUpdatePage from "./pages/AppUpdate";
 import AppPublishPage from "./pages/AppPublish";
 import Seo from "./components/Seo";
+import SolvyPrivacidade from "./pages/Solvy/Privacidade";
 
 function App() {
 
@@ -74,6 +75,7 @@ function App() {
           <Route path="/professor-particular/privacity/en" element={<ProfessorParticularPrivacity lang="en" />} />
           <Route path="/atualizar-app-android" element={<AppUpdatePage />} />
           <Route path="/publicar-app-android-ios" element={<AppPublishPage />} />
+          <Route path="/solvy/privacidade" element={<SolvyPrivacidade />} />
         </Routes>
       </BrowserRouter>
     </div>

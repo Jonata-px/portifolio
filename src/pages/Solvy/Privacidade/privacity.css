@@ -1,0 +1,73 @@
+.privacity .container{
+    max-width:1000px;
+    margin:50px auto;
+}
+
+.privacity :is(h1, h2, p, li, span, a, h3, strong){
+    font-family: 'Open Sans', sans-serif ;
+    font-style: normal;
+}
+
+.privacity h1{
+    font-size: 26px;
+    text-align: center;
+    padding:30px;
+}
+
+.privacity h2{
+    box-sizing: border-box; 
+    margin: 0px; 
+    line-height: 1.2; 
+    font-size: 20px; 
+    letter-spacing: -0.05em; 
+    color: #182235; 
+    padding-bottom: 20px; 
+    font-family: Montserrat, sans-serif; 
+    background-color: #ffffff;
+}
+
+.privacity h3{
+    box-sizing: border-box; margin: 0px 0px 20px; line-height: 1.2; font-size: 16px; letter-spacing: -0.05em; color: #576d96; font-family: Montserrat, sans-serif; background-color: #ffffff;
+}
+
+.privacity a{
+    color:inherit !important; text-decoration: none !important; font-size: inherit !important;
+}
+
+.privacity p{
+    box-sizing: border-box; 
+    margin-top: 0px; 
+    margin-bottom: 1rem; 
+    font-size: 16px; 
+    font-weight: 400; 
+    letter-spacing: normal;
+}
+
+.privacity span{
+    color: #1f2a3d;
+}
+
+.privacity ol{
+    box-sizing: border-box; 
+    margin-top: 0px; 
+    margin-bottom: 1rem; 
+    font-size: 16px; 
+    font-weight: 400; 
+    letter-spacing: normal;
+    list-style-position: inside;
+}
+
+.privacity li{
+    box-sizing: border-box;
+}
+
+.privacity ul{
+    box-sizing: border-box; 
+    margin-top: 0px; 
+    margin-bottom: 1rem; 
+    color: #222e46; 
+    font-family: Montserrat, sans-serif; 
+    font-size: 16px; 
+    background-color: #ffffff;
+    list-style-position: inside;
+}
