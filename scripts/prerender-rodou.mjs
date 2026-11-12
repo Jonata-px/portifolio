@@ -61,6 +61,9 @@ function fallback(lang) {
 <h2>${esc(t.features.title)}</h2>
 <p>${esc(t.features.intro)}</p>
 <ul>${t.features.items.map((f) => `<li><strong>${esc(f.title)}</strong>: ${esc(f.text)}</li>`).join("")}</ul>
+<h2>${esc(t.electric.title)}</h2>
+<p>${esc(t.electric.intro)}</p>
+<ul>${t.electric.points.map((p) => `<li><strong>${esc(p.title)}</strong>: ${esc(p.text)}</li>`).join("")}</ul>
 <h2>${esc(t.steps.title)}</h2>
 <ol>${t.steps.items.map((s) => `<li><strong>${esc(s.title)}</strong>: ${esc(s.text)}</li>`).join("")}</ol>
 <h2>${esc(t.premium.title)}</h2>

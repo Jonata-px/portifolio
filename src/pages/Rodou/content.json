@@ -10,7 +10,8 @@
    "features": "Recursos",
    "screens": "Telas",
    "premium": "Premium",
-   "faq": "Dúvidas"
+   "faq": "Dúvidas",
+   "electric": "Elétricos"
   },
   "hero": {
    "eyebrow": "Combustível · Gastos · Manutenção · Lucro",
@@ -128,6 +129,10 @@
    "title": "Perguntas frequentes",
    "items": [
     {
+     "q": "O Rodou funciona com carro elétrico e híbrido plug-in?",
+     "a": "Sim. Cadastre o veículo como elétrico ou híbrido plug-in, informe a bateria e registre cada recarga em kWh ou por porcentagem da bateria. O app calcula o consumo real em km/kWh, o custo por km e a diferença entre carregar em casa e na rua."
+    },
+    {
      "q": "O Rodou é gratuito?",
      "a": "Sim. O app é gratuito com anúncios. A assinatura Premium opcional remove os anúncios e libera a exportação de relatórios sem vídeos."
     },
@@ -170,7 +175,40 @@
    "offer": "Gratuito, com assinatura Premium opcional",
    "home": "Início"
   },
-  "playHl": "pt_BR"
+  "playHl": "pt_BR",
+  "electric": {
+   "title": "Agora também para carros elétricos e híbridos plug-in",
+   "intro": "Registre recargas, veja o consumo em km/kWh e quanto custa cada km de verdade. Sem planilha e sem conta.",
+   "videoTitle": "Veja o modo elétrico em ação",
+   "points": [
+    {
+     "icon": "bolt",
+     "title": "Recarga em segundos",
+     "text": "Escolha onde carregou, arraste de quantos por cento a quantos e o Rodou calcula os kWh, as perdas e o custo."
+    },
+    {
+     "icon": "home",
+     "title": "Casa × rua",
+     "text": "Veja quanto o kWh custa em casa e no eletroposto, lado a lado, e quanto da sua energia vem de cada um."
+    },
+    {
+     "icon": "clock",
+     "title": "Lucro por hora com a recarga",
+     "text": "No Meu dia, o tempo parado carregando fora de casa entra na conta do lucro por hora."
+    },
+    {
+     "icon": "calc",
+     "title": "Vale a pena trocar?",
+     "text": "O simulador compara com a gasolina usando os seus números e mostra a economia por mês e em quanto tempo ela se paga."
+    }
+   ],
+   "alts": [
+    "Painel do carro elétrico no Rodou com consumo em km/kWh, custo por km e casa × rua",
+    "Registro de recarga por porcentagem da bateria no Rodou",
+    "Simulador: vale a pena trocar para elétrico?"
+   ],
+   "tag": "Novidade"
+  }
  },
  "en": {
   "label": "English",
@@ -183,7 +221,8 @@
    "features": "Features",
    "screens": "Screenshots",
    "premium": "Premium",
-   "faq": "FAQ"
+   "faq": "FAQ",
+   "electric": "Electric"
   },
   "hero": {
    "eyebrow": "Fuel · Costs · Maintenance · Profit",
@@ -301,6 +340,10 @@
    "title": "Frequently asked questions",
    "items": [
     {
+     "q": "Does Rodou work with electric and plug-in hybrid cars?",
+     "a": "Yes. Add your vehicle as electric or plug-in hybrid, enter the battery size and log each charge in kWh or by battery percentage. The app works out your real efficiency in kWh, your cost per mile and the difference between charging at home and in public."
+    },
+    {
      "q": "Is Rodou free?",
      "a": "Yes. The app is free with ads. The optional Premium subscription removes ads and lets you export reports without watching videos."
     },
@@ -343,7 +386,40 @@
    "offer": "Free, with optional Premium subscription",
    "home": "Home"
   },
-  "playHl": "en_US"
+  "playHl": "en_US",
+  "electric": {
+   "title": "Now for electric and plug-in hybrid cars too",
+   "intro": "Log charges, see your efficiency in miles per kWh and what each mile really costs. No spreadsheet, no account.",
+   "videoTitle": "See electric mode in action",
+   "points": [
+    {
+     "icon": "bolt",
+     "title": "Log a charge in seconds",
+     "text": "Pick where you charged, slide the battery level, and Rodou works out the kWh, the losses and the cost."
+    },
+    {
+     "icon": "home",
+     "title": "Home vs. public",
+     "text": "See what a kWh costs at home and at public chargers, side by side, and how much of your energy comes from each."
+    },
+    {
+     "icon": "clock",
+     "title": "Profit per hour, charging included",
+     "text": "In My day, time parked at a charger away from home counts toward your profit per hour."
+    },
+    {
+     "icon": "calc",
+     "title": "Is switching worth it?",
+     "text": "The simulator compares against gasoline with your own numbers and shows the monthly savings and the payback time."
+    }
+   ],
+   "alts": [
+    "Rodou electric car dashboard with efficiency, cost per mile and home vs. public charging",
+    "Logging a charge by battery percentage in Rodou",
+    "Simulator: is switching to electric worth it?"
+   ],
+   "tag": "New"
+  }
  },
  "es": {
   "label": "Español",
@@ -356,7 +432,8 @@
    "features": "Funciones",
    "screens": "Capturas",
    "premium": "Premium",
-   "faq": "Preguntas"
+   "faq": "Preguntas",
+   "electric": "Eléctricos"
   },
   "hero": {
    "eyebrow": "Combustible · Gastos · Mantenimiento · Ganancia",
@@ -474,6 +551,10 @@
    "title": "Preguntas frecuentes",
    "items": [
     {
+     "q": "¿Rodou funciona con coches eléctricos e híbridos enchufables?",
+     "a": "Sí. Añade el vehículo como eléctrico o híbrido enchufable, indica la batería y registra cada recarga en kWh o por porcentaje de batería. La app calcula tu consumo real en km/kWh, el costo por km y la diferencia entre cargar en casa y en la calle."
+    },
+    {
      "q": "¿Rodou es gratis?",
      "a": "Sí. La app es gratuita con anuncios. La suscripción Premium opcional quita los anuncios y permite exportar informes sin ver videos."
     },
@@ -516,7 +597,40 @@
    "offer": "Gratis, con suscripción Premium opcional",
    "home": "Inicio"
   },
-  "playHl": "es_419"
+  "playHl": "es_419",
+  "electric": {
+   "title": "Ahora también para coches eléctricos e híbridos enchufables",
+   "intro": "Registra recargas, mira tu consumo en km/kWh y cuánto cuesta de verdad cada kilómetro. Sin hojas de cálculo ni cuenta.",
+   "videoTitle": "Mira el modo eléctrico en acción",
+   "points": [
+    {
+     "icon": "bolt",
+     "title": "Recarga en segundos",
+     "text": "Elige dónde cargaste, arrastra el nivel de batería y Rodou calcula los kWh, las pérdidas y el costo."
+    },
+    {
+     "icon": "home",
+     "title": "Casa y calle",
+     "text": "Mira cuánto cuesta el kWh en casa y en un punto público, lado a lado, y cuánta de tu energía viene de cada uno."
+    },
+    {
+     "icon": "clock",
+     "title": "Beneficio por hora con la recarga",
+     "text": "En Mi día, el tiempo parado cargando fuera de casa cuenta en el beneficio por hora."
+    },
+    {
+     "icon": "calc",
+     "title": "¿Vale la pena cambiar?",
+     "text": "El simulador compara con la gasolina usando tus números y muestra el ahorro mensual y cuándo se paga."
+    }
+   ],
+   "alts": [
+    "Panel del coche eléctrico en Rodou con consumo en km/kWh, costo por km y casa frente a calle",
+    "Registro de recarga por porcentaje de batería en Rodou",
+    "Simulador: ¿vale la pena pasarse al eléctrico?"
+   ],
+   "tag": "Novedad"
+  }
  },
  "fr": {
   "label": "Français",
@@ -529,7 +643,8 @@
    "features": "Fonctions",
    "screens": "Captures",
    "premium": "Premium",
-   "faq": "FAQ"
+   "faq": "FAQ",
+   "electric": "Électriques"
   },
   "hero": {
    "eyebrow": "Carburant · Dépenses · Entretien · Bénéfice",
@@ -647,6 +762,10 @@
    "title": "Questions fréquentes",
    "items": [
     {
+     "q": "Rodou fonctionne-t-il avec les voitures électriques et hybrides rechargeables ?",
+     "a": "Oui. Ajoutez le véhicule comme électrique ou hybride rechargeable, indiquez la batterie et enregistrez chaque recharge en kWh ou en pourcentage de batterie. L'appli calcule votre consommation réelle en km/kWh, le coût au km et l'écart entre recharge à la maison et en borne publique."
+    },
+    {
      "q": "Rodou est-il gratuit ?",
      "a": "Oui. L'app est gratuite avec publicités. L'abonnement Premium facultatif supprime les publicités et permet d'exporter les rapports sans vidéos."
     },
@@ -689,7 +808,40 @@
    "offer": "Gratuit, avec abonnement Premium facultatif",
    "home": "Accueil"
   },
-  "playHl": "fr"
+  "playHl": "fr",
+  "electric": {
+   "title": "Désormais aussi pour les voitures électriques et hybrides rechargeables",
+   "intro": "Enregistrez vos recharges, suivez votre consommation en km/kWh et le vrai coût de chaque kilomètre. Sans tableur ni compte.",
+   "videoTitle": "Découvrez le mode électrique en action",
+   "points": [
+    {
+     "icon": "bolt",
+     "title": "Recharge en quelques secondes",
+     "text": "Choisissez où vous avez rechargé, faites glisser le niveau de batterie et Rodou calcule les kWh, les pertes et le coût."
+    },
+    {
+     "icon": "home",
+     "title": "Maison ou borne",
+     "text": "Voyez le prix du kWh à la maison et en borne publique, côte à côte, et la part d'énergie qui vient de chacun."
+    },
+    {
+     "icon": "clock",
+     "title": "Profit horaire, recharge comprise",
+     "text": "Dans Ma journée, le temps passé à recharger hors de chez vous compte dans le profit par heure."
+    },
+    {
+     "icon": "calc",
+     "title": "Ça vaut le coup de passer ?",
+     "text": "Le simulateur compare avec l'essence selon vos chiffres et montre l'économie mensuelle et le délai d'amortissement."
+    }
+   ],
+   "alts": [
+    "Tableau de bord de la voiture électrique dans Rodou : consommation en km/kWh, coût au km, maison ou borne",
+    "Enregistrement d'une recharge par pourcentage de batterie dans Rodou",
+    "Simulateur : passer à l'électrique, ça vaut le coup ?"
+   ],
+   "tag": "Nouveau"
+  }
  },
  "de": {
   "label": "Deutsch",
@@ -702,7 +854,8 @@
    "features": "Funktionen",
    "screens": "Screenshots",
    "premium": "Premium",
-   "faq": "FAQ"
+   "faq": "FAQ",
+   "electric": "Elektro"
   },
   "hero": {
    "eyebrow": "Sprit · Kosten · Wartung · Gewinn",
@@ -820,6 +973,10 @@
    "title": "Häufige Fragen",
    "items": [
     {
+     "q": "Funktioniert Rodou mit Elektro- und Plug-in-Hybridautos?",
+     "a": "Ja. Lege das Fahrzeug als Elektro oder Plug-in-Hybrid an, gib die Akkugröße an und erfasse jeden Ladevorgang in kWh oder per Akku-Prozent. Die App berechnet deinen echten Verbrauch in km/kWh, die Kosten pro km und den Unterschied zwischen Laden zuhause und unterwegs."
+    },
+    {
      "q": "Ist Rodou kostenlos?",
      "a": "Ja. Die App ist kostenlos mit Werbung. Das optionale Premium-Abo entfernt die Werbung und erlaubt den Berichtsexport ohne Videos."
     },
@@ -862,7 +1019,40 @@
    "offer": "Kostenlos, mit optionalem Premium-Abo",
    "home": "Startseite"
   },
-  "playHl": "de"
+  "playHl": "de",
+  "electric": {
+   "title": "Jetzt auch für Elektro- und Plug-in-Hybridautos",
+   "intro": "Erfasse Ladevorgänge, sieh deinen Verbrauch in km/kWh und was jeder Kilometer wirklich kostet. Ohne Tabelle, ohne Konto.",
+   "videoTitle": "Der Elektro-Modus in Aktion",
+   "points": [
+    {
+     "icon": "bolt",
+     "title": "Laden in Sekunden",
+     "text": "Wähle den Ladeort, ziehe den Akkustand auf und Rodou berechnet kWh, Ladeverluste und Kosten."
+    },
+    {
+     "icon": "home",
+     "title": "Zuhause vs. unterwegs",
+     "text": "Sieh den kWh-Preis zuhause und an öffentlichen Ladesäulen nebeneinander und wie viel Energie aus welcher Quelle kommt."
+    },
+    {
+     "icon": "clock",
+     "title": "Gewinn pro Stunde inklusive Laden",
+     "text": "In Mein Tag zählt die Standzeit beim Laden unterwegs in den Gewinn pro Stunde."
+    },
+    {
+     "icon": "calc",
+     "title": "Lohnt sich der Umstieg?",
+     "text": "Der Simulator vergleicht mit Benzin anhand deiner Zahlen und zeigt Ersparnis pro Monat und Amortisation."
+    }
+   ],
+   "alts": [
+    "Rodou-Dashboard eines Elektroautos mit Verbrauch in km/kWh, Kosten pro km und Zuhause vs. unterwegs",
+    "Ladevorgang in Rodou per Akku-Prozent erfassen",
+    "Simulator: Lohnt sich ein Elektroauto?"
+   ],
+   "tag": "Neu"
+  }
  },
  "it": {
   "label": "Italiano",
@@ -875,7 +1065,8 @@
    "features": "Funzioni",
    "screens": "Schermate",
    "premium": "Premium",
-   "faq": "FAQ"
+   "faq": "FAQ",
+   "electric": "Elettriche"
   },
   "hero": {
    "eyebrow": "Carburante · Spese · Manutenzione · Utile",
@@ -993,6 +1184,10 @@
    "title": "Domande frequenti",
    "items": [
     {
+     "q": "Rodou funziona con auto elettriche e ibride plug-in?",
+     "a": "Sì. Aggiungi il veicolo come elettrico o ibrido plug-in, indica la batteria e registra ogni ricarica in kWh o per percentuale di batteria. L'app calcola il consumo reale in km/kWh, il costo al km e la differenza tra ricaricare a casa e in colonnina."
+    },
+    {
      "q": "Rodou è gratuito?",
      "a": "Sì. L'app è gratuita con pubblicità. L'abbonamento Premium facoltativo elimina la pubblicità e permette di esportare i report senza video."
     },
@@ -1035,7 +1230,40 @@
    "offer": "Gratis, con abbonamento Premium facoltativo",
    "home": "Home"
   },
-  "playHl": "it"
+  "playHl": "it",
+  "electric": {
+   "title": "Ora anche per auto elettriche e ibride plug-in",
+   "intro": "Registra le ricariche, guarda il consumo in km/kWh e quanto costa davvero ogni chilometro. Senza fogli di calcolo né account.",
+   "videoTitle": "La modalità elettrica in azione",
+   "points": [
+    {
+     "icon": "bolt",
+     "title": "Ricarica in pochi secondi",
+     "text": "Scegli dove hai ricaricato, trascina il livello della batteria e Rodou calcola kWh, perdite e costo."
+    },
+    {
+     "icon": "home",
+     "title": "Casa e colonnine",
+     "text": "Guarda quanto costa un kWh a casa e in colonnina, affiancati, e quanta energia viene da ciascuna."
+    },
+    {
+     "icon": "clock",
+     "title": "Guadagno orario con la ricarica",
+     "text": "In Il mio giorno, il tempo fermo a ricaricare fuori casa conta nel guadagno orario."
+    },
+    {
+     "icon": "calc",
+     "title": "Conviene passare?",
+     "text": "Il simulatore confronta con la benzina usando i tuoi numeri e mostra il risparmio mensile e i tempi di rientro."
+    }
+   ],
+   "alts": [
+    "Cruscotto dell'auto elettrica in Rodou con consumo in km/kWh, costo al km e casa e colonnine",
+    "Registrazione di una ricarica per percentuale di batteria in Rodou",
+    "Simulatore: conviene passare all'elettrico?"
+   ],
+   "tag": "Novità"
+  }
  },
  "tr": {
   "label": "Türkçe",
@@ -1048,7 +1276,8 @@
    "features": "Özellikler",
    "screens": "Ekranlar",
    "premium": "Premium",
-   "faq": "SSS"
+   "faq": "SSS",
+   "electric": "Elektrikli"
   },
   "hero": {
    "eyebrow": "Yakıt · Gider · Bakım · Kâr",
@@ -1166,6 +1395,10 @@
    "title": "Sık sorulan sorular",
    "items": [
     {
+     "q": "Rodou elektrikli ve şarj edilebilir hibrit araçlarla çalışır mı?",
+     "a": "Evet. Aracı elektrikli veya şarj edilebilir hibrit olarak ekle, batarya kapasitesini gir ve her şarjı kWh veya batarya yüzdesiyle kaydet. Uygulama gerçek km/kWh tüketimini, km başına maliyeti ve evde ile dışarıda şarj arasındaki farkı hesaplar."
+    },
+    {
      "q": "Rodou ücretsiz mi?",
      "a": "Evet. Uygulama reklamlarla ücretsizdir. İsteğe bağlı Premium abonelik reklamları kaldırır ve raporları video izlemeden dışa aktarmanı sağlar."
     },
@@ -1208,7 +1441,40 @@
    "offer": "Ücretsiz, isteğe bağlı Premium abonelikle",
    "home": "Ana sayfa"
   },
-  "playHl": "tr"
+  "playHl": "tr",
+  "electric": {
+   "title": "Artık elektrikli ve şarj edilebilir hibrit araçlar için de",
+   "intro": "Şarjlarını kaydet, km/kWh tüketimini ve her kilometrenin gerçek maliyetini gör. Tablo yok, hesap yok.",
+   "videoTitle": "Elektrik modunu iş başında gör",
+   "points": [
+    {
+     "icon": "bolt",
+     "title": "Saniyeler içinde şarj kaydı",
+     "text": "Nerede şarj ettiğini seç, batarya seviyesini kaydır; Rodou kWh, kayıp ve maliyeti hesaplar."
+    },
+    {
+     "icon": "home",
+     "title": "Ev ve dış şarj",
+     "text": "kWh'nin evde ve halka açık istasyonda kaça geldiğini yan yana gör, enerjinin ne kadarının nereden geldiğini öğren."
+    },
+    {
+     "icon": "clock",
+     "title": "Şarj dahil saatlik kâr",
+     "text": "Günüm'de evin dışında şarjda beklediğin süre saatlik kâra dahil edilir."
+    },
+    {
+     "icon": "calc",
+     "title": "Geçmeye değer mi?",
+     "text": "Simülatör, kendi rakamlarınla benzinle kıyaslar; aylık tasarrufu ve kendini kaç ayda amorti ettiğini gösterir."
+    }
+   ],
+   "alts": [
+    "Rodou elektrikli araç paneli: km/kWh tüketim, km maliyeti, ev ve dış şarj",
+    "Rodou'da batarya yüzdesiyle şarj kaydı",
+    "Simülatör: elektrikliye geçmeye değer mi?"
+   ],
+   "tag": "Yeni"
+  }
  },
  "pl": {
   "label": "Polski",
@@ -1221,7 +1487,8 @@
    "features": "Funkcje",
    "screens": "Zrzuty ekranu",
    "premium": "Premium",
-   "faq": "FAQ"
+   "faq": "FAQ",
+   "electric": "Elektryki"
   },
   "hero": {
    "eyebrow": "Paliwo · Koszty · Serwis · Zysk",
@@ -1339,6 +1606,10 @@
    "title": "Najczęstsze pytania",
    "items": [
     {
+     "q": "Czy Rodou działa z autami elektrycznymi i hybrydami plug-in?",
+     "a": "Tak. Dodaj pojazd jako elektryczny lub hybrydę plug-in, podaj pojemność baterii i zapisuj każde ładowanie w kWh lub według procentu baterii. Aplikacja liczy realne zużycie w km/kWh, koszt na km oraz różnicę między ładowaniem w domu i na stacji."
+    },
+    {
      "q": "Czy Rodou jest darmowe?",
      "a": "Tak. Aplikacja jest darmowa z reklamami. Opcjonalna subskrypcja Premium usuwa reklamy i pozwala eksportować raporty bez filmów."
     },
@@ -1381,7 +1652,40 @@
    "offer": "Za darmo, z opcjonalną subskrypcją Premium",
    "home": "Strona główna"
   },
-  "playHl": "pl"
+  "playHl": "pl",
+  "electric": {
+   "title": "Teraz także dla aut elektrycznych i hybryd plug-in",
+   "intro": "Zapisuj ładowania, sprawdzaj zużycie w km/kWh i prawdziwy koszt każdego kilometra. Bez arkusza i bez konta.",
+   "videoTitle": "Tryb elektryczny w akcji",
+   "points": [
+    {
+     "icon": "bolt",
+     "title": "Ładowanie w kilka sekund",
+     "text": "Wybierz miejsce ładowania, przesuń poziom baterii, a Rodou policzy kWh, straty i koszt."
+    },
+    {
+     "icon": "home",
+     "title": "Dom kontra stacje",
+     "text": "Zobacz obok siebie cenę kWh w domu i na stacji publicznej oraz ile energii pochodzi z każdego źródła."
+    },
+    {
+     "icon": "clock",
+     "title": "Zysk na godzinę z ładowaniem",
+     "text": "W Moim dniu czas postoju na ładowaniu poza domem wlicza się do zysku na godzinę."
+    },
+    {
+     "icon": "calc",
+     "title": "Czy warto się przesiąść?",
+     "text": "Symulator porównuje z benzyną na Twoich liczbach i pokazuje miesięczną oszczędność oraz czas zwrotu."
+    }
+   ],
+   "alts": [
+    "Panel auta elektrycznego w Rodou: zużycie w km/kWh, koszt na km, dom i stacje",
+    "Zapis ładowania według procentu baterii w Rodou",
+    "Symulator: czy warto przesiąść się na elektryka?"
+   ],
+   "tag": "Nowość"
+  }
  },
  "id": {
   "label": "Bahasa Indonesia",
@@ -1394,7 +1698,8 @@
    "features": "Fitur",
    "screens": "Tampilan",
    "premium": "Premium",
-   "faq": "FAQ"
+   "faq": "FAQ",
+   "electric": "Listrik"
   },
   "hero": {
    "eyebrow": "BBM · Biaya · Perawatan · Untung",
@@ -1512,6 +1817,10 @@
    "title": "Pertanyaan umum",
    "items": [
     {
+     "q": "Apakah Rodou bisa untuk mobil listrik dan hibrida plug-in?",
+     "a": "Bisa. Tambahkan kendaraan sebagai listrik atau hibrida plug-in, isi kapasitas baterai, lalu catat tiap pengisian dalam kWh atau persentase baterai. Aplikasi menghitung konsumsi riil km/kWh, biaya per km, dan selisih antara mengisi di rumah dan di luar."
+    },
+    {
      "q": "Apakah Rodou gratis?",
      "a": "Ya. Aplikasi ini gratis dengan iklan. Langganan Premium opsional menghapus iklan dan memungkinkan ekspor laporan tanpa video."
     },
@@ -1554,7 +1863,40 @@
    "offer": "Gratis, dengan langganan Premium opsional",
    "home": "Beranda"
   },
-  "playHl": "id"
+  "playHl": "id",
+  "electric": {
+   "title": "Kini juga untuk mobil listrik dan hibrida plug-in",
+   "intro": "Catat pengisian, lihat konsumsi dalam km/kWh dan biaya sebenarnya tiap kilometer. Tanpa spreadsheet, tanpa akun.",
+   "videoTitle": "Lihat mode listrik beraksi",
+   "points": [
+    {
+     "icon": "bolt",
+     "title": "Catat pengisian dalam detik",
+     "text": "Pilih lokasi pengisian, geser level baterai, dan Rodou menghitung kWh, kehilangan daya, serta biayanya."
+    },
+    {
+     "icon": "home",
+     "title": "Rumah vs. umum",
+     "text": "Lihat harga kWh di rumah dan di SPKLU secara berdampingan, serta berapa energi dari masing-masing."
+    },
+    {
+     "icon": "clock",
+     "title": "Laba per jam termasuk mengisi",
+     "text": "Di Hariku, waktu menunggu pengisian di luar rumah ikut dihitung dalam laba per jam."
+    },
+    {
+     "icon": "calc",
+     "title": "Layak beralih?",
+     "text": "Simulator membandingkan dengan bensin memakai angkamu dan menunjukkan hemat per bulan serta lama balik modal."
+    }
+   ],
+   "alts": [
+    "Dasbor mobil listrik di Rodou: konsumsi km/kWh, biaya per km, rumah vs. umum",
+    "Mencatat pengisian lewat persentase baterai di Rodou",
+    "Simulator: layak beralih ke mobil listrik?"
+   ],
+   "tag": "Baru"
+  }
  },
  "vi": {
   "label": "Tiếng Việt",
@@ -1567,7 +1909,8 @@
    "features": "Tính năng",
    "screens": "Ảnh chụp",
    "premium": "Premium",
-   "faq": "Hỏi đáp"
+   "faq": "Hỏi đáp",
+   "electric": "Xe điện"
   },
   "hero": {
    "eyebrow": "Xăng · Chi phí · Bảo dưỡng · Lợi nhuận",
@@ -1685,6 +2028,10 @@
    "title": "Câu hỏi thường gặp",
    "items": [
     {
+     "q": "Rodou có dùng được cho ô tô điện và hybrid plug-in không?",
+     "a": "Có. Thêm xe là xe điện hoặc hybrid plug-in, nhập dung lượng pin và ghi mỗi lần sạc theo kWh hoặc phần trăm pin. Ứng dụng tính mức tiêu thụ thực tế km/kWh, chi phí mỗi km và chênh lệch giữa sạc ở nhà và sạc bên ngoài."
+    },
+    {
      "q": "Rodou có miễn phí không?",
      "a": "Có. Ứng dụng miễn phí có quảng cáo. Gói Premium tùy chọn loại bỏ quảng cáo và cho phép xuất báo cáo mà không cần xem video."
     },
@@ -1727,6 +2074,39 @@
    "offer": "Miễn phí, có gói Premium tùy chọn",
    "home": "Trang chủ"
   },
-  "playHl": "vi"
+  "playHl": "vi",
+  "electric": {
+   "title": "Nay có cả cho ô tô điện và hybrid plug-in",
+   "intro": "Ghi lại các lần sạc, xem mức tiêu thụ km/kWh và chi phí thật của mỗi km. Không bảng tính, không cần tài khoản.",
+   "videoTitle": "Xem chế độ xe điện hoạt động",
+   "points": [
+    {
+     "icon": "bolt",
+     "title": "Ghi lần sạc trong vài giây",
+     "text": "Chọn nơi sạc, kéo mức pin, Rodou tính ra kWh, hao hụt và chi phí."
+    },
+    {
+     "icon": "home",
+     "title": "Sạc tại nhà và trạm công cộng",
+     "text": "Xem giá kWh ở nhà và ở trạm công cộng cạnh nhau, và bao nhiêu điện đến từ mỗi nơi."
+    },
+    {
+     "icon": "clock",
+     "title": "Lợi nhuận theo giờ, gồm cả giờ sạc",
+     "text": "Trong Ngày của tôi, thời gian chờ sạc bên ngoài được tính vào lợi nhuận theo giờ."
+    },
+    {
+     "icon": "calc",
+     "title": "Có đáng đổi sang xe điện?",
+     "text": "Trình mô phỏng so sánh với xăng bằng số liệu của bạn, cho thấy khoản tiết kiệm mỗi tháng và thời gian hoàn vốn."
+    }
+   ],
+   "alts": [
+    "Bảng điều khiển xe điện trong Rodou: tiêu thụ km/kWh, chi phí mỗi km, sạc nhà và trạm công cộng",
+    "Ghi lần sạc theo phần trăm pin trong Rodou",
+    "Mô phỏng: có đáng đổi sang xe điện?"
+   ],
+   "tag": "Mới"
+  }
  }
 }

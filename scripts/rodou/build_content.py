@@ -6,6 +6,7 @@ import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from content_a import C as A
 from content_b import C as B
+from content_ev import EV
 
 ORDER = ["pt", "en", "es", "fr", "de", "it", "tr", "pl", "id", "vi"]
 PLAY_HL = {"pt": "pt_BR", "en": "en_US", "es": "es_419", "fr": "fr", "de": "de", "it": "it", "tr": "tr", "pl": "pl", "id": "id", "vi": "vi"}
@@ -15,8 +16,13 @@ out = {}
 for k in ORDER:
     v = merged[k]
     v["playHl"] = PLAY_HL[k]
+    ev = EV[k]
+    v["nav"]["electric"] = ev["nav"]
+    v["electric"] = ev["electric"]
+    v["faq"]["items"].insert(0, ev["faq"])
     assert len(v["features"]["items"]) == 8, k
-    assert len(v["faq"]["items"]) == 5, k
+    assert len(v["faq"]["items"]) == 6, k
+    assert len(v["electric"]["points"]) == 4 and len(v["electric"]["alts"]) == 3, k
     assert len(v["screens"]["alts"]) == 6, k
     assert len(v["steps"]["items"]) == 3, k
     assert len(v["title"]) <= 70, (k, len(v["title"]))

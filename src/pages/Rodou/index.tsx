@@ -4,12 +4,16 @@ import { Helmet } from "react-helmet-async";
 import { motion, useReducedMotion } from "framer-motion";
 import {
   FaBell,
+  FaBolt,
+  FaCalculator,
+  FaClock,
   FaCarSide,
   FaChartLine,
   FaChevronLeft,
   FaChevronRight,
   FaGasPump,
   FaGlobe,
+  FaHome,
   FaGooglePlay,
   FaMobileAlt,
   FaRoute,
@@ -36,6 +40,10 @@ const ICONS: Record<string, JSX.Element> = {
   route: <FaRoute />,
   car: <FaCarSide />,
   shield: <FaShieldAlt />,
+  bolt: <FaBolt />,
+  home: <FaHome />,
+  clock: <FaClock />,
+  calc: <FaCalculator />,
 };
 
 // Idioma do navegador -> um dos 10 idiomas do app (inglês como padrão)
@@ -61,6 +69,8 @@ function RodouContent({ lang }: { lang: Lang }) {
   const play = playUrl(t.playHl);
   const schemas = useMemo(() => buildSchemas(lang, t), [lang, t]);
   const shots = [1, 2, 3, 4, 5, 6];
+  // Capturas do modo elétrico existem em português e em inglês (valores em dólar e milhas)
+  const evDir = lang === "pt" ? "pt" : "en";
   const track = useRef<HTMLDivElement>(null);
   const [showBar, setShowBar] = useState(false);
 
@@ -143,6 +153,7 @@ function RodouContent({ lang }: { lang: Lang }) {
           </a>
           <nav className={styles.nav} aria-label="Rodou">
             <a href="#features">{t.nav.features}</a>
+            <a href="#electric">{t.nav.electric}</a>
             <a href="#screens">{t.nav.screens}</a>
             <a href="#premium">{t.nav.premium}</a>
             <a href="#faq">{t.nav.faq}</a>
@@ -233,6 +244,39 @@ function RodouContent({ lang }: { lang: Lang }) {
                 </motion.li>
               ))}
             </ul>
+          </div>
+        </section>
+
+        {/* Modo elétrico (novidade da versão 1.1) */}
+        <section className={`${styles.section} ${styles.electric}`} id="electric" aria-labelledby="electric-title">
+          <div className={`${styles.wrap} ${styles.electricGrid}`}>
+            <div>
+              <motion.div className={styles.sectionHead} {...reveal()}>
+                <p className={styles.newTag}>{t.electric.tag}</p>
+                <h2 id="electric-title">{t.electric.title}</h2>
+                <p>{t.electric.intro}</p>
+              </motion.div>
+              <ul className={styles.evPoints}>
+                {t.electric.points.map((p, i) => (
+                  <motion.li key={p.title} {...reveal(i)}>
+                    <span className={styles.cardIcon} aria-hidden="true">
+                      {ICONS[p.icon]}
+                    </span>
+                    <div>
+                      <h3>{p.title}</h3>
+                      <p>{p.text}</p>
+                    </div>
+                  </motion.li>
+                ))}
+              </ul>
+            </div>
+            <div className={styles.evShots}>
+              {[1, 2, 3].map((n, i) => (
+                <div key={n} className={`${styles.phone} ${styles.evPhone} ${styles[`evPhone${n}`]}`}>
+                  <img src={`/rodou/img/ev/${evDir}/${n}.webp`} alt={t.electric.alts[i]} width={540} height={1200} loading="lazy" decoding="async" />
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 

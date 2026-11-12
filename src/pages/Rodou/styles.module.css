@@ -931,6 +931,77 @@
     }
 }
 
+/* ---- Modo elétrico (versão 1.1) ---- */
+.electric {
+    background: linear-gradient(180deg, #eef2ff 0%, var(--bg) 100%);
+}
+.electricGrid {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    gap: 48px;
+    align-items: center;
+}
+.sectionHead .newTag {
+    display: inline-block;
+    margin: 0 0 12px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: #4f46e5;
+    color: #fff !important;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.evPoints {
+    list-style: none;
+    margin: 28px 0 0;
+    padding: 0;
+    display: grid;
+    gap: 18px;
+}
+.evPoints li {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+.evPoints h3 {
+    margin: 0 0 4px;
+    font-size: 1.05rem;
+}
+.evPoints p {
+    margin: 0;
+    color: var(--muted);
+}
+.evShots {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    align-items: flex-start;
+}
+.evPhone {
+    aspect-ratio: 9 / 20;
+    max-width: 200px;
+    flex: 1 1 0;
+}
+.evPhone1 {
+    margin-top: 40px;
+}
+.evPhone3 {
+    margin-top: 80px;
+}
+@media (max-width: 900px) {
+    .electricGrid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .evPhone1,
+    .evPhone3 {
+        margin-top: 0;
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     .phoneFront {
         animation: none;
