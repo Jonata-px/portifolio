@@ -1,4 +1,4 @@
-﻿import {
+import {
   BrowserRouter,
   Routes,
   Route,
@@ -31,6 +31,7 @@ import RodouPage from "./pages/Rodou";
 import DiarioCaminhoneiroPage from "./pages/DiarioCaminhoneiro";
 import DiarioCaminhoneiroPrivacity from "./pages/DiarioCaminhoneiro/Privacity";
 import ProfessorParticularPrivacity from "./pages/ProfessorParticular/Privacity";
+import MestreDoArPrivacity from "./pages/MestreDoAr/Privacity";
 import AppUpdatePage from "./pages/AppUpdate";
 import AppPublishPage from "./pages/AppPublish";
 import Seo from "./components/Seo";
@@ -73,6 +74,8 @@ function App() {
           <Route path="/diario-caminhoneiro/privacity" element={<DiarioCaminhoneiroPrivacity />} />
           <Route path="/professor-particular/privacity" element={<ProfessorParticularPrivacity lang="pt" />} />
           <Route path="/professor-particular/privacity/en" element={<ProfessorParticularPrivacity lang="en" />} />
+          <Route path="/mestre-do-ar/privacity" element={<MestreDoArPrivacity lang="pt" />} />
+          <Route path="/mestre-do-ar/privacity/en" element={<MestreDoArPrivacity lang="en" />} />
           <Route path="/atualizar-app-android" element={<AppUpdatePage />} />
           <Route path="/publicar-app-android-ios" element={<AppPublishPage />} />
           <Route path="/solvy/privacidade" element={<SolvyPrivacidade />} />
