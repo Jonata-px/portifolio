@@ -480,5 +480,19 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
+
+  <url>
+    <loc>https://jfcoder.com/mestre-da-piscina/privacity</loc>
+    <lastmod>2026-11-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://jfcoder.com/mestre-da-piscina/privacity/en</loc>
+    <lastmod>2026-11-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
 </urlset>
 
